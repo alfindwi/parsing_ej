@@ -71,6 +71,7 @@ namespace parsing_jrn_Ej.Services
                     var transaksi = new AtmTransaksi
                     {
                         JenisFile = jenisFile,
+                        NamaAtm = jenisFile,
                         NoTransaksi = ExtractInt(text, @"(\d+)\s+\d{2}/\d{2}/\d{4}"),
                         Waktu = ExtractDateTime(text),
                         NoKartu = ExtractValue(text, @"(?:Card Number|NO KARTU)\s*[:\]]\s*([0-9X*]+)"),

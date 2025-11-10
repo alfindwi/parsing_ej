@@ -7,7 +7,7 @@ namespace parsing_Jrn_Ej.Models
     [Table("atm_transaksi")]
     public class AtmTransaksi
     {
-        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id")]
         public int Id { get; set; }
 
@@ -17,15 +17,8 @@ namespace parsing_Jrn_Ej.Models
         [Column("no_transaksi")]
         public int? NoTransaksi { get; set; }
 
-        [Column("waktu")]
-        public DateTime? Waktu
-        {
-            get => _waktu;
-            set => _waktu = value.HasValue
-                ? DateTime.SpecifyKind(value.Value, DateTimeKind.Utc)
-                : value;
-        }
-        private DateTime? _waktu;
+        [Column("waktu", TypeName = "datetime")]
+        public DateTime? Waktu { get; set; }
 
         [Column("no_kartu")]
         public string? NoKartu { get; set; }
@@ -66,7 +59,7 @@ namespace parsing_Jrn_Ej.Models
         [Column("pesan_error")]
         public string? PesanError { get; set; }
 
-        [Column("dibuat_pada")]
+        [Column("dibuat_pada", TypeName = "datetime")]
         public DateTime DibuatPada { get; set; } = DateTime.UtcNow;
     }
 

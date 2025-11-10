@@ -2,8 +2,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using parsing_Jrn_Ej.Data;
 
 #nullable disable
@@ -18,33 +18,33 @@ namespace parsing_jrn_ej.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "9.0.10")
-                .HasAnnotation("Relational:MaxIdentifierLength", 63);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("parsing_Jrn_Ej.Models.AtmTransaksi", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
+                        .HasColumnType("int")
                         .HasColumnName("id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AtmId")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("atm_id");
 
                     b.Property<DateTime>("DibuatPada")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("datetime")
                         .HasColumnName("dibuat_pada");
 
                     b.Property<string>("JenisFile")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("jenis_file");
 
                     b.Property<string>("JenisTransaksi")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("jenis_transaksi");
 
                     b.Property<decimal?>("Jumlah")
@@ -52,35 +52,35 @@ namespace parsing_jrn_ej.Migrations
                         .HasColumnName("jumlah");
 
                     b.Property<string>("Lokasi")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("lokasi");
 
                     b.Property<string>("NamaAtm")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("nama_atm");
 
                     b.Property<string>("NoKartu")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("no_kartu");
 
                     b.Property<string>("NoRef")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("no_ref");
 
                     b.Property<string>("NoRekening")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("no_rekening");
 
                     b.Property<int?>("NoTransaksi")
-                        .HasColumnType("integer")
+                        .HasColumnType("int")
                         .HasColumnName("no_transaksi");
 
                     b.Property<string>("OpCode")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("op_code");
 
                     b.Property<string>("PesanError")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("pesan_error");
 
                     b.Property<decimal?>("Saldo")
@@ -88,15 +88,15 @@ namespace parsing_jrn_ej.Migrations
                         .HasColumnName("saldo");
 
                     b.Property<string>("Struk")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("struk");
 
                     b.Property<string>("TerminalId")
-                        .HasColumnType("text")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("terminal_id");
 
                     b.Property<DateTime?>("Waktu")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("datetime")
                         .HasColumnName("waktu");
 
                     b.HasKey("Id");

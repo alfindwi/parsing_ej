@@ -1,3 +1,1 @@
-waktu masih blm format wib
-jumlah & saldo masih blm format rupiah
 bisa insert format txt dan jrn
