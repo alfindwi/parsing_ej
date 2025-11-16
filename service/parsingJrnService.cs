@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using Microsoft.EntityFrameworkCore;
 using parsing_Jrn_Ej.Data;
 using parsing_Jrn_Ej.Models;
 
@@ -24,7 +25,7 @@ namespace parsing_jrn_Ej.Services
             Directory.CreateDirectory(donePath);
             Directory.CreateDirectory(errorPath);
 
-            foreach (var file in Directory.GetFiles(pendingPath, "*.jrn"))
+            foreach (var file in Directory.GetFiles(pendingPath, "*"))
             {
                 string fileName = Path.GetFileName(file);
                 string processedFile = Path.Combine(processedPath, fileName);
@@ -64,14 +65,15 @@ namespace parsing_jrn_Ej.Services
                 foreach (Match block in blocks)
                 {
                     var text = block.Value;
-                    var jenisFile = DetectJenisFile(fileName);
+                    var namaFile = DetectNamaATM(fileName);
                     var pesanError = ExtractPesanError(text);
                     var terminalId = ExtractTerminalId(text) ?? ExtractAtmCode(text);
+                    var jenisFile = DetectJenisFile(Path.Combine(_basePath, fileName));
 
                     var transaksi = new AtmTransaksi
                     {
                         JenisFile = jenisFile,
-                        NamaAtm = jenisFile,
+                        NamaAtm = namaFile,
                         NoTransaksi = ExtractInt(text, @"(\d+)\s+\d{2}/\d{2}/\d{4}"),
                         Waktu = ExtractDateTime(text),
                         NoKartu = ExtractValue(text, @"(?:Card Number|NO KARTU)\s*[:\]]\s*([0-9X*]+)"),
@@ -85,7 +87,13 @@ namespace parsing_jrn_Ej.Services
                         NoRef = ExtractValue(text, @"NO\s*REF{1,2}\.?\s*[:=]\s*([0-9]+)"),
                         NoRekening = ExtractValue(text, @"REKENING[:=]\s*([0-9]+)"),
                         PesanError = pesanError,
-                        Struk = text
+                        Struk = text,
+                        FunctionIdentifier = ExtractValue(text, @"FUNCTION IDENTIFIER\s*[:=]\s*(.*)"),
+                        TransSeqNumber = ExtractValue(text, @"TRANSACTION SEQUENCE NUMBER\s*[:=]\s*(.*)"),
+                        Tsi = ExtractValue(text, @"TSI\s*[:=]\s*(.*)"),
+                        Tvr = ExtractValue(text, @"TVR\s*[:=]\s*([A-Fa-f0-9]{6,})")
+
+
                     };
 
                     _context.AtmTransaksi.Add(transaksi);
@@ -101,15 +109,44 @@ namespace parsing_jrn_Ej.Services
             }
         }
 
+        public async Task<List<AtmTransaksi>> getAllTransaksi()
+        {
+            return await _context.AtmTransaksi.ToListAsync();
+        }
+
+        
 
 
-        private string DetectJenisFile(string fileName)
+
+        private string DetectNamaATM(string fileName)
         {
             if (fileName.Contains("HTC", StringComparison.OrdinalIgnoreCase)) return "HTC";
             if (fileName.Contains("WIN", StringComparison.OrdinalIgnoreCase)) return "WIN";
             if (fileName.Contains("HYS", StringComparison.OrdinalIgnoreCase)) return "HYS";
             return "UNKNOWN";
         }
+
+        private string DetectJenisFile(string filePath)
+        {
+            string extension = Path.GetExtension(filePath).ToLower();
+
+            if (extension == ".txt")
+                return "txt";
+            if (extension == ".jrn")
+                return "jrn";
+
+            try
+            {
+                string firstLine = File.ReadLines(filePath).FirstOrDefault()?.ToLower() ?? "";
+                if (firstLine.Contains("transaction start"))
+                    return "Kemungkinan File Jurnal (.jrn berdasarkan isi)";
+            }
+            catch { }
+
+            return $"Tipe file tidak dikenal ({extension})";
+        }
+
+
 
         private string? ExtractTerminalId(string text)
         {
@@ -204,23 +241,33 @@ namespace parsing_jrn_Ej.Services
 
         private DateTime? ExtractDateTime(string text)
         {
-            var match = Regex.Match(text, @"(\d{2}/\d{2}/\d{4})\s+(\d{2}:\d{2}:\d{2})");
+            // Support tahun 2 digit / 4 digit
+            var match = Regex.Match(text, @"(\d{2}/\d{2}/\d{2,4})\s+(\d{2}:\d{2}:\d{2})");
             if (!match.Success) return null;
 
             string dateString = $"{match.Groups[1].Value} {match.Groups[2].Value}";
-            string[] possibleFormats = { "MM/dd/yyyy HH:mm:ss", "dd/MM/yyyy HH:mm:ss" };
+
+            string[] possibleFormats =
+            {
+        "MM/dd/yyyy HH:mm:ss",
+        "dd/MM/yyyy HH:mm:ss",
+        "MM/dd/yy HH:mm:ss",
+        "dd/MM/yy HH:mm:ss"
+    };
 
             if (DateTime.TryParseExact(dateString, possibleFormats,
                 System.Globalization.CultureInfo.InvariantCulture,
                 System.Globalization.DateTimeStyles.None,
                 out DateTime parsedDate))
             {
-                return parsedDate.AddHours(-7);
+                return parsedDate; // ⬅️ langsung return, tidak ada AddHours
             }
 
             Console.WriteLine($"⚠️ Format tanggal tidak dikenal: {dateString}");
             return null;
         }
+
+
 
 
         private string? ExtractPesanError(string text)

@@ -1,0 +1,4947 @@
+7147 11/13/2025 00:00:51 Go out of service
+7148 11/13/2025 00:01:04 Go in service
+7149 11/13/2025 00:16:24 ==> Transaction Start
+7150 11/13/2025 00:16:24 Face Camera OK | Hand Camera OK
+7151 11/13/2025 00:16:24 Terminal Id: 1649 Machine Sequence No: 043149
+7152 11/13/2025 00:16:24 Card Inserted
+7153 11/13/2025 00:16:29 Card Number: 421570******8290
+7154 11/13/2025 00:16:35 Transaction Req. Send: Succeeded
+7155 11/13/2025 00:16:35 [OP Code]: [BBBBBBBD]
+7156 11/13/2025 00:16:35 [Amount Entry Field]: [000000000000]
+7157 11/13/2025 00:16:35 [Last TSN]: [6123]
+7158 11/13/2025 00:16:36 Transaction Res. Received
+7159 11/13/2025 00:16:36 [Replied TSN]: [6124]
+7160 11/13/2025 00:16:36 [Next State]: [006]
+7161 11/13/2025 00:16:36 [Function Identifier]: [5]
+7162 11/13/2025 00:16:36 Solicited Status  Send: Succeeded
+7163 11/13/2025 00:16:40 PIN Entered: 421570******8290
+7164 11/13/2025 00:17:05 Transaction Req. Send: Succeeded
+7165 11/13/2025 00:17:05 [OP Code]: [AAD     ]
+7166 11/13/2025 00:17:05 [Amount Entry Field]: [000000000000]
+7167 11/13/2025 00:17:05 [Last TSN]: [6124]
+7168 11/13/2025 00:17:06 Transaction Res. Received
+7169 11/13/2025 00:17:06 [Replied TSN]: [6125]
+7170 11/13/2025 00:17:06 [Next State]: [213]
+7171 11/13/2025 00:17:06 [Function Identifier]: [5]
+7172 11/13/2025 00:17:06 
+
+13/11/25 00:16        NO REF :6125       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX8290    
+REKENING KARTU     :0001601502543947   
+ 
+
+7173 11/13/2025 00:17:06 Solicited Status  Send: Succeeded
+7174 11/13/2025 00:17:07 Deposit: Shutter opened for notes insertion
+7175 11/13/2025 00:17:10 Notes inserted in hopper
+7176 11/13/2025 00:17:21 Notes Counted:
+IDR50000:8
+IDR100000:4
+Total Amount IDR 800000
+A0879:B0999:C1999:D1920:E0006:F0000:R0000
+7177 11/13/2025 00:17:24 User: D Key Pressed
+7178 11/13/2025 00:17:24 Deposit Confirmed
+7179 11/13/2025 00:17:28 Transaction Req. Send: Succeeded
+7180 11/13/2025 00:17:28 [OP Code]: [AADBBA  ]
+7181 11/13/2025 00:17:28 [Amount Entry Field]: [000000800000]
+7182 11/13/2025 00:17:28 [Last TSN]: [6125]
+7183 11/13/2025 00:17:28 Transaction Res. Received
+7184 11/13/2025 00:17:28 [Replied TSN]: [6126]
+7185 11/13/2025 00:17:28 [Next State]: [247]
+7186 11/13/2025 00:17:28 [Function Identifier]: [5]
+7187 11/13/2025 00:17:28 Solicited Status  Send: Succeeded
+7188 11/13/2025 00:17:32 Transaction Req. Send: Succeeded
+7189 11/13/2025 00:17:32 [OP Code]: [AADBBA B]
+7190 11/13/2025 00:17:32 [Amount Entry Field]: [000000800000]
+7191 11/13/2025 00:17:32 [Last TSN]: [6126]
+7192 11/13/2025 00:17:33 Transaction Res. Received
+7193 11/13/2025 00:17:33 [Replied TSN]: [6127]
+7194 11/13/2025 00:17:33 [Next State]: [246]
+7195 11/13/2025 00:17:33 [Function Identifier]: [-]
+7196 11/13/2025 00:17:33 Solicited Status  Send: Succeeded
+7197 11/13/2025 00:17:34 Host Store: Storing
+7198 11/13/2025 00:17:34 
+
+13/11/25 00:17        NO REF :6127       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8290    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0001601502543947  
+NAMA       : SALJON MUNTHE            
+JUMLAH     :       RP. 800,000.00  
+
+SALDO      :       RP. 31,575.00   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+7199 11/13/2025 00:17:40 Printed Receipt Printer
+7200 11/13/2025 00:17:47 Host Store: Stored
+IDR50000:8
+IDR100000:4
+A0879:B1003:C1999:D1928:E0006:F0000:R0000
+7201 11/13/2025 00:17:51 Card Ejected
+7202 11/13/2025 00:17:51 Card Removed
+7203 11/13/2025 00:17:52 <== Transaction End
+7204 11/13/2025 05:44:25 ==> Transaction Start
+7205 11/13/2025 05:44:25 Face Camera OK | Hand Camera OK
+7206 11/13/2025 05:44:25 Terminal Id: 1649 Machine Sequence No: 043150
+7207 11/13/2025 05:44:25 Card Inserted
+7208 11/13/2025 05:44:30 Card Number: 421570******0068
+7209 11/13/2025 05:44:33 Transaction Req. Send: Succeeded
+7210 11/13/2025 05:44:33 [OP Code]: [BBBBBBBD]
+7211 11/13/2025 05:44:33 [Amount Entry Field]: [000000000000]
+7212 11/13/2025 05:44:33 [Last TSN]: [6127]
+7213 11/13/2025 05:44:33 Transaction Res. Received
+7214 11/13/2025 05:44:33 [Replied TSN]: [6128]
+7215 11/13/2025 05:44:33 [Next State]: [006]
+7216 11/13/2025 05:44:33 [Function Identifier]: [5]
+7217 11/13/2025 05:44:33 Solicited Status  Send: Succeeded
+7218 11/13/2025 05:44:39 PIN Entered: 421570******0068
+7219 11/13/2025 05:44:44 Transaction Req. Send: Succeeded
+7220 11/13/2025 05:44:44 [OP Code]: [ACAB    ]
+7221 11/13/2025 05:44:44 [Amount Entry Field]: [000000000000]
+7222 11/13/2025 05:44:44 [Last TSN]: [6128]
+7223 11/13/2025 05:44:45 Transaction Res. Received
+7224 11/13/2025 05:44:45 [Replied TSN]: [6129]
+7225 11/13/2025 05:44:45 [Next State]: [245]
+7226 11/13/2025 05:44:45 [Function Identifier]: [5]
+7227 11/13/2025 05:44:45 
+
+13/11/25 05:44        NO REF :6129       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX0068    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0017901500413380   
+SALDO TERSEDIA :       RP. 58,500.00  
+SALDO          :      RP. 108,500.00  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7228 11/13/2025 05:44:51 Printed Receipt Printer
+7229 11/13/2025 05:44:51 Solicited Status  Send: Succeeded
+7230 11/13/2025 05:45:00 Card Ejected
+7231 11/13/2025 05:45:00 Card Removed
+7232 11/13/2025 05:45:00 <== Transaction End
+7233 11/13/2025 05:54:28 ==> Transaction Start
+7234 11/13/2025 05:54:28 Face Camera OK | Hand Camera OK
+7235 11/13/2025 05:54:28 Terminal Id: 1649 Machine Sequence No: 043151
+7236 11/13/2025 05:54:28 Card Inserted
+7237 11/13/2025 05:54:32 Card Number: 622100******4538
+7238 11/13/2025 05:54:35 Transaction Req. Send: Succeeded
+7239 11/13/2025 05:54:35 [OP Code]: [BBBBBBBD]
+7240 11/13/2025 05:54:35 [Amount Entry Field]: [000000000000]
+7241 11/13/2025 05:54:35 [Last TSN]: [6129]
+7242 11/13/2025 05:54:35 Transaction Res. Received
+7243 11/13/2025 05:54:35 [Replied TSN]: [6130]
+7244 11/13/2025 05:54:35 [Next State]: [006]
+7245 11/13/2025 05:54:35 [Function Identifier]: [5]
+7246 11/13/2025 05:54:35 Solicited Status  Send: Succeeded
+7247 11/13/2025 05:54:39 PIN Entered: 622100******4538
+7248 11/13/2025 05:54:45 Transaction Req. Send: Succeeded
+7249 11/13/2025 05:54:45 [OP Code]: [ABIAD   ]
+7250 11/13/2025 05:54:45 [Amount Entry Field]: [000000000000]
+7251 11/13/2025 05:54:45 [Last TSN]: [6130]
+7252 11/13/2025 05:54:45 Transaction Res. Received
+7253 11/13/2025 05:54:45 [Replied TSN]: [6131]
+7254 11/13/2025 05:54:45 [Next State]: [237]
+7255 11/13/2025 05:54:45 [Function Identifier]: [2]
+7256 11/13/2025 05:54:55 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0879:B1003:C1999:D1926:E0006:F0000:R0000
+7257 11/13/2025 05:54:55 
+
+13/11/25 05:54        NO REF :6131       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX4538    
+
+PENARIKAN TUNAI             
+REKENING: 0001601502749022
+JUMLAH  :       RP. 100,000.00  
+SALDO   :       RP. 146,778.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7258 11/13/2025 05:54:58 Cash Presented
+7259 11/13/2025 05:55:04 Printed Receipt Printer
+7260 11/13/2025 05:55:04 Solicited Status  Send: Succeeded
+7261 11/13/2025 05:55:04 Cash Taken
+7262 11/13/2025 05:55:13 Card Ejected
+7263 11/13/2025 05:55:13 Card Removed
+7264 11/13/2025 05:55:13 <== Transaction End
+7265 11/13/2025 06:01:19 ==> Transaction Start
+7266 11/13/2025 06:01:19 Face Camera OK | Hand Camera OK
+7267 11/13/2025 06:01:19 Terminal Id: 1649 Machine Sequence No: 043152
+7268 11/13/2025 06:01:19 Card Inserted
+7269 11/13/2025 06:01:24 Card Number: 421570******6430
+7270 11/13/2025 06:01:32 Transaction Req. Send: Succeeded
+7271 11/13/2025 06:01:32 [OP Code]: [BBBBBBBD]
+7272 11/13/2025 06:01:32 [Amount Entry Field]: [000000000000]
+7273 11/13/2025 06:01:32 [Last TSN]: [6131]
+7274 11/13/2025 06:01:33 Transaction Res. Received
+7275 11/13/2025 06:01:33 [Replied TSN]: [6132]
+7276 11/13/2025 06:01:33 [Next State]: [006]
+7277 11/13/2025 06:01:33 [Function Identifier]: [5]
+7278 11/13/2025 06:01:33 Solicited Status  Send: Succeeded
+7279 11/13/2025 06:01:40 PIN Entered: 421570******6430
+7280 11/13/2025 06:01:50 Transaction Req. Send: Succeeded
+7281 11/13/2025 06:01:50 [OP Code]: [ABIAD   ]
+7282 11/13/2025 06:01:50 [Amount Entry Field]: [000000000000]
+7283 11/13/2025 06:01:50 [Last TSN]: [6132]
+7284 11/13/2025 06:01:50 Transaction Res. Received
+7285 11/13/2025 06:01:50 [Replied TSN]: [6133]
+7286 11/13/2025 06:01:50 [Next State]: [237]
+7287 11/13/2025 06:01:50 [Function Identifier]: [2]
+7288 11/13/2025 06:02:00 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0879:B1003:C1999:D1924:E0006:F0000:R0000
+7289 11/13/2025 06:02:00 
+
+13/11/25 06:01        NO REF :6133       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6430    
+
+PENARIKAN TUNAI             
+REKENING: 0013801610007536
+JUMLAH  :       RP. 100,000.00  
+SALDO   :        RP. 27,449.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7290 11/13/2025 06:02:02 Cash Presented
+7291 11/13/2025 06:02:08 Printed Receipt Printer
+7292 11/13/2025 06:02:08 Solicited Status  Send: Succeeded
+7293 11/13/2025 06:02:09 Cash Taken
+7294 11/13/2025 06:02:22 Card Ejected
+7295 11/13/2025 06:02:22 Card Removed
+7296 11/13/2025 06:02:23 <== Transaction End
+7297 11/13/2025 06:16:56 ==> Transaction Start
+7298 11/13/2025 06:16:56 Face Camera OK | Hand Camera OK
+7299 11/13/2025 06:16:56 Terminal Id: 1649 Machine Sequence No: 043153
+7300 11/13/2025 06:16:56 Card Inserted
+7301 11/13/2025 06:17:01 Card Number: 469345******3098
+7302 11/13/2025 06:17:05 Transaction Req. Send: Succeeded
+7303 11/13/2025 06:17:05 [OP Code]: [BBBBBBBD]
+7304 11/13/2025 06:17:05 [Amount Entry Field]: [000000000000]
+7305 11/13/2025 06:17:05 [Last TSN]: [6133]
+7306 11/13/2025 06:17:05 Transaction Res. Received
+7307 11/13/2025 06:17:05 [Replied TSN]: [6134]
+7308 11/13/2025 06:17:05 [Next State]: [006]
+7309 11/13/2025 06:17:05 [Function Identifier]: [5]
+7310 11/13/2025 06:17:05 Solicited Status  Send: Succeeded
+7311 11/13/2025 06:17:11 PIN Entered: 469345******3098
+7312 11/13/2025 06:17:28 Transaction Req. Send: Succeeded
+7313 11/13/2025 06:17:28 [OP Code]: [ABCBD   ]
+7314 11/13/2025 06:17:28 [Amount Entry Field]: [000000600000]
+7315 11/13/2025 06:17:28 [Last TSN]: [6134]
+7316 11/13/2025 06:17:29 Transaction Res. Received
+7317 11/13/2025 06:17:29 [Replied TSN]: [6135]
+7318 11/13/2025 06:17:29 [Next State]: [237]
+7319 11/13/2025 06:17:29 [Function Identifier]: [2]
+7320 11/13/2025 06:17:39 Notes Dispensed:
+IDR100000*6
+Total Amount IDR 600000
+A0873:B1003:C1999:D1924:E0006:F0000:R0000
+7321 11/13/2025 06:17:39 
+
+13/11/25 06:17        NO REF :6135       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3098    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0014101500307449
+JUMLAH  :       RP. 600,000.00  
+SALDO   :       RP. 186,790.12  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7322 11/13/2025 06:17:41 Cash Presented
+7323 11/13/2025 06:17:47 Printed Receipt Printer
+7324 11/13/2025 06:17:47 Solicited Status  Send: Succeeded
+7325 11/13/2025 06:17:48 Cash Taken
+7326 11/13/2025 06:17:51 Card Ejected
+7327 11/13/2025 06:17:51 Card Removed
+7328 11/13/2025 06:17:52 <== Transaction End
+7329 11/13/2025 06:19:00 ==> Transaction Start
+7330 11/13/2025 06:19:00 Face Camera OK | Hand Camera OK
+7331 11/13/2025 06:19:00 Terminal Id: 1649 Machine Sequence No: 043154
+7332 11/13/2025 06:19:00 Card Inserted
+7333 11/13/2025 06:19:05 Card Number: 421570******7416
+7334 11/13/2025 06:19:08 Transaction Req. Send: Succeeded
+7335 11/13/2025 06:19:08 [OP Code]: [BBBBBBBD]
+7336 11/13/2025 06:19:08 [Amount Entry Field]: [000000000000]
+7337 11/13/2025 06:19:08 [Last TSN]: [6135]
+7338 11/13/2025 06:19:08 Transaction Res. Received
+7339 11/13/2025 06:19:08 [Replied TSN]: [6136]
+7340 11/13/2025 06:19:08 [Next State]: [006]
+7341 11/13/2025 06:19:08 [Function Identifier]: [5]
+7342 11/13/2025 06:19:08 Solicited Status  Send: Succeeded
+7343 11/13/2025 06:19:12 PIN Entered: 421570******7416
+7344 11/13/2025 06:19:28 Transaction Req. Send: Succeeded
+7345 11/13/2025 06:19:28 [OP Code]: [ABCAD   ]
+7346 11/13/2025 06:19:28 [Amount Entry Field]: [000000250000]
+7347 11/13/2025 06:19:28 [Last TSN]: [6136]
+7348 11/13/2025 06:19:29 Transaction Res. Received
+7349 11/13/2025 06:19:29 [Replied TSN]: [6137]
+7350 11/13/2025 06:19:29 [Next State]: [237]
+7351 11/13/2025 06:19:29 [Function Identifier]: [2]
+7352 11/13/2025 06:19:39 Notes Dispensed:
+IDR50000*5
+Total Amount IDR 250000
+A0873:B1003:C1999:D1919:E0006:F0000:R0000
+7353 11/13/2025 06:19:39 
+
+13/11/25 06:19        NO REF :6137       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7416    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0001601502264705
+JUMLAH  :       RP. 250,000.00  
+SALDO   :        RP. 20,986.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7354 11/13/2025 06:19:41 Cash Presented
+7355 11/13/2025 06:19:47 Printed Receipt Printer
+7356 11/13/2025 06:19:47 Solicited Status  Send: Succeeded
+7357 11/13/2025 06:19:48 Cash Taken
+7358 11/13/2025 06:19:51 User: Cancel Key Pressed
+7359 11/13/2025 06:19:53 Card Ejected
+7360 11/13/2025 06:19:53 Card Removed
+7361 11/13/2025 06:19:54 <== Transaction End
+7362 11/13/2025 06:31:12 ==> Transaction Start
+7363 11/13/2025 06:31:12 Face Camera OK | Hand Camera OK
+7364 11/13/2025 06:31:12 Terminal Id: 1649 Machine Sequence No: 043155
+7365 11/13/2025 06:31:12 Card Inserted
+7366 11/13/2025 06:31:17 Card Number: 622100******2758
+7367 11/13/2025 06:31:20 Transaction Req. Send: Succeeded
+7368 11/13/2025 06:31:20 [OP Code]: [BBBBBBBD]
+7369 11/13/2025 06:31:20 [Amount Entry Field]: [000000000000]
+7370 11/13/2025 06:31:20 [Last TSN]: [6137]
+7371 11/13/2025 06:31:20 Transaction Res. Received
+7372 11/13/2025 06:31:20 [Replied TSN]: [6138]
+7373 11/13/2025 06:31:20 [Next State]: [006]
+7374 11/13/2025 06:31:20 [Function Identifier]: [5]
+7375 11/13/2025 06:31:20 Solicited Status  Send: Succeeded
+7376 11/13/2025 06:31:24 PIN Entered: 622100******2758
+7377 11/13/2025 06:31:27 Transaction Req. Send: Succeeded
+7378 11/13/2025 06:31:27 [OP Code]: [AAD     ]
+7379 11/13/2025 06:31:27 [Amount Entry Field]: [000000000000]
+7380 11/13/2025 06:31:27 [Last TSN]: [6138]
+7381 11/13/2025 06:31:27 Transaction Res. Received
+7382 11/13/2025 06:31:27 [Replied TSN]: [6139]
+7383 11/13/2025 06:31:27 [Next State]: [213]
+7384 11/13/2025 06:31:27 [Function Identifier]: [5]
+7385 11/13/2025 06:31:27 
+
+13/11/25 06:31        NO REF :6139       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX2758    
+REKENING KARTU     :0013801560007628   
+ 
+
+7386 11/13/2025 06:31:27 Solicited Status  Send: Succeeded
+7387 11/13/2025 06:31:28 Deposit: Shutter opened for notes insertion
+7388 11/13/2025 06:31:32 Notes inserted in hopper
+7389 11/13/2025 06:31:41 Notes Counted:
+IDR50000:1
+Total Amount IDR 50000
+A0873:B1003:C1999:D1919:E0006:F0000:R0000
+7390 11/13/2025 06:31:43 User: D Key Pressed
+7391 11/13/2025 06:31:43 Deposit Confirmed
+7392 11/13/2025 06:31:45 Transaction Req. Send: Succeeded
+7393 11/13/2025 06:31:45 [OP Code]: [AADBBA  ]
+7394 11/13/2025 06:31:45 [Amount Entry Field]: [000000050000]
+7395 11/13/2025 06:31:45 [Last TSN]: [6139]
+7396 11/13/2025 06:31:46 Transaction Res. Received
+7397 11/13/2025 06:31:46 [Replied TSN]: [6140]
+7398 11/13/2025 06:31:46 [Next State]: [247]
+7399 11/13/2025 06:31:46 [Function Identifier]: [5]
+7400 11/13/2025 06:31:46 Solicited Status  Send: Succeeded
+7401 11/13/2025 06:31:48 Transaction Req. Send: Succeeded
+7402 11/13/2025 06:31:48 [OP Code]: [AADBBA B]
+7403 11/13/2025 06:31:48 [Amount Entry Field]: [000000050000]
+7404 11/13/2025 06:31:48 [Last TSN]: [6140]
+7405 11/13/2025 06:31:48 Transaction Res. Received
+7406 11/13/2025 06:31:48 [Replied TSN]: [6141]
+7407 11/13/2025 06:31:48 [Next State]: [246]
+7408 11/13/2025 06:31:48 [Function Identifier]: [-]
+7409 11/13/2025 06:31:49 Solicited Status  Send: Succeeded
+7410 11/13/2025 06:31:49 Host Store: Storing
+7411 11/13/2025 06:31:49 
+
+13/11/25 06:31        NO REF :6141       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2758    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0013801560007628  
+NAMA       : YETI WINDAWATI           
+JUMLAH     :        RP. 50,000.00  
+
+SALDO      :   RP. 88,448,656.05   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+7412 11/13/2025 06:31:56 Printed Receipt Printer
+7413 11/13/2025 06:32:01 Host Store: Stored
+IDR50000:1
+A0873:B1003:C1999:D1920:E0006:F0000:R0000
+7414 11/13/2025 06:32:05 Card Number: 622100******2758
+7415 11/13/2025 06:32:08 PIN Entered: 622100******2758
+7416 11/13/2025 06:32:27 Transaction Req. Send: Succeeded
+7417 11/13/2025 06:32:27 [OP Code]: [ACIB  B ]
+7418 11/13/2025 06:32:27 [Amount Entry Field]: [000000050000]
+7419 11/13/2025 06:32:27 [Last TSN]: [6141]
+7420 11/13/2025 06:32:28 Transaction Res. Received
+7421 11/13/2025 06:32:28 [Replied TSN]: [6142]
+7422 11/13/2025 06:32:28 [Next State]: [C6C]
+7423 11/13/2025 06:32:28 [Function Identifier]: [5]
+7424 11/13/2025 06:32:28 Solicited Status  Send: Succeeded
+7425 11/13/2025 06:32:30 Card Number: 622100******2758
+7426 11/13/2025 06:32:33 Transaction Req. Send: Succeeded
+7427 11/13/2025 06:32:33 [OP Code]: [ACIB  BC]
+7428 11/13/2025 06:32:33 [Amount Entry Field]: [000000050000]
+7429 11/13/2025 06:32:33 [Last TSN]: [6142]
+7430 11/13/2025 06:32:34 Transaction Res. Received
+7431 11/13/2025 06:32:34 [Replied TSN]: [6143]
+7432 11/13/2025 06:32:34 [Next State]: [245]
+7433 11/13/2025 06:32:34 [Function Identifier]: [5]
+7434 11/13/2025 06:32:34 
+
+13/11/25 06:32        NO REF :6143       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2758    
+
+TRANSFER - ALTO             
+
+DARI    :BTN                  
+NAMA    :YETI WINDAWATI       
+NO REK  :0000013801560007628  
+REFF    :                     
+TUJUAN  :BANK BCA            
+NAMA    :MUHAMMAD AHYAD FAUZAN         
+NO REK  :7635399759           
+JUMLAH  :RP.     50,000.00    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+         TERIMA KASIH      
+ANDA TELAH MENGGUNAKAN     
+         ATM BANK BTN   
+
+7435 11/13/2025 06:32:41 Printed Receipt Printer
+7436 11/13/2025 06:32:41 Solicited Status  Send: Succeeded
+7437 11/13/2025 06:32:44 Card Ejected
+7438 11/13/2025 06:32:44 Card Removed
+7439 11/13/2025 06:32:44 <== Transaction End
+7440 11/13/2025 06:40:46 ==> Transaction Start
+7441 11/13/2025 06:40:46 Face Camera OK | Hand Camera OK
+7442 11/13/2025 06:40:46 Terminal Id: 1649 Machine Sequence No: 043156
+7443 11/13/2025 06:40:46 Card Inserted
+7444 11/13/2025 06:40:51 Card Number: 603298******1461
+7445 11/13/2025 06:40:55 Transaction Req. Send: Succeeded
+7446 11/13/2025 06:40:55 [OP Code]: [BBBBBBBD]
+7447 11/13/2025 06:40:55 [Amount Entry Field]: [000000000000]
+7448 11/13/2025 06:40:55 [Last TSN]: [6143]
+7449 11/13/2025 06:40:55 Transaction Res. Received
+7450 11/13/2025 06:40:55 [Replied TSN]: [6144]
+7451 11/13/2025 06:40:55 [Next State]: [G52]
+7452 11/13/2025 06:40:55 [Function Identifier]: [5]
+7453 11/13/2025 06:40:55 Solicited Status  Send: Succeeded
+7454 11/13/2025 06:41:04 PIN Entered: 603298******1461
+7455 11/13/2025 06:41:13 Transaction Req. Send: Succeeded
+7456 11/13/2025 06:41:13 [OP Code]: [C   B BD]
+7457 11/13/2025 06:41:13 [Amount Entry Field]: [000000300000]
+7458 11/13/2025 06:41:13 [Last TSN]: [6144]
+7459 11/13/2025 06:41:14 Transaction Res. Received
+7460 11/13/2025 06:41:14 [Replied TSN]: [6145]
+7461 11/13/2025 06:41:14 [Next State]: [237]
+7462 11/13/2025 06:41:14 [Function Identifier]: [2]
+7463 11/13/2025 06:41:24 Notes Dispensed:
+IDR100000*3
+Total Amount IDR 300000
+A0870:B1003:C1999:D1920:E0006:F0000:R0000
+7464 11/13/2025 06:41:25 
+
+13/11/25 06:40        NO REF :6145      
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO REFF :6145              
+TARIK TUNAI LINK           
+NO KARTU:XXXXXXXXXXXX1461  
+NILAI   :        RP. 300,000.00   
+SALDO   :        RP. 296,462.51   
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+7465 11/13/2025 06:41:27 Cash Presented
+7466 11/13/2025 06:41:33 Printed Receipt Printer
+7467 11/13/2025 06:41:33 Solicited Status  Send: Succeeded
+7468 11/13/2025 06:41:33 Cash Taken
+7469 11/13/2025 06:41:38 Card Ejected
+7470 11/13/2025 06:41:38 Card Removed
+7471 11/13/2025 06:41:38 <== Transaction End
+7472 11/13/2025 06:41:57 ==> Transaction Start
+7473 11/13/2025 06:41:57 Face Camera OK | Hand Camera OK
+7474 11/13/2025 06:41:57 Terminal Id: 1649 Machine Sequence No: 043157
+7475 11/13/2025 06:41:57 Card Inserted
+7476 11/13/2025 06:42:02 Card Number: 421570******6852
+7477 11/13/2025 06:42:05 Transaction Req. Send: Succeeded
+7478 11/13/2025 06:42:05 [OP Code]: [BBBBBBBD]
+7479 11/13/2025 06:42:05 [Amount Entry Field]: [000000000000]
+7480 11/13/2025 06:42:05 [Last TSN]: [6145]
+7481 11/13/2025 06:42:06 Transaction Res. Received
+7482 11/13/2025 06:42:06 [Replied TSN]: [6146]
+7483 11/13/2025 06:42:06 [Next State]: [006]
+7484 11/13/2025 06:42:06 [Function Identifier]: [5]
+7485 11/13/2025 06:42:06 Solicited Status  Send: Succeeded
+7486 11/13/2025 06:42:10 PIN Entered: 421570******6852
+7487 11/13/2025 06:42:22 Transaction Req. Send: Succeeded
+7488 11/13/2025 06:42:22 [OP Code]: [ABCAD   ]
+7489 11/13/2025 06:42:22 [Amount Entry Field]: [000000150000]
+7490 11/13/2025 06:42:22 [Last TSN]: [6146]
+7491 11/13/2025 06:42:23 Transaction Res. Received
+7492 11/13/2025 06:42:23 [Replied TSN]: [6147]
+7493 11/13/2025 06:42:23 [Next State]: [237]
+7494 11/13/2025 06:42:23 [Function Identifier]: [2]
+7495 11/13/2025 06:42:32 Notes Dispensed:
+IDR50000*3
+Total Amount IDR 150000
+A0870:B1003:C1999:D1917:E0006:F0000:R0000
+7496 11/13/2025 06:42:32 
+
+13/11/25 06:42        NO REF :6147       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6852    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500180779
+JUMLAH  :       RP. 150,000.00  
+SALDO   :       RP. 123,489.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7497 11/13/2025 06:42:34 Cash Presented
+7498 11/13/2025 06:42:40 Printed Receipt Printer
+7499 11/13/2025 06:42:40 Solicited Status  Send: Succeeded
+7500 11/13/2025 06:42:41 Cash Taken
+7501 11/13/2025 06:42:48 Card Ejected
+7502 11/13/2025 06:42:50 Card Removed
+7503 11/13/2025 06:42:50 <== Transaction End
+7504 11/13/2025 06:43:30 ==> Transaction Start
+7505 11/13/2025 06:43:30 Face Camera OK | Hand Camera OK
+7506 11/13/2025 06:43:30 Terminal Id: 1649 Machine Sequence No: 043158
+7507 11/13/2025 06:43:30 Card Inserted
+7508 11/13/2025 06:43:35 Card Number: 421570******4098
+7509 11/13/2025 06:43:40 Transaction Req. Send: Succeeded
+7510 11/13/2025 06:43:40 [OP Code]: [BBBBBBBD]
+7511 11/13/2025 06:43:40 [Amount Entry Field]: [000000000000]
+7512 11/13/2025 06:43:40 [Last TSN]: [6147]
+7513 11/13/2025 06:43:41 Transaction Res. Received
+7514 11/13/2025 06:43:41 [Replied TSN]: [6148]
+7515 11/13/2025 06:43:41 [Next State]: [006]
+7516 11/13/2025 06:43:41 [Function Identifier]: [5]
+7517 11/13/2025 06:43:41 Solicited Status  Send: Succeeded
+7518 11/13/2025 06:43:46 PIN Entered: 421570******4098
+7519 11/13/2025 06:43:59 Transaction Req. Send: Succeeded
+7520 11/13/2025 06:43:59 [OP Code]: [ABCAD   ]
+7521 11/13/2025 06:43:59 [Amount Entry Field]: [000000150000]
+7522 11/13/2025 06:43:59 [Last TSN]: [6148]
+7523 11/13/2025 06:44:00 Transaction Res. Received
+7524 11/13/2025 06:44:00 [Replied TSN]: [6149]
+7525 11/13/2025 06:44:00 [Next State]: [237]
+7526 11/13/2025 06:44:00 [Function Identifier]: [2]
+7527 11/13/2025 06:44:11 Notes Dispensed:
+IDR50000*3
+Total Amount IDR 150000
+A0870:B1003:C1999:D1914:E0006:F0000:R0000
+7528 11/13/2025 06:44:11 
+
+13/11/25 06:43        NO REF :6149       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX4098    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0014301610016245
+JUMLAH  :       RP. 150,000.00  
+SALDO   :        RP. 11,378.36  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7529 11/13/2025 06:44:13 Cash Presented
+7530 11/13/2025 06:44:18 Printed Receipt Printer
+7531 11/13/2025 06:44:18 Solicited Status  Send: Succeeded
+7532 11/13/2025 06:44:20 Cash Taken
+7533 11/13/2025 06:44:24 Card Ejected
+7534 11/13/2025 06:44:27 Card Removed
+7535 11/13/2025 06:44:27 <== Transaction End
+7536 11/13/2025 07:01:03 ==> Transaction Start
+7537 11/13/2025 07:01:03 Face Camera OK | Hand Camera OK
+7538 11/13/2025 07:01:03 Terminal Id: 1649 Machine Sequence No: 043159
+7539 11/13/2025 07:01:03 Card Inserted
+7540 11/13/2025 07:01:08 Card Number: 421570******2205
+7541 11/13/2025 07:01:13 Transaction Req. Send: Succeeded
+7542 11/13/2025 07:01:13 [OP Code]: [BBBBBBBD]
+7543 11/13/2025 07:01:13 [Amount Entry Field]: [000000000000]
+7544 11/13/2025 07:01:13 [Last TSN]: [6149]
+7545 11/13/2025 07:01:13 Transaction Res. Received
+7546 11/13/2025 07:01:13 [Replied TSN]: [6150]
+7547 11/13/2025 07:01:13 [Next State]: [006]
+7548 11/13/2025 07:01:13 [Function Identifier]: [5]
+7549 11/13/2025 07:01:13 Solicited Status  Send: Succeeded
+7550 11/13/2025 07:01:17 PIN Entered: 421570******2205
+7551 11/13/2025 07:01:23 Transaction Req. Send: Succeeded
+7552 11/13/2025 07:01:23 [OP Code]: [ABAAD   ]
+7553 11/13/2025 07:01:23 [Amount Entry Field]: [000000000000]
+7554 11/13/2025 07:01:23 [Last TSN]: [6150]
+7555 11/13/2025 07:01:24 Transaction Res. Received
+7556 11/13/2025 07:01:24 [Replied TSN]: [6151]
+7557 11/13/2025 07:01:24 [Next State]: [237]
+7558 11/13/2025 07:01:24 [Function Identifier]: [2]
+7559 11/13/2025 07:01:36 Notes Dispensed:
+IDR50000*20
+Total Amount IDR 1000000
+A0870:B1003:C1999:D1894:E0006:F0000:R0000
+7560 11/13/2025 07:01:36 
+
+13/11/25 07:01        NO REF :6151       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2205    
+
+PENARIKAN TUNAI             
+REKENING: 0005301500045082
+JUMLAH  :     RP. 1,000,000.00  
+SALDO   :    RP. 24,310,392.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7561 11/13/2025 07:01:38 Cash Presented
+7562 11/13/2025 07:01:43 Printed Receipt Printer
+7563 11/13/2025 07:01:43 Solicited Status  Send: Succeeded
+7564 11/13/2025 07:01:45 Cash Taken
+7565 11/13/2025 07:01:48 Card Ejected
+7566 11/13/2025 07:01:49 Card Removed
+7567 11/13/2025 07:01:49 <== Transaction End
+7568 11/13/2025 07:02:09 ==> Transaction Start
+7569 11/13/2025 07:02:09 Face Camera OK | Hand Camera OK
+7570 11/13/2025 07:02:09 Terminal Id: 1649 Machine Sequence No: 043160
+7571 11/13/2025 07:02:09 Card Inserted
+7572 11/13/2025 07:02:13 Card Number: 485447******3738
+7573 11/13/2025 07:02:17 Transaction Req. Send: Succeeded
+7574 11/13/2025 07:02:17 [OP Code]: [BBBBBBBD]
+7575 11/13/2025 07:02:17 [Amount Entry Field]: [000000000000]
+7576 11/13/2025 07:02:17 [Last TSN]: [6151]
+7577 11/13/2025 07:02:17 Transaction Res. Received
+7578 11/13/2025 07:02:17 [Replied TSN]: [6152]
+7579 11/13/2025 07:02:17 [Next State]: [006]
+7580 11/13/2025 07:02:17 [Function Identifier]: [5]
+7581 11/13/2025 07:02:17 Solicited Status  Send: Succeeded
+7582 11/13/2025 07:02:21 PIN Entered: 485447******3738
+7583 11/13/2025 07:02:27 Transaction Req. Send: Succeeded
+7584 11/13/2025 07:02:27 [OP Code]: [ABIAD   ]
+7585 11/13/2025 07:02:27 [Amount Entry Field]: [000000000000]
+7586 11/13/2025 07:02:27 [Last TSN]: [6152]
+7587 11/13/2025 07:02:27 Transaction Res. Received
+7588 11/13/2025 07:02:27 [Replied TSN]: [6153]
+7589 11/13/2025 07:02:27 [Next State]: [237]
+7590 11/13/2025 07:02:27 [Function Identifier]: [2]
+7591 11/13/2025 07:02:37 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0870:B1003:C1999:D1892:E0006:F0000:R0000
+7592 11/13/2025 07:02:37 
+
+13/11/25 07:02        NO REF :6153       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3738    
+
+PENARIKAN TUNAI             
+REKENING: 0027301500066755
+JUMLAH  :       RP. 100,000.00  
+SALDO   :        RP. 87,354.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7593 11/13/2025 07:02:39 Cash Presented
+7594 11/13/2025 07:02:45 Printed Receipt Printer
+7595 11/13/2025 07:02:45 Solicited Status  Send: Succeeded
+7596 11/13/2025 07:02:46 Cash Taken
+7597 11/13/2025 07:02:50 Card Ejected
+7598 11/13/2025 07:02:51 Card Removed
+7599 11/13/2025 07:02:51 <== Transaction End
+7600 11/13/2025 07:03:07 ==> Transaction Start
+7601 11/13/2025 07:03:07 Face Camera OK | Hand Camera OK
+7602 11/13/2025 07:03:07 Terminal Id: 1649 Machine Sequence No: 043161
+7603 11/13/2025 07:03:07 Card Inserted
+7604 11/13/2025 07:03:12 Card Number: 622100******9528
+7605 11/13/2025 07:03:14 Transaction Req. Send: Succeeded
+7606 11/13/2025 07:03:14 [OP Code]: [BBBBBBBD]
+7607 11/13/2025 07:03:14 [Amount Entry Field]: [000000000000]
+7608 11/13/2025 07:03:14 [Last TSN]: [6153]
+7609 11/13/2025 07:03:15 Transaction Res. Received
+7610 11/13/2025 07:03:15 [Replied TSN]: [6154]
+7611 11/13/2025 07:03:15 [Next State]: [006]
+7612 11/13/2025 07:03:15 [Function Identifier]: [5]
+7613 11/13/2025 07:03:15 Solicited Status  Send: Succeeded
+7614 11/13/2025 07:03:19 PIN Entered: 622100******9528
+7615 11/13/2025 07:03:28 Transaction Req. Send: Succeeded
+7616 11/13/2025 07:03:28 [OP Code]: [ABCAD   ]
+7617 11/13/2025 07:03:28 [Amount Entry Field]: [000000150000]
+7618 11/13/2025 07:03:28 [Last TSN]: [6154]
+7619 11/13/2025 07:03:28 Transaction Res. Received
+7620 11/13/2025 07:03:28 [Replied TSN]: [6155]
+7621 11/13/2025 07:03:28 [Next State]: [237]
+7622 11/13/2025 07:03:28 [Function Identifier]: [2]
+7623 11/13/2025 07:03:39 Notes Dispensed:
+IDR50000*3
+Total Amount IDR 150000
+A0870:B1003:C1999:D1889:E0006:F0000:R0000
+7624 11/13/2025 07:03:39 
+
+13/11/25 07:03        NO REF :6155       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX9528    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801560008543
+JUMLAH  :       RP. 150,000.00  
+SALDO   :        RP. 53,689.45  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7625 11/13/2025 07:03:41 Cash Presented
+7626 11/13/2025 07:03:46 Printed Receipt Printer
+7627 11/13/2025 07:03:46 Solicited Status  Send: Succeeded
+7628 11/13/2025 07:03:48 Cash Taken
+7629 11/13/2025 07:03:53 Card Ejected
+7630 11/13/2025 07:03:53 Card Removed
+7631 11/13/2025 07:03:53 <== Transaction End
+7632 11/13/2025 07:27:45 ==> Transaction Start
+7633 11/13/2025 07:27:45 Face Camera OK | Hand Camera OK
+7634 11/13/2025 07:27:45 Terminal Id: 1649 Machine Sequence No: 043162
+7635 11/13/2025 07:27:45 Card Inserted
+7636 11/13/2025 07:27:48 Card Number: 421570******8984
+7637 11/13/2025 07:27:52 Transaction Req. Send: Succeeded
+7638 11/13/2025 07:27:52 [OP Code]: [BBBBBBBD]
+7639 11/13/2025 07:27:52 [Amount Entry Field]: [000000000000]
+7640 11/13/2025 07:27:52 [Last TSN]: [6155]
+7641 11/13/2025 07:27:52 Transaction Res. Received
+7642 11/13/2025 07:27:52 [Replied TSN]: [6156]
+7643 11/13/2025 07:27:52 [Next State]: [006]
+7644 11/13/2025 07:27:52 [Function Identifier]: [5]
+7645 11/13/2025 07:27:52 Solicited Status  Send: Succeeded
+7646 11/13/2025 07:27:59 PIN Entered: 421570******8984
+7647 11/13/2025 07:28:15 Transaction Req. Send: Succeeded
+7648 11/13/2025 07:28:15 [OP Code]: [ACHB    ]
+7649 11/13/2025 07:28:15 [Amount Entry Field]: [000000000000]
+7650 11/13/2025 07:28:15 [Last TSN]: [6156]
+7651 11/13/2025 07:28:16 Transaction Res. Received
+7652 11/13/2025 07:28:16 [Replied TSN]: [6157]
+7653 11/13/2025 07:28:16 [Next State]: [245]
+7654 11/13/2025 07:28:16 [Function Identifier]: [5]
+7655 11/13/2025 07:28:16 
+ 
+         BANK TABUNGAN NEGARA     
+ 
+TANGGAL  JAM           
+11/13/25 07:27:58            
+LOKASI ATM               
+KCP BEKASI JAYA          
+ 
+NO KARTU:************8984   
+NO REFF :6157              
+ 
+REKENING KORAN             
+ 
+TANGGAL  KODE D/K      JUMLAH     
+13/11/25 5185 (D)      1,000.00           
+ 
+05/11/25 4753 (C) 25,000,000.00           
+ 
+01/11/25 5006 (D)    500,000.00           
+ 
+31/10/25 160  (C)        197.00           
+ 
+31/10/25 453  (D)     12,500.00           
+ 
+31/10/25 453  (D)      2,500.00           
+ 
+31/10/25 453  (D)        625.00           
+ 
+20/10/25 5006 (D)  1,000,000.00           
+ 
+TERIMA KASIH               
+ANDA TELAH MENGGUNAKAN           
+         ATM BANK B 
+ 
+ 
+
+7656 11/13/2025 07:28:24 Printed Receipt Printer
+7657 11/13/2025 07:28:24 Solicited Status  Send: Succeeded
+7658 11/13/2025 07:28:35 Card Ejected
+7659 11/13/2025 07:28:35 Card Removed
+7660 11/13/2025 07:28:35 <== Transaction End
+7661 11/13/2025 07:37:19 ==> Transaction Start
+7662 11/13/2025 07:37:19 Card Number:622100******0891
+7663 11/13/2025 07:37:19 Face Camera OK | Hand Camera OK
+7664 11/13/2025 07:37:19 Terminal Id: 1649 Machine Sequence No: 043163
+7665 11/13/2025 07:37:34 Transaction Req. Send: Succeeded
+7666 11/13/2025 07:37:34 [OP Code]: [IAI     ]
+7667 11/13/2025 07:37:34 [Amount Entry Field]: [000000000000]
+7668 11/13/2025 07:37:34 [Last TSN]: [6157]
+7669 11/13/2025 07:37:35 Transaction Res. Received
+7670 11/13/2025 07:37:35 [Replied TSN]: [6158]
+7671 11/13/2025 07:37:35 [Next State]: [299]
+7672 11/13/2025 07:37:35 [Function Identifier]: [2]
+7673 11/13/2025 07:37:44 Notes Dispensed:
+IDR50000*4
+Total Amount IDR 200000
+A0870:B1003:C1999:D1885:E0006:F0000:R0000
+7674 11/13/2025 07:37:44 
+
+13/11/25 07:37        NO REF :6158       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000378920646      
+NOMINAL     :    RP. 200,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+7675 11/13/2025 07:37:46 Cash Presented
+7676 11/13/2025 07:37:52 Printed Receipt Printer
+7677 11/13/2025 07:37:52 Solicited Status  Send: Succeeded
+7678 11/13/2025 07:37:53 Cash Taken
+7679 11/13/2025 07:37:59 <== Transaction End
+7680 11/13/2025 07:38:18 ==> Transaction Start
+7681 11/13/2025 07:38:18 Face Camera OK | Hand Camera OK
+7682 11/13/2025 07:38:18 Terminal Id: 1649 Machine Sequence No: 043164
+7683 11/13/2025 07:38:18 Card Inserted
+7684 11/13/2025 07:38:23 Card Number: 421570******8349
+7685 11/13/2025 07:38:27 Transaction Req. Send: Succeeded
+7686 11/13/2025 07:38:27 [OP Code]: [BBBBBBBD]
+7687 11/13/2025 07:38:27 [Amount Entry Field]: [000000000000]
+7688 11/13/2025 07:38:27 [Last TSN]: [6158]
+7689 11/13/2025 07:38:28 Transaction Res. Received
+7690 11/13/2025 07:38:28 [Replied TSN]: [6159]
+7691 11/13/2025 07:38:28 [Next State]: [006]
+7692 11/13/2025 07:38:28 [Function Identifier]: [5]
+7693 11/13/2025 07:38:28 Solicited Status  Send: Succeeded
+7694 11/13/2025 07:38:35 PIN Entered: 421570******8349
+7695 11/13/2025 07:38:59 Transaction Req. Send: Succeeded
+7696 11/13/2025 07:38:59 [OP Code]: [ABCAD   ]
+7697 11/13/2025 07:38:59 [Amount Entry Field]: [000000050000]
+7698 11/13/2025 07:38:59 [Last TSN]: [6159]
+7699 11/13/2025 07:38:59 Transaction Res. Received
+7700 11/13/2025 07:38:59 [Replied TSN]: [6160]
+7701 11/13/2025 07:38:59 [Next State]: [237]
+7702 11/13/2025 07:38:59 [Function Identifier]: [2]
+7703 11/13/2025 07:39:09 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0870:B1003:C1999:D1884:E0006:F0000:R0000
+7704 11/13/2025 07:39:09 
+
+13/11/25 07:38        NO REF :6160       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8349    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500200294
+JUMLAH  :        RP. 50,000.00  
+SALDO   :        RP. 42,647.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7705 11/13/2025 07:39:11 Cash Presented
+7706 11/13/2025 07:39:16 Printed Receipt Printer
+7707 11/13/2025 07:39:16 Solicited Status  Send: Succeeded
+7708 11/13/2025 07:39:18 Cash Taken
+7709 11/13/2025 07:39:22 Card Ejected
+7710 11/13/2025 07:39:22 Card Removed
+7711 11/13/2025 07:39:22 <== Transaction End
+7712 11/13/2025 07:41:08 ==> Transaction Start
+7713 11/13/2025 07:41:08 Face Camera OK | Hand Camera OK
+7714 11/13/2025 07:41:08 Terminal Id: 1649 Machine Sequence No: 043165
+7715 11/13/2025 07:41:08 Card Inserted
+7716 11/13/2025 07:41:13 Card Number: 469345******2322
+7717 11/13/2025 07:41:16 Transaction Req. Send: Succeeded
+7718 11/13/2025 07:41:16 [OP Code]: [BBBBBBBD]
+7719 11/13/2025 07:41:16 [Amount Entry Field]: [000000000000]
+7720 11/13/2025 07:41:16 [Last TSN]: [6160]
+7721 11/13/2025 07:41:16 Transaction Res. Received
+7722 11/13/2025 07:41:16 [Replied TSN]: [6161]
+7723 11/13/2025 07:41:16 [Next State]: [006]
+7724 11/13/2025 07:41:16 [Function Identifier]: [5]
+7725 11/13/2025 07:41:17 Solicited Status  Send: Succeeded
+7726 11/13/2025 07:41:19 PIN Entered: 469345******2322
+7727 11/13/2025 07:41:28 Transaction Req. Send: Succeeded
+7728 11/13/2025 07:41:28 [OP Code]: [ABCAD   ]
+7729 11/13/2025 07:41:28 [Amount Entry Field]: [000000200000]
+7730 11/13/2025 07:41:28 [Last TSN]: [6161]
+7731 11/13/2025 07:41:29 Transaction Res. Received
+7732 11/13/2025 07:41:29 [Replied TSN]: [6162]
+7733 11/13/2025 07:41:29 [Next State]: [237]
+7734 11/13/2025 07:41:29 [Function Identifier]: [2]
+7735 11/13/2025 07:41:39 Notes Dispensed:
+IDR50000*4
+Total Amount IDR 200000
+A0870:B1003:C1999:D1880:E0006:F0000:R0000
+7736 11/13/2025 07:41:39 
+
+13/11/25 07:41        NO REF :6162       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2322    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0027401500062454
+JUMLAH  :       RP. 200,000.00  
+SALDO   :        RP. 20,681.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7737 11/13/2025 07:41:41 Cash Presented
+7738 11/13/2025 07:41:47 Printed Receipt Printer
+7739 11/13/2025 07:41:47 Solicited Status  Send: Succeeded
+7740 11/13/2025 07:41:49 Cash Taken
+7741 11/13/2025 07:41:52 Card Ejected
+7742 11/13/2025 07:41:52 Card Removed
+7743 11/13/2025 07:41:52 <== Transaction End
+7744 11/13/2025 07:50:24 ==> Transaction Start
+7745 11/13/2025 07:50:24 Face Camera OK | Hand Camera OK
+7746 11/13/2025 07:50:24 Terminal Id: 1649 Machine Sequence No: 043166
+7747 11/13/2025 07:50:24 Card Inserted
+7748 11/13/2025 07:50:29 Card Number: 421570******1304
+7749 11/13/2025 07:50:31 Transaction Req. Send: Succeeded
+7750 11/13/2025 07:50:31 [OP Code]: [BBBBBBBD]
+7751 11/13/2025 07:50:31 [Amount Entry Field]: [000000000000]
+7752 11/13/2025 07:50:31 [Last TSN]: [6162]
+7753 11/13/2025 07:50:32 Transaction Res. Received
+7754 11/13/2025 07:50:32 [Replied TSN]: [6163]
+7755 11/13/2025 07:50:32 [Next State]: [006]
+7756 11/13/2025 07:50:32 [Function Identifier]: [5]
+7757 11/13/2025 07:50:32 Solicited Status  Send: Succeeded
+7758 11/13/2025 07:50:35 PIN Entered: 421570******1304
+7759 11/13/2025 07:50:39 Transaction Req. Send: Succeeded
+7760 11/13/2025 07:50:39 [OP Code]: [ABGAD   ]
+7761 11/13/2025 07:50:39 [Amount Entry Field]: [000000000000]
+7762 11/13/2025 07:50:39 [Last TSN]: [6163]
+7763 11/13/2025 07:50:39 Transaction Res. Received
+7764 11/13/2025 07:50:39 [Replied TSN]: [6164]
+7765 11/13/2025 07:50:39 [Next State]: [237]
+7766 11/13/2025 07:50:39 [Function Identifier]: [2]
+7767 11/13/2025 07:50:50 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0870:B1003:C1999:D1870:E0006:F0000:R0000
+7768 11/13/2025 07:50:51 
+
+13/11/25 07:50        NO REF :6164       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1304    
+
+PENARIKAN TUNAI             
+REKENING: 0013801580007666
+JUMLAH  :       RP. 500,000.00  
+SALDO   :       RP. 355,688.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7769 11/13/2025 07:50:53 Cash Presented
+7770 11/13/2025 07:50:58 Printed Receipt Printer
+7771 11/13/2025 07:50:58 Solicited Status  Send: Succeeded
+7772 11/13/2025 07:50:59 Cash Taken
+7773 11/13/2025 07:51:02 Card Ejected
+7774 11/13/2025 07:51:03 Card Removed
+7775 11/13/2025 07:51:03 <== Transaction End
+7776 11/13/2025 08:04:04 ==> Transaction Start
+7777 11/13/2025 08:04:04 Face Camera OK | Hand Camera OK
+7778 11/13/2025 08:04:04 Terminal Id: 1649 Machine Sequence No: 043167
+7779 11/13/2025 08:04:04 Card Inserted
+7780 11/13/2025 08:04:10 Card Number: 537941******6844
+7781 11/13/2025 08:04:12 Transaction Req. Send: Succeeded
+7782 11/13/2025 08:04:12 [OP Code]: [BBBBBBBD]
+7783 11/13/2025 08:04:12 [Amount Entry Field]: [000000000000]
+7784 11/13/2025 08:04:12 [Last TSN]: [6164]
+7785 11/13/2025 08:04:12 Transaction Res. Received
+7786 11/13/2025 08:04:12 [Replied TSN]: [6165]
+7787 11/13/2025 08:04:12 [Next State]: [EB1]
+7788 11/13/2025 08:04:12 [Function Identifier]: [5]
+7789 11/13/2025 08:04:12 Solicited Status  Send: Succeeded
+7790 11/13/2025 08:04:18 PIN Entered: 537941******6844
+7791 11/13/2025 08:04:39 Transaction Req. Send: Succeeded
+7792 11/13/2025 08:04:39 [OP Code]: [A  A BD ]
+7793 11/13/2025 08:04:39 [Amount Entry Field]: [000000750000]
+7794 11/13/2025 08:04:39 [Last TSN]: [6165]
+7795 11/13/2025 08:04:39 Transaction Res. Received
+7796 11/13/2025 08:04:39 [Replied TSN]: [6166]
+7797 11/13/2025 08:04:39 [Next State]: [EM0]
+7798 11/13/2025 08:04:39 [Function Identifier]: [2]
+7799 11/13/2025 08:04:51 Notes Dispensed:
+IDR50000*15
+Total Amount IDR 750000
+A0870:B1003:C1999:D1855:E0006:F0000:R0000
+7800 11/13/2025 08:04:51 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 08:04:22 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6166              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:537941******6844       
+NILAI   :      RP. 750,000.00  
+SALDO   :      RP. 114,454.00  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+7801 11/13/2025 08:04:53 Cash Presented
+7802 11/13/2025 08:05:00 Printed Receipt Printer
+7803 11/13/2025 08:05:00 Solicited Status  Send: Succeeded
+7804 11/13/2025 08:05:00 Cash Taken
+7805 11/13/2025 08:05:04 Card Ejected
+7806 11/13/2025 08:05:04 Card Removed
+7807 11/13/2025 08:05:04 <== Transaction End
+7808 11/13/2025 08:07:12 ==> Transaction Start
+7809 11/13/2025 08:07:12 Face Camera OK | Hand Camera OK
+7810 11/13/2025 08:07:12 Terminal Id: 1649 Machine Sequence No: 043168
+7811 11/13/2025 08:07:12 Card Inserted
+7812 11/13/2025 08:07:15 Card Number: 485447******2004
+7813 11/13/2025 08:07:18 Transaction Req. Send: Succeeded
+7814 11/13/2025 08:07:18 [OP Code]: [BBBBBBBD]
+7815 11/13/2025 08:07:18 [Amount Entry Field]: [000000000000]
+7816 11/13/2025 08:07:18 [Last TSN]: [6166]
+7817 11/13/2025 08:07:18 Transaction Res. Received
+7818 11/13/2025 08:07:18 [Replied TSN]: [6167]
+7819 11/13/2025 08:07:18 [Next State]: [006]
+7820 11/13/2025 08:07:18 [Function Identifier]: [5]
+7821 11/13/2025 08:07:19 Solicited Status  Send: Succeeded
+7822 11/13/2025 08:07:23 PIN Entered: 485447******2004
+7823 11/13/2025 08:07:30 Transaction Req. Send: Succeeded
+7824 11/13/2025 08:07:30 [OP Code]: [ABHAD   ]
+7825 11/13/2025 08:07:30 [Amount Entry Field]: [000000000000]
+7826 11/13/2025 08:07:30 [Last TSN]: [6167]
+7827 11/13/2025 08:07:31 Transaction Res. Received
+7828 11/13/2025 08:07:31 [Replied TSN]: [6168]
+7829 11/13/2025 08:07:31 [Next State]: [237]
+7830 11/13/2025 08:07:31 [Function Identifier]: [2]
+7831 11/13/2025 08:07:41 Notes Dispensed:
+IDR50000*6
+Total Amount IDR 300000
+A0870:B1003:C1999:D1849:E0006:F0000:R0000
+7832 11/13/2025 08:07:41 
+
+13/11/25 08:07        NO REF :6168       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2004    
+
+PENARIKAN TUNAI             
+REKENING: 0013801500092829
+JUMLAH  :       RP. 300,000.00  
+SALDO   :     RP. 1,438,042.27  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7833 11/13/2025 08:07:43 Cash Presented
+7834 11/13/2025 08:07:49 Printed Receipt Printer
+7835 11/13/2025 08:07:49 Solicited Status  Send: Succeeded
+7836 11/13/2025 08:07:50 Cash Taken
+7837 11/13/2025 08:07:53 Card Ejected
+7838 11/13/2025 08:07:54 Card Removed
+7839 11/13/2025 08:07:54 <== Transaction End
+7840 11/13/2025 08:16:27 ==> Transaction Start
+7841 11/13/2025 08:16:27 Face Camera OK | Hand Camera OK
+7842 11/13/2025 08:16:27 Terminal Id: 1649 Machine Sequence No: 043169
+7843 11/13/2025 08:16:27 Card Inserted
+7844 11/13/2025 08:16:32 Card Number: 461699******3717
+7845 11/13/2025 08:16:34 Transaction Req. Send: Succeeded
+7846 11/13/2025 08:16:34 [OP Code]: [BBBBBBBD]
+7847 11/13/2025 08:16:34 [Amount Entry Field]: [000000000000]
+7848 11/13/2025 08:16:34 [Last TSN]: [6168]
+7849 11/13/2025 08:16:35 Transaction Res. Received
+7850 11/13/2025 08:16:35 [Replied TSN]: [6169]
+7851 11/13/2025 08:16:35 [Next State]: [G52]
+7852 11/13/2025 08:16:35 [Function Identifier]: [5]
+7853 11/13/2025 08:16:35 Solicited Status  Send: Succeeded
+7854 11/13/2025 08:16:45 PIN Entered: 461699******3717
+7855 11/13/2025 08:17:03 Transaction Req. Send: Succeeded
+7856 11/13/2025 08:17:03 [OP Code]: [C   B BD]
+7857 11/13/2025 08:17:03 [Amount Entry Field]: [000000100000]
+7858 11/13/2025 08:17:03 [Last TSN]: [6169]
+7859 11/13/2025 08:17:04 Transaction Res. Received
+7860 11/13/2025 08:17:04 [Replied TSN]: [6170]
+7861 11/13/2025 08:17:04 [Next State]: [237]
+7862 11/13/2025 08:17:04 [Function Identifier]: [2]
+7863 11/13/2025 08:17:14 Notes Dispensed:
+IDR100000*1
+Total Amount IDR 100000
+A0869:B1003:C1999:D1849:E0006:F0000:R0000
+7864 11/13/2025 08:17:14 
+
+13/11/25 08:16        NO REF :6170      
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO REFF :6170              
+TARIK TUNAI LINK           
+NO KARTU:XXXXXXXXXXXX3717  
+NILAI   :        RP. 100,000.00   
+SALDO   :        RP. 428,086.00   
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+7865 11/13/2025 08:17:16 Cash Presented
+7866 11/13/2025 08:17:22 Printed Receipt Printer
+7867 11/13/2025 08:17:22 Solicited Status  Send: Succeeded
+7868 11/13/2025 08:17:23 Cash Taken
+7869 11/13/2025 08:17:27 Card Ejected
+7870 11/13/2025 08:17:28 Card Removed
+7871 11/13/2025 08:17:28 <== Transaction End
+7872 11/13/2025 08:18:33 ==> Transaction Start
+7873 11/13/2025 08:18:33 Face Camera OK | Hand Camera OK
+7874 11/13/2025 08:18:33 Terminal Id: 1649 Machine Sequence No: 043170
+7875 11/13/2025 08:18:33 Card Inserted
+7876 11/13/2025 08:18:38 Card Number: 622100******6329
+7877 11/13/2025 08:18:41 Transaction Req. Send: Succeeded
+7878 11/13/2025 08:18:41 [OP Code]: [BBBBBBBD]
+7879 11/13/2025 08:18:41 [Amount Entry Field]: [000000000000]
+7880 11/13/2025 08:18:41 [Last TSN]: [6170]
+7881 11/13/2025 08:18:42 Transaction Res. Received
+7882 11/13/2025 08:18:42 [Replied TSN]: [6171]
+7883 11/13/2025 08:18:42 [Next State]: [006]
+7884 11/13/2025 08:18:42 [Function Identifier]: [5]
+7885 11/13/2025 08:18:42 Solicited Status  Send: Succeeded
+7886 11/13/2025 08:18:46 PIN Entered: 622100******6329
+7887 11/13/2025 08:19:24 Transaction Req. Send: Succeeded
+7888 11/13/2025 08:19:24 [OP Code]: [ACIB  B ]
+7889 11/13/2025 08:19:24 [Amount Entry Field]: [000000500000]
+7890 11/13/2025 08:19:24 [Last TSN]: [6171]
+7891 11/13/2025 08:19:25 Transaction Res. Received
+7892 11/13/2025 08:19:25 [Replied TSN]: [6172]
+7893 11/13/2025 08:19:25 [Next State]: [C6C]
+7894 11/13/2025 08:19:25 [Function Identifier]: [5]
+7895 11/13/2025 08:19:25 Solicited Status  Send: Succeeded
+7896 11/13/2025 08:19:28 Card Number: 622100******6329
+7897 11/13/2025 08:19:34 Transaction Req. Send: Succeeded
+7898 11/13/2025 08:19:34 [OP Code]: [ACIB  BC]
+7899 11/13/2025 08:19:34 [Amount Entry Field]: [000000500000]
+7900 11/13/2025 08:19:34 [Last TSN]: [6172]
+7901 11/13/2025 08:19:36 Transaction Res. Received
+7902 11/13/2025 08:19:36 [Replied TSN]: [6173]
+7903 11/13/2025 08:19:36 [Next State]: [245]
+7904 11/13/2025 08:19:36 [Function Identifier]: [5]
+7905 11/13/2025 08:19:36 
+
+13/11/25 08:19        NO REF :6173       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6329    
+
+TRANSFER - ALTO             
+
+DARI    :BTN                  
+NAMA    :SUTARTO              
+NO REK  :0000001601501301384  
+REFF    :                     
+TUJUAN  :KALBAR              
+NAMA    :DANURIANDI                    
+NO REK  :5025266610           
+JUMLAH  :RP.    500,000.00    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+         TERIMA KASIH      
+ANDA TELAH MENGGUNAKAN     
+         ATM BANK BTN   
+
+7906 11/13/2025 08:19:43 Printed Receipt Printer
+7907 11/13/2025 08:19:43 Solicited Status  Send: Succeeded
+7908 11/13/2025 08:19:47 Card Ejected
+7909 11/13/2025 08:19:48 Card Removed
+7910 11/13/2025 08:19:48 <== Transaction End
+7911 11/13/2025 08:26:16 ==> Transaction Start
+7912 11/13/2025 08:26:16 Face Camera OK | Hand Camera OK
+7913 11/13/2025 08:26:16 Terminal Id: 1649 Machine Sequence No: 043171
+7914 11/13/2025 08:26:16 Card Inserted
+7915 11/13/2025 08:26:21 Card Number: 622011********9274
+7916 11/13/2025 08:26:23 Transaction Req. Send: Succeeded
+7917 11/13/2025 08:26:23 [OP Code]: [BBBBBBBD]
+7918 11/13/2025 08:26:23 [Amount Entry Field]: [000000000000]
+7919 11/13/2025 08:26:23 [Last TSN]: [6173]
+7920 11/13/2025 08:26:25 Transaction Res. Received
+7921 11/13/2025 08:26:25 [Replied TSN]: [6174]
+7922 11/13/2025 08:26:25 [Next State]: [EB1]
+7923 11/13/2025 08:26:25 [Function Identifier]: [5]
+7924 11/13/2025 08:26:25 Solicited Status  Send: Succeeded
+7925 11/13/2025 08:26:33 PIN Entered: 622011********9274
+7926 11/13/2025 08:27:09 Transaction Req. Send: Succeeded
+7927 11/13/2025 08:27:09 [OP Code]: [A  B BD ]
+7928 11/13/2025 08:27:09 [Amount Entry Field]: [000004000000]
+7929 11/13/2025 08:27:09 [Last TSN]: [6174]
+7930 11/13/2025 08:27:10 Transaction Res. Received
+7931 11/13/2025 08:27:10 [Replied TSN]: [6175]
+7932 11/13/2025 08:27:10 [Next State]: [294]
+7933 11/13/2025 08:27:10 [Function Identifier]: [5]
+7934 11/13/2025 08:27:10 
+
+13/11/25 08:26       NO REF :6175       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6692    
+
+ERROR2 SCREEN                           
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+7935 11/13/2025 08:27:16 Printed Receipt Printer
+7936 11/13/2025 08:27:16 Solicited Status  Send: Succeeded
+7937 11/13/2025 08:27:18 Card Ejected
+7938 11/13/2025 08:27:22 Card Removed
+7939 11/13/2025 08:27:22 <== Transaction End
+7940 11/13/2025 08:29:55 ==> Transaction Start
+7941 11/13/2025 08:29:55 Face Camera OK | Hand Camera OK
+7942 11/13/2025 08:29:55 Terminal Id: 1649 Machine Sequence No: 043172
+7943 11/13/2025 08:29:55 Card Inserted
+7944 11/13/2025 08:30:00 Card Number: 622100******6754
+7945 11/13/2025 08:30:02 Transaction Req. Send: Succeeded
+7946 11/13/2025 08:30:02 [OP Code]: [BBBBBBBD]
+7947 11/13/2025 08:30:02 [Amount Entry Field]: [000000000000]
+7948 11/13/2025 08:30:02 [Last TSN]: [6175]
+7949 11/13/2025 08:30:03 Transaction Res. Received
+7950 11/13/2025 08:30:03 [Replied TSN]: [6176]
+7951 11/13/2025 08:30:03 [Next State]: [006]
+7952 11/13/2025 08:30:03 [Function Identifier]: [5]
+7953 11/13/2025 08:30:03 Solicited Status  Send: Succeeded
+7954 11/13/2025 08:30:05 PIN Entered: 622100******6754
+7955 11/13/2025 08:30:13 Transaction Req. Send: Succeeded
+7956 11/13/2025 08:30:13 [OP Code]: [ABCAD   ]
+7957 11/13/2025 08:30:13 [Amount Entry Field]: [000000050000]
+7958 11/13/2025 08:30:13 [Last TSN]: [6176]
+7959 11/13/2025 08:30:13 Transaction Res. Received
+7960 11/13/2025 08:30:13 [Replied TSN]: [6177]
+7961 11/13/2025 08:30:13 [Next State]: [237]
+7962 11/13/2025 08:30:13 [Function Identifier]: [2]
+7963 11/13/2025 08:30:23 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0869:B1003:C1999:D1848:E0006:F0000:R0000
+7964 11/13/2025 08:30:23 
+
+13/11/25 08:29        NO REF :6177       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6754    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801560003145
+JUMLAH  :        RP. 50,000.00  
+SALDO   :         RP. 4,968.78  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7965 11/13/2025 08:30:25 Cash Presented
+7966 11/13/2025 08:30:30 Printed Receipt Printer
+7967 11/13/2025 08:30:30 Solicited Status  Send: Succeeded
+7968 11/13/2025 08:30:31 Cash Taken
+7969 11/13/2025 08:30:34 Card Ejected
+7970 11/13/2025 08:30:34 Card Removed
+7971 11/13/2025 08:30:35 <== Transaction End
+7972 11/13/2025 08:33:54 ==> Transaction Start
+7973 11/13/2025 08:33:54 Face Camera OK | Hand Camera OK
+7974 11/13/2025 08:33:54 Terminal Id: 1649 Machine Sequence No: 043173
+7975 11/13/2025 08:33:54 Card Inserted
+7976 11/13/2025 08:33:58 Card Number: 421570******0798
+7977 11/13/2025 08:34:02 Transaction Req. Send: Succeeded
+7978 11/13/2025 08:34:02 [OP Code]: [BBBBBBBD]
+7979 11/13/2025 08:34:02 [Amount Entry Field]: [000000000000]
+7980 11/13/2025 08:34:02 [Last TSN]: [6177]
+7981 11/13/2025 08:34:02 Transaction Res. Received
+7982 11/13/2025 08:34:02 [Replied TSN]: [6178]
+7983 11/13/2025 08:34:02 [Next State]: [006]
+7984 11/13/2025 08:34:02 [Function Identifier]: [5]
+7985 11/13/2025 08:34:02 Solicited Status  Send: Succeeded
+7986 11/13/2025 08:34:09 PIN Entered: 421570******0798
+7987 11/13/2025 08:34:17 Transaction Req. Send: Succeeded
+7988 11/13/2025 08:34:17 [OP Code]: [ABABD   ]
+7989 11/13/2025 08:34:17 [Amount Entry Field]: [000000000000]
+7990 11/13/2025 08:34:17 [Last TSN]: [6178]
+7991 11/13/2025 08:34:18 Transaction Res. Received
+7992 11/13/2025 08:34:18 [Replied TSN]: [6179]
+7993 11/13/2025 08:34:18 [Next State]: [237]
+7994 11/13/2025 08:34:18 [Function Identifier]: [2]
+7995 11/13/2025 08:34:29 Notes Dispensed:
+IDR100000*10
+Total Amount IDR 1000000
+A0859:B1003:C1999:D1848:E0006:F0000:R0000
+7996 11/13/2025 08:34:29 
+
+13/11/25 08:34        NO REF :6179       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX0798    
+
+PENARIKAN TUNAI             
+REKENING: 0013801500189862
+JUMLAH  :     RP. 1,000,000.00  
+SALDO   :     RP. 2,641,561.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+7997 11/13/2025 08:34:31 Cash Presented
+7998 11/13/2025 08:34:37 Printed Receipt Printer
+7999 11/13/2025 08:34:37 Solicited Status  Send: Succeeded
+8000 11/13/2025 08:34:38 Cash Taken
+8001 11/13/2025 08:34:42 Card Ejected
+8002 11/13/2025 08:34:42 Card Removed
+8003 11/13/2025 08:34:42 <== Transaction End
+8004 11/13/2025 09:05:23 ==> Transaction Start
+8005 11/13/2025 09:05:23 Face Camera OK | Hand Camera OK
+8006 11/13/2025 09:05:23 Terminal Id: 1649 Machine Sequence No: 043174
+8007 11/13/2025 09:05:23 Card Inserted
+8008 11/13/2025 09:05:28 Card Number: 502996******5673
+8009 11/13/2025 09:05:30 Transaction Req. Send: Succeeded
+8010 11/13/2025 09:05:30 [OP Code]: [BBBBBBBD]
+8011 11/13/2025 09:05:30 [Amount Entry Field]: [000000000000]
+8012 11/13/2025 09:05:30 [Last TSN]: [6179]
+8013 11/13/2025 09:05:30 Transaction Res. Received
+8014 11/13/2025 09:05:30 [Replied TSN]: [6180]
+8015 11/13/2025 09:05:30 [Next State]: [EB1]
+8016 11/13/2025 09:05:30 [Function Identifier]: [5]
+8017 11/13/2025 09:05:30 Solicited Status  Send: Succeeded
+8018 11/13/2025 09:05:38 PIN Entered: 502996******5673
+8019 11/13/2025 09:05:46 Transaction Req. Send: Succeeded
+8020 11/13/2025 09:05:46 [OP Code]: [A    AD ]
+8021 11/13/2025 09:05:46 [Amount Entry Field]: [000000000000]
+8022 11/13/2025 09:05:46 [Last TSN]: [6180]
+8023 11/13/2025 09:05:48 Transaction Res. Received
+8024 11/13/2025 09:05:48 [Replied TSN]: [6181]
+8025 11/13/2025 09:05:48 [Next State]: [EM0]
+8026 11/13/2025 09:05:48 [Function Identifier]: [5]
+8027 11/13/2025 09:05:48 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 09:05:29 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+NO REF  :6181              
+INFORMASI SALDO REK.TABUNGAN         
+ 
+NO KARTU:502996******5673      
+SALDO   :    RP. 2,518,899.57    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8028 11/13/2025 09:05:55 Printed Receipt Printer
+8029 11/13/2025 09:05:55 Solicited Status  Send: Succeeded
+8030 11/13/2025 09:06:03 Card Number: 502996******5673
+8031 11/13/2025 09:06:04 Transaction Req. Send: Succeeded
+8032 11/13/2025 09:06:04 [OP Code]: [BBBBBBBD]
+8033 11/13/2025 09:06:04 [Amount Entry Field]: [000000000000]
+8034 11/13/2025 09:06:04 [Last TSN]: [6181]
+8035 11/13/2025 09:06:04 Transaction Res. Received
+8036 11/13/2025 09:06:04 [Replied TSN]: [6182]
+8037 11/13/2025 09:06:04 [Next State]: [EB1]
+8038 11/13/2025 09:06:04 [Function Identifier]: [5]
+8039 11/13/2025 09:06:04 Solicited Status  Send: Succeeded
+8040 11/13/2025 09:06:13 PIN Entered: 502996******5673
+8041 11/13/2025 09:06:28 Transaction Req. Send: Succeeded
+8042 11/13/2025 09:06:28 [OP Code]: [A  A BD ]
+8043 11/13/2025 09:06:28 [Amount Entry Field]: [000000500000]
+8044 11/13/2025 09:06:28 [Last TSN]: [6182]
+8045 11/13/2025 09:06:31 Transaction Res. Received
+8046 11/13/2025 09:06:31 [Replied TSN]: [6183]
+8047 11/13/2025 09:06:31 [Next State]: [EM0]
+8048 11/13/2025 09:06:31 [Function Identifier]: [2]
+8049 11/13/2025 09:06:42 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0859:B1003:C1999:D1838:E0006:F0000:R0000
+8050 11/13/2025 09:06:42 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 09:06:10 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6183              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:502996******5673       
+NILAI   :      RP. 500,000.00  
+SALDO   :    RP. 2,011,399.57  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8051 11/13/2025 09:06:44 Cash Presented
+8052 11/13/2025 09:06:51 Printed Receipt Printer
+8053 11/13/2025 09:06:51 Solicited Status  Send: Succeeded
+8054 11/13/2025 09:06:51 Cash Taken
+8055 11/13/2025 09:07:00 Card Ejected
+8056 11/13/2025 09:07:01 Card Removed
+8057 11/13/2025 09:07:01 <== Transaction End
+8058 11/13/2025 09:07:12 ==> Transaction Start
+8059 11/13/2025 09:07:12 Face Camera OK | Hand Camera OK
+8060 11/13/2025 09:07:12 Terminal Id: 1649 Machine Sequence No: 043175
+8061 11/13/2025 09:07:12 Card Inserted
+8062 11/13/2025 09:07:18 Card Number: 537941******0194
+8063 11/13/2025 09:07:20 Transaction Req. Send: Succeeded
+8064 11/13/2025 09:07:20 [OP Code]: [BBBBBBBD]
+8065 11/13/2025 09:07:20 [Amount Entry Field]: [000000000000]
+8066 11/13/2025 09:07:20 [Last TSN]: [6183]
+8067 11/13/2025 09:07:21 Transaction Res. Received
+8068 11/13/2025 09:07:21 [Replied TSN]: [6184]
+8069 11/13/2025 09:07:21 [Next State]: [EB1]
+8070 11/13/2025 09:07:21 [Function Identifier]: [5]
+8071 11/13/2025 09:07:21 Solicited Status  Send: Succeeded
+8072 11/13/2025 09:07:30 PIN Entered: 537941******0194
+8073 11/13/2025 09:07:36 Transaction Req. Send: Succeeded
+8074 11/13/2025 09:07:36 [OP Code]: [A    AD ]
+8075 11/13/2025 09:07:36 [Amount Entry Field]: [000000000000]
+8076 11/13/2025 09:07:36 [Last TSN]: [6184]
+8077 11/13/2025 09:07:37 Transaction Res. Received
+8078 11/13/2025 09:07:37 [Replied TSN]: [6185]
+8079 11/13/2025 09:07:37 [Next State]: [EM0]
+8080 11/13/2025 09:07:37 [Function Identifier]: [5]
+8081 11/13/2025 09:07:37 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 09:07:18 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+NO REF  :6185              
+INFORMASI SALDO REK.TABUNGAN         
+ 
+NO KARTU:537941******0194      
+SALDO   :   RP. 17,421,934.00    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8082 11/13/2025 09:07:44 Printed Receipt Printer
+8083 11/13/2025 09:07:44 Solicited Status  Send: Succeeded
+8084 11/13/2025 09:08:07 Card Number: 537941******0194
+8085 11/13/2025 09:08:07 Transaction Req. Send: Succeeded
+8086 11/13/2025 09:08:07 [OP Code]: [BBBBBBBD]
+8087 11/13/2025 09:08:07 [Amount Entry Field]: [000000000000]
+8088 11/13/2025 09:08:07 [Last TSN]: [6185]
+8089 11/13/2025 09:08:08 Transaction Res. Received
+8090 11/13/2025 09:08:08 [Replied TSN]: [6186]
+8091 11/13/2025 09:08:08 [Next State]: [EB1]
+8092 11/13/2025 09:08:08 [Function Identifier]: [5]
+8093 11/13/2025 09:08:08 Solicited Status  Send: Succeeded
+8094 11/13/2025 09:08:16 PIN Entered: 537941******0194
+8095 11/13/2025 09:08:32 Transaction Req. Send: Succeeded
+8096 11/13/2025 09:08:32 [OP Code]: [A  B BD ]
+8097 11/13/2025 09:08:32 [Amount Entry Field]: [000000200000]
+8098 11/13/2025 09:08:32 [Last TSN]: [6186]
+8099 11/13/2025 09:08:33 Transaction Res. Received
+8100 11/13/2025 09:08:33 [Replied TSN]: [6187]
+8101 11/13/2025 09:08:33 [Next State]: [EM0]
+8102 11/13/2025 09:08:33 [Function Identifier]: [2]
+8103 11/13/2025 09:08:43 Notes Dispensed:
+IDR100000*2
+Total Amount IDR 200000
+A0857:B1003:C1999:D1838:E0006:F0000:R0000
+8104 11/13/2025 09:08:43 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 09:08:15 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6187              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:537941******0194       
+NILAI   :      RP. 200,000.00  
+SALDO   :   RP. 17,214,434.00  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8105 11/13/2025 09:08:45 Cash Presented
+8106 11/13/2025 09:08:52 Printed Receipt Printer
+8107 11/13/2025 09:08:52 Solicited Status  Send: Succeeded
+8108 11/13/2025 09:08:52 Cash Taken
+8109 11/13/2025 09:08:57 Card Ejected
+8110 11/13/2025 09:08:59 Card Removed
+8111 11/13/2025 09:08:59 <== Transaction End
+8112 11/13/2025 09:09:55 ==> Transaction Start
+8113 11/13/2025 09:09:55 Face Camera OK | Hand Camera OK
+8114 11/13/2025 09:09:55 Terminal Id: 1649 Machine Sequence No: 043176
+8115 11/13/2025 09:09:55 Card Inserted
+8116 11/13/2025 09:09:59 Card Number: 622100******8360
+8117 11/13/2025 09:10:02 Transaction Req. Send: Succeeded
+8118 11/13/2025 09:10:02 [OP Code]: [BBBBBBBD]
+8119 11/13/2025 09:10:02 [Amount Entry Field]: [000000000000]
+8120 11/13/2025 09:10:02 [Last TSN]: [6187]
+8121 11/13/2025 09:10:02 Transaction Res. Received
+8122 11/13/2025 09:10:02 [Replied TSN]: [6188]
+8123 11/13/2025 09:10:02 [Next State]: [006]
+8124 11/13/2025 09:10:02 [Function Identifier]: [5]
+8125 11/13/2025 09:10:02 Solicited Status  Send: Succeeded
+8126 11/13/2025 09:10:05 PIN Entered: 622100******8360
+8127 11/13/2025 09:10:10 Transaction Req. Send: Succeeded
+8128 11/13/2025 09:10:10 [OP Code]: [ABGBD   ]
+8129 11/13/2025 09:10:10 [Amount Entry Field]: [000000000000]
+8130 11/13/2025 09:10:10 [Last TSN]: [6188]
+8131 11/13/2025 09:10:11 Transaction Res. Received
+8132 11/13/2025 09:10:11 [Replied TSN]: [6189]
+8133 11/13/2025 09:10:11 [Next State]: [237]
+8134 11/13/2025 09:10:11 [Function Identifier]: [2]
+8135 11/13/2025 09:10:21 Notes Dispensed:
+IDR100000*5
+Total Amount IDR 500000
+A0852:B1003:C1999:D1838:E0006:F0000:R0000
+8136 11/13/2025 09:10:21 
+
+13/11/25 09:09        NO REF :6189       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8360    
+
+PENARIKAN TUNAI             
+REKENING: 0013801560009913
+JUMLAH  :       RP. 500,000.00  
+SALDO   :     RP. 1,329,834.96  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8137 11/13/2025 09:10:23 Cash Presented
+8138 11/13/2025 09:10:29 Printed Receipt Printer
+8139 11/13/2025 09:10:29 Solicited Status  Send: Succeeded
+8140 11/13/2025 09:10:30 Cash Taken
+8141 11/13/2025 09:10:34 Card Ejected
+8142 11/13/2025 09:10:35 Card Removed
+8143 11/13/2025 09:10:35 <== Transaction End
+8144 11/13/2025 09:38:06 ==> Transaction Start
+8145 11/13/2025 09:38:06 Face Camera OK | Hand Camera OK
+8146 11/13/2025 09:38:06 Terminal Id: 1649 Machine Sequence No: 043177
+8147 11/13/2025 09:38:06 Card Inserted
+8148 11/13/2025 09:38:11 Card Number: 622100******8515
+8149 11/13/2025 09:38:13 Transaction Req. Send: Succeeded
+8150 11/13/2025 09:38:13 [OP Code]: [BBBBBBBD]
+8151 11/13/2025 09:38:13 [Amount Entry Field]: [000000000000]
+8152 11/13/2025 09:38:13 [Last TSN]: [6189]
+8153 11/13/2025 09:38:14 Transaction Res. Received
+8154 11/13/2025 09:38:14 [Replied TSN]: [6190]
+8155 11/13/2025 09:38:14 [Next State]: [006]
+8156 11/13/2025 09:38:14 [Function Identifier]: [5]
+8157 11/13/2025 09:38:14 Solicited Status  Send: Succeeded
+8158 11/13/2025 09:38:17 PIN Entered: 622100******8515
+8159 11/13/2025 09:38:25 Transaction Req. Send: Succeeded
+8160 11/13/2025 09:38:25 [OP Code]: [ABBBD   ]
+8161 11/13/2025 09:38:25 [Amount Entry Field]: [000000000000]
+8162 11/13/2025 09:38:25 [Last TSN]: [6190]
+8163 11/13/2025 09:38:25 Transaction Res. Received
+8164 11/13/2025 09:38:25 [Replied TSN]: [6191]
+8165 11/13/2025 09:38:25 [Next State]: [237]
+8166 11/13/2025 09:38:25 [Function Identifier]: [2]
+8167 11/13/2025 09:38:37 Notes Dispensed:
+IDR100000*15
+Total Amount IDR 1500000
+A0837:B1003:C1999:D1838:E0006:F0000:R0000
+8168 11/13/2025 09:38:37 
+
+13/11/25 09:38        NO REF :6191       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8515    
+
+PENARIKAN TUNAI             
+REKENING: 0013801560009159
+JUMLAH  :     RP. 1,500,000.00  
+SALDO   :    RP. 12,041,911.61  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8169 11/13/2025 09:38:39 Cash Presented
+8170 11/13/2025 09:38:44 Printed Receipt Printer
+8171 11/13/2025 09:38:44 Solicited Status  Send: Succeeded
+8172 11/13/2025 09:38:47 Cash Taken
+8173 11/13/2025 09:38:51 Card Ejected
+8174 11/13/2025 09:38:52 Card Removed
+8175 11/13/2025 09:38:52 <== Transaction End
+8176 11/13/2025 09:54:39 ==> Transaction Start
+8177 11/13/2025 09:54:39 Face Camera OK | Hand Camera OK
+8178 11/13/2025 09:54:39 Terminal Id: 1649 Machine Sequence No: 043178
+8179 11/13/2025 09:54:39 Card Inserted
+8180 11/13/2025 09:54:43 Card Number: 421570******3841
+8181 11/13/2025 09:54:48 Transaction Req. Send: Succeeded
+8182 11/13/2025 09:54:48 [OP Code]: [BBBBBBBD]
+8183 11/13/2025 09:54:48 [Amount Entry Field]: [000000000000]
+8184 11/13/2025 09:54:48 [Last TSN]: [6191]
+8185 11/13/2025 09:54:48 Transaction Res. Received
+8186 11/13/2025 09:54:48 [Replied TSN]: [6192]
+8187 11/13/2025 09:54:48 [Next State]: [006]
+8188 11/13/2025 09:54:48 [Function Identifier]: [5]
+8189 11/13/2025 09:54:48 Solicited Status  Send: Succeeded
+8190 11/13/2025 09:54:52 PIN Entered: 421570******3841
+8191 11/13/2025 09:55:00 Transaction Req. Send: Succeeded
+8192 11/13/2025 09:55:00 [OP Code]: [ABCAD   ]
+8193 11/13/2025 09:55:00 [Amount Entry Field]: [000000400000]
+8194 11/13/2025 09:55:00 [Last TSN]: [6192]
+8195 11/13/2025 09:55:00 Transaction Res. Received
+8196 11/13/2025 09:55:00 [Replied TSN]: [6193]
+8197 11/13/2025 09:55:00 [Next State]: [237]
+8198 11/13/2025 09:55:00 [Function Identifier]: [2]
+8199 11/13/2025 09:55:11 Notes Dispensed:
+IDR50000*8
+Total Amount IDR 400000
+A0837:B1003:C1999:D1830:E0006:F0000:R0000
+8200 11/13/2025 09:55:11 
+
+13/11/25 09:54        NO REF :6193       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3841    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0001601502263597
+JUMLAH  :       RP. 400,000.00  
+SALDO   :       RP. 254,301.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8201 11/13/2025 09:55:13 Cash Presented
+8202 11/13/2025 09:55:19 Printed Receipt Printer
+8203 11/13/2025 09:55:19 Solicited Status  Send: Succeeded
+8204 11/13/2025 09:55:20 Cash Taken
+8205 11/13/2025 09:55:24 Card Ejected
+8206 11/13/2025 09:55:24 Card Removed
+8207 11/13/2025 09:55:24 <== Transaction End
+8208 11/13/2025 10:11:07 ==> Transaction Start
+8209 11/13/2025 10:11:07 Face Camera OK | Hand Camera OK
+8210 11/13/2025 10:11:07 Terminal Id: 1649 Machine Sequence No: 043179
+8211 11/13/2025 10:11:07 Card Inserted
+8212 11/13/2025 10:11:10 Card Number: 421570******6106
+8213 11/13/2025 10:11:14 Transaction Req. Send: Succeeded
+8214 11/13/2025 10:11:14 [OP Code]: [BBBBBBBD]
+8215 11/13/2025 10:11:14 [Amount Entry Field]: [000000000000]
+8216 11/13/2025 10:11:14 [Last TSN]: [6193]
+8217 11/13/2025 10:11:14 Transaction Res. Received
+8218 11/13/2025 10:11:14 [Replied TSN]: [6194]
+8219 11/13/2025 10:11:14 [Next State]: [006]
+8220 11/13/2025 10:11:14 [Function Identifier]: [5]
+8221 11/13/2025 10:11:14 Solicited Status  Send: Succeeded
+8222 11/13/2025 10:11:18 PIN Entered: 421570******6106
+8223 11/13/2025 10:11:29 Transaction Req. Send: Succeeded
+8224 11/13/2025 10:11:29 [OP Code]: [ABCAD   ]
+8225 11/13/2025 10:11:29 [Amount Entry Field]: [000000200000]
+8226 11/13/2025 10:11:29 [Last TSN]: [6194]
+8227 11/13/2025 10:11:30 Transaction Res. Received
+8228 11/13/2025 10:11:30 [Replied TSN]: [6195]
+8229 11/13/2025 10:11:30 [Next State]: [237]
+8230 11/13/2025 10:11:30 [Function Identifier]: [2]
+8231 11/13/2025 10:11:40 Notes Dispensed:
+IDR50000*4
+Total Amount IDR 200000
+A0837:B1003:C1999:D1826:E0006:F0000:R0000
+8232 11/13/2025 10:11:40 
+
+13/11/25 10:11        NO REF :6195       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6106    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500138293
+JUMLAH  :       RP. 200,000.00  
+SALDO   :    RP. 18,619,767.10  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8233 11/13/2025 10:11:42 Cash Presented
+8234 11/13/2025 10:11:48 Printed Receipt Printer
+8235 11/13/2025 10:11:48 Solicited Status  Send: Succeeded
+8236 11/13/2025 10:11:49 Cash Taken
+8237 11/13/2025 10:11:53 Card Ejected
+8238 11/13/2025 10:11:53 Card Removed
+8239 11/13/2025 10:11:53 <== Transaction End
+8240 11/13/2025 10:27:17 ==> Transaction Start
+8241 11/13/2025 10:27:17 Face Camera OK | Hand Camera OK
+8242 11/13/2025 10:27:17 Terminal Id: 1649 Machine Sequence No: 043180
+8243 11/13/2025 10:27:17 Card Inserted
+8244 11/13/2025 10:27:22 Card Number: 622100******3124
+8245 11/13/2025 10:27:30 Transaction Req. Send: Succeeded
+8246 11/13/2025 10:27:30 [OP Code]: [BBBBBBBD]
+8247 11/13/2025 10:27:30 [Amount Entry Field]: [000000000000]
+8248 11/13/2025 10:27:30 [Last TSN]: [6195]
+8249 11/13/2025 10:27:31 Transaction Res. Received
+8250 11/13/2025 10:27:31 [Replied TSN]: [6196]
+8251 11/13/2025 10:27:31 [Next State]: [006]
+8252 11/13/2025 10:27:31 [Function Identifier]: [5]
+8253 11/13/2025 10:27:31 Solicited Status  Send: Succeeded
+8254 11/13/2025 10:27:40 PIN Entered: 622100******3124
+8255 11/13/2025 10:27:51 Transaction Req. Send: Succeeded
+8256 11/13/2025 10:27:51 [OP Code]: [ABBAD   ]
+8257 11/13/2025 10:27:51 [Amount Entry Field]: [000000000000]
+8258 11/13/2025 10:27:51 [Last TSN]: [6196]
+8259 11/13/2025 10:27:52 Transaction Res. Received
+8260 11/13/2025 10:27:52 [Replied TSN]: [6197]
+8261 11/13/2025 10:27:52 [Next State]: [237]
+8262 11/13/2025 10:27:52 [Function Identifier]: [2]
+8263 11/13/2025 10:28:06 Notes Dispensed:
+IDR50000*30
+Total Amount IDR 1500000
+A0837:B1003:C1999:D1796:E0006:F0000:R0000
+8264 11/13/2025 10:28:06 
+
+13/11/25 10:27        NO REF :6197       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3124    
+
+PENARIKAN TUNAI             
+REKENING: 0013801560006850
+JUMLAH  :     RP. 1,500,000.00  
+SALDO   :     RP. 2,670,529.11  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8265 11/13/2025 10:28:08 Cash Presented
+8266 11/13/2025 10:28:14 Printed Receipt Printer
+8267 11/13/2025 10:28:14 Solicited Status  Send: Succeeded
+8268 11/13/2025 10:28:16 Cash Taken
+8269 11/13/2025 10:28:24 Card Ejected
+8270 11/13/2025 10:28:27 Card Removed
+8271 11/13/2025 10:28:27 <== Transaction End
+8272 11/13/2025 11:02:22 ==> Transaction Start
+8273 11/13/2025 11:02:22 Face Camera OK | Hand Camera OK
+8274 11/13/2025 11:02:22 Terminal Id: 1649 Machine Sequence No: 043181
+8275 11/13/2025 11:02:22 Card Inserted
+8276 11/13/2025 11:02:26 Card Number: 622100******7487
+8277 11/13/2025 11:02:32 Transaction Req. Send: Succeeded
+8278 11/13/2025 11:02:32 [OP Code]: [BBBBBBBD]
+8279 11/13/2025 11:02:32 [Amount Entry Field]: [000000000000]
+8280 11/13/2025 11:02:32 [Last TSN]: [6197]
+8281 11/13/2025 11:02:33 Transaction Res. Received
+8282 11/13/2025 11:02:33 [Replied TSN]: [6198]
+8283 11/13/2025 11:02:33 [Next State]: [006]
+8284 11/13/2025 11:02:33 [Function Identifier]: [5]
+8285 11/13/2025 11:02:34 Solicited Status  Send: Succeeded
+8286 11/13/2025 11:02:38 PIN Entered: 622100******7487
+8287 11/13/2025 11:02:47 Transaction Req. Send: Succeeded
+8288 11/13/2025 11:02:47 [OP Code]: [ACAB    ]
+8289 11/13/2025 11:02:47 [Amount Entry Field]: [000000000000]
+8290 11/13/2025 11:02:47 [Last TSN]: [6198]
+8291 11/13/2025 11:02:47 Transaction Res. Received
+8292 11/13/2025 11:02:47 [Replied TSN]: [6199]
+8293 11/13/2025 11:02:47 [Next State]: [245]
+8294 11/13/2025 11:02:47 [Function Identifier]: [5]
+8295 11/13/2025 11:02:48 
+
+13/11/25 11:02        NO REF :6199       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7487    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0013801560008755   
+SALDO TERSEDIA :    RP. 8,933,180.52  
+SALDO          :    RP. 8,953,180.52  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8296 11/13/2025 11:02:54 Printed Receipt Printer
+8297 11/13/2025 11:02:54 Solicited Status  Send: Succeeded
+8298 11/13/2025 11:03:02 Card Number: 622100******7487
+8299 11/13/2025 11:03:07 PIN Entered: 622100******7487
+8300 11/13/2025 11:03:20 Transaction Req. Send: Succeeded
+8301 11/13/2025 11:03:20 [OP Code]: [ABGBD   ]
+8302 11/13/2025 11:03:20 [Amount Entry Field]: [000000000000]
+8303 11/13/2025 11:03:20 [Last TSN]: [6199]
+8304 11/13/2025 11:03:21 Transaction Res. Received
+8305 11/13/2025 11:03:21 [Replied TSN]: [6200]
+8306 11/13/2025 11:03:21 [Next State]: [237]
+8307 11/13/2025 11:03:21 [Function Identifier]: [2]
+8308 11/13/2025 11:03:31 Notes Dispensed:
+IDR100000*5
+Total Amount IDR 500000
+A0832:B1003:C1999:D1796:E0006:F0000:R0000
+8309 11/13/2025 11:03:31 
+
+13/11/25 11:03        NO REF :6200       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7487    
+
+PENARIKAN TUNAI             
+REKENING: 0013801560008755
+JUMLAH  :       RP. 500,000.00  
+SALDO   :     RP. 8,433,180.52  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8310 11/13/2025 11:03:33 Cash Presented
+8311 11/13/2025 11:03:39 Printed Receipt Printer
+8312 11/13/2025 11:03:39 Solicited Status  Send: Succeeded
+8313 11/13/2025 11:03:40 Cash Taken
+8314 11/13/2025 11:03:44 Card Ejected
+8315 11/13/2025 11:03:45 Card Removed
+8316 11/13/2025 11:03:45 <== Transaction End
+8317 11/13/2025 11:13:29 ==> Transaction Start
+8318 11/13/2025 11:13:29 Face Camera OK | Hand Camera OK
+8319 11/13/2025 11:13:29 Terminal Id: 1649 Machine Sequence No: 043182
+8320 11/13/2025 11:13:29 Card Inserted
+8321 11/13/2025 11:13:33 Card Number: 469345******4581
+8322 11/13/2025 11:13:37 Transaction Req. Send: Succeeded
+8323 11/13/2025 11:13:37 [OP Code]: [BBBBBBBD]
+8324 11/13/2025 11:13:37 [Amount Entry Field]: [000000000000]
+8325 11/13/2025 11:13:37 [Last TSN]: [6200]
+8326 11/13/2025 11:13:38 Transaction Res. Received
+8327 11/13/2025 11:13:38 [Replied TSN]: [6201]
+8328 11/13/2025 11:13:38 [Next State]: [006]
+8329 11/13/2025 11:13:38 [Function Identifier]: [5]
+8330 11/13/2025 11:13:38 Solicited Status  Send: Succeeded
+8331 11/13/2025 11:13:44 PIN Entered: 469345******4581
+8332 11/13/2025 11:13:51 Transaction Req. Send: Succeeded
+8333 11/13/2025 11:13:51 [OP Code]: [ACAB    ]
+8334 11/13/2025 11:13:51 [Amount Entry Field]: [000000000000]
+8335 11/13/2025 11:13:51 [Last TSN]: [6201]
+8336 11/13/2025 11:13:52 Transaction Res. Received
+8337 11/13/2025 11:13:52 [Replied TSN]: [6202]
+8338 11/13/2025 11:13:52 [Next State]: [245]
+8339 11/13/2025 11:13:52 [Function Identifier]: [5]
+8340 11/13/2025 11:13:52 
+
+13/11/25 11:13        NO REF :6202       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX4581    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0013801500132140   
+SALDO TERSEDIA :      RP. 714,230.00  
+SALDO          :      RP. 764,230.00  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8341 11/13/2025 11:13:58 Printed Receipt Printer
+8342 11/13/2025 11:13:58 Solicited Status  Send: Succeeded
+8343 11/13/2025 11:14:04 Card Ejected
+8344 11/13/2025 11:14:04 Card Removed
+8345 11/13/2025 11:14:05 <== Transaction End
+8346 11/13/2025 11:21:52 ==> Transaction Start
+8347 11/13/2025 11:21:52 Face Camera OK | Hand Camera OK
+8348 11/13/2025 11:21:52 Terminal Id: 1649 Machine Sequence No: 043183
+8349 11/13/2025 11:21:52 Card Inserted
+8350 11/13/2025 11:22:01 Card Number: 530795******4809
+8351 11/13/2025 11:22:04 Transaction Req. Send: Succeeded
+8352 11/13/2025 11:22:04 [OP Code]: [BBBBBBBD]
+8353 11/13/2025 11:22:04 [Amount Entry Field]: [000000000000]
+8354 11/13/2025 11:22:04 [Last TSN]: [6202]
+8355 11/13/2025 11:22:05 Transaction Res. Received
+8356 11/13/2025 11:22:05 [Replied TSN]: [6203]
+8357 11/13/2025 11:22:05 [Next State]: [EB1]
+8358 11/13/2025 11:22:05 [Function Identifier]: [5]
+8359 11/13/2025 11:22:05 Solicited Status  Send: Succeeded
+8360 11/13/2025 11:22:17 PIN Entered: 530795******4809
+8361 11/13/2025 11:22:27 Transaction Req. Send: Succeeded
+8362 11/13/2025 11:22:27 [OP Code]: [A    AD ]
+8363 11/13/2025 11:22:27 [Amount Entry Field]: [000000000000]
+8364 11/13/2025 11:22:27 [Last TSN]: [6203]
+8365 11/13/2025 11:22:29 Transaction Res. Received
+8366 11/13/2025 11:22:29 [Replied TSN]: [6204]
+8367 11/13/2025 11:22:29 [Next State]: [EM0]
+8368 11/13/2025 11:22:29 [Function Identifier]: [5]
+8369 11/13/2025 11:22:29 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 11:22:10 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+NO REF  :6204              
+INFORMASI SALDO REK.TABUNGAN         
+ 
+NO KARTU:530795******4809      
+SALDO   :    RP. 4,229,414.00    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8370 11/13/2025 11:22:36 Printed Receipt Printer
+8371 11/13/2025 11:22:36 Solicited Status  Send: Succeeded
+8372 11/13/2025 11:22:46 Card Number: 530795******4809
+8373 11/13/2025 11:22:46 Transaction Req. Send: Succeeded
+8374 11/13/2025 11:22:46 [OP Code]: [BBBBBBBD]
+8375 11/13/2025 11:22:46 [Amount Entry Field]: [000000000000]
+8376 11/13/2025 11:22:46 [Last TSN]: [6204]
+8377 11/13/2025 11:22:47 Transaction Res. Received
+8378 11/13/2025 11:22:47 [Replied TSN]: [6205]
+8379 11/13/2025 11:22:47 [Next State]: [EB1]
+8380 11/13/2025 11:22:47 [Function Identifier]: [5]
+8381 11/13/2025 11:22:47 Solicited Status  Send: Succeeded
+8382 11/13/2025 11:23:00 PIN Entered: 530795******4809
+8383 11/13/2025 11:23:11 Transaction Req. Send: Succeeded
+8384 11/13/2025 11:23:11 [OP Code]: [A  A BD ]
+8385 11/13/2025 11:23:11 [Amount Entry Field]: [000001000000]
+8386 11/13/2025 11:23:11 [Last TSN]: [6205]
+8387 11/13/2025 11:23:12 Transaction Res. Received
+8388 11/13/2025 11:23:12 [Replied TSN]: [6206]
+8389 11/13/2025 11:23:12 [Next State]: [EM0]
+8390 11/13/2025 11:23:12 [Function Identifier]: [2]
+8391 11/13/2025 11:23:42 Notes Dispensed:
+IDR50000*20
+Total Amount IDR 1000000
+A0832:B1003:C1999:D1775:E0007:F0000:R0000
+8392 11/13/2025 11:23:42 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 11:22:54 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6206              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:530795******4809       
+NILAI   :    RP. 1,000,000.00  
+SALDO   :    RP. 3,221,914.00  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+8393 11/13/2025 11:23:44 Cash Presented
+8394 11/13/2025 11:23:50 Printed Receipt Printer
+8395 11/13/2025 11:23:50 Solicited Status  Send: Succeeded
+8396 11/13/2025 11:23:51 Cash Taken
+8397 11/13/2025 11:23:59 Card Ejected
+8398 11/13/2025 11:24:01 Card Removed
+8399 11/13/2025 11:24:01 <== Transaction End
+8400 11/13/2025 11:31:04 ==> Transaction Start
+8401 11/13/2025 11:31:04 Face Camera OK | Hand Camera OK
+8402 11/13/2025 11:31:04 Terminal Id: 1649 Machine Sequence No: 043184
+8403 11/13/2025 11:31:04 Card Inserted
+8404 11/13/2025 11:31:09 Card Number: 622100******2411
+8405 11/13/2025 11:31:12 Transaction Req. Send: Succeeded
+8406 11/13/2025 11:31:12 [OP Code]: [BBBBBBBD]
+8407 11/13/2025 11:31:12 [Amount Entry Field]: [000000000000]
+8408 11/13/2025 11:31:12 [Last TSN]: [6206]
+8409 11/13/2025 11:31:13 Transaction Res. Received
+8410 11/13/2025 11:31:13 [Replied TSN]: [6207]
+8411 11/13/2025 11:31:13 [Next State]: [006]
+8412 11/13/2025 11:31:13 [Function Identifier]: [5]
+8413 11/13/2025 11:31:13 Solicited Status  Send: Succeeded
+8414 11/13/2025 11:31:15 PIN Entered: 622100******2411
+8415 11/13/2025 11:31:22 Transaction Req. Send: Succeeded
+8416 11/13/2025 11:31:22 [OP Code]: [ABGAD   ]
+8417 11/13/2025 11:31:22 [Amount Entry Field]: [000000000000]
+8418 11/13/2025 11:31:22 [Last TSN]: [6207]
+8419 11/13/2025 11:31:24 Transaction Res. Received
+8420 11/13/2025 11:31:24 [Replied TSN]: [6208]
+8421 11/13/2025 11:31:24 [Next State]: [237]
+8422 11/13/2025 11:31:24 [Function Identifier]: [2]
+8423 11/13/2025 11:31:53 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0832:B1003:C1999:D1764:E0008:F0000:R0000
+8424 11/13/2025 11:31:53 
+
+13/11/25 11:31        NO REF :6208       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2411    
+
+PENARIKAN TUNAI             
+REKENING: 0014301560012325
+JUMLAH  :       RP. 500,000.00  
+SALDO   :         RP. 3,464.45  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8425 11/13/2025 11:31:55 Cash Presented
+8426 11/13/2025 11:32:01 Printed Receipt Printer
+8427 11/13/2025 11:32:01 Solicited Status  Send: Succeeded
+8428 11/13/2025 11:32:02 Cash Taken
+8429 11/13/2025 11:32:07 Card Ejected
+8430 11/13/2025 11:32:07 Card Removed
+8431 11/13/2025 11:32:07 <== Transaction End
+8432 11/13/2025 11:36:40 ==> Transaction Start
+8433 11/13/2025 11:36:40 Card Number:622100******0891
+8434 11/13/2025 11:36:40 Face Camera OK | Hand Camera OK
+8435 11/13/2025 11:36:40 Terminal Id: 1649 Machine Sequence No: 043185
+8436 11/13/2025 11:37:06 Transaction Req. Send: Succeeded
+8437 11/13/2025 11:37:06 [OP Code]: [IAA     ]
+8438 11/13/2025 11:37:06 [Amount Entry Field]: [000000000000]
+8439 11/13/2025 11:37:06 [Last TSN]: [6208]
+8440 11/13/2025 11:37:06 Transaction Res. Received
+8441 11/13/2025 11:37:06 [Replied TSN]: [6209]
+8442 11/13/2025 11:37:06 [Next State]: [324]
+8443 11/13/2025 11:37:06 [Function Identifier]: [5]
+8444 11/13/2025 11:37:06 
+
+13/11/25 11:36       NO REF :6209       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX9999    
+
+CARDLESS WITHDRAWAL - TOKEN NOT FOUND   
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+8445 11/13/2025 11:37:06 Solicited Status  Send: Succeeded
+8446 11/13/2025 11:37:12 <== Transaction End
+8447 11/13/2025 11:37:22 ==> Transaction Start
+8448 11/13/2025 11:37:22 Face Camera OK | Hand Camera OK
+8449 11/13/2025 11:37:22 Terminal Id: 1649 Machine Sequence No: 043186
+8450 11/13/2025 11:37:22 Card Inserted
+8451 11/13/2025 11:37:26 Card Number: 421570******7883
+8452 11/13/2025 11:37:30 Transaction Req. Send: Succeeded
+8453 11/13/2025 11:37:30 [OP Code]: [BBBBBBBD]
+8454 11/13/2025 11:37:30 [Amount Entry Field]: [000000000000]
+8455 11/13/2025 11:37:30 [Last TSN]: [6209]
+8456 11/13/2025 11:37:31 Transaction Res. Received
+8457 11/13/2025 11:37:31 [Replied TSN]: [6210]
+8458 11/13/2025 11:37:31 [Next State]: [006]
+8459 11/13/2025 11:37:31 [Function Identifier]: [5]
+8460 11/13/2025 11:37:31 Solicited Status  Send: Succeeded
+8461 11/13/2025 11:37:38 PIN Entered: 421570******7883
+8462 11/13/2025 11:37:47 Transaction Req. Send: Succeeded
+8463 11/13/2025 11:37:47 [OP Code]: [ABHBD   ]
+8464 11/13/2025 11:37:47 [Amount Entry Field]: [000000000000]
+8465 11/13/2025 11:37:47 [Last TSN]: [6210]
+8466 11/13/2025 11:37:48 Transaction Res. Received
+8467 11/13/2025 11:37:48 [Replied TSN]: [6211]
+8468 11/13/2025 11:37:48 [Next State]: [237]
+8469 11/13/2025 11:37:48 [Function Identifier]: [2]
+8470 11/13/2025 11:37:57 Notes Dispensed:
+IDR100000*3
+Total Amount IDR 300000
+A0829:B1003:C1999:D1764:E0008:F0000:R0000
+8471 11/13/2025 11:37:57 
+
+13/11/25 11:37        NO REF :6211       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7883    
+
+PENARIKAN TUNAI             
+REKENING: 0001601500018700
+JUMLAH  :       RP. 300,000.00  
+SALDO   :     RP. 1,859,851.01  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8472 11/13/2025 11:37:59 Cash Presented
+8473 11/13/2025 11:38:05 Printed Receipt Printer
+8474 11/13/2025 11:38:05 Solicited Status  Send: Succeeded
+8475 11/13/2025 11:38:06 Cash Taken
+8476 11/13/2025 11:38:10 Card Ejected
+8477 11/13/2025 11:38:10 Card Removed
+8478 11/13/2025 11:38:11 <== Transaction End
+8479 11/13/2025 11:38:18 ==> Transaction Start
+8480 11/13/2025 11:38:18 Card Number:622100******0891
+8481 11/13/2025 11:38:18 Face Camera OK | Hand Camera OK
+8482 11/13/2025 11:38:18 Terminal Id: 1649 Machine Sequence No: 043187
+8483 11/13/2025 11:38:37 Transaction Req. Send: Succeeded
+8484 11/13/2025 11:38:37 [OP Code]: [IAI     ]
+8485 11/13/2025 11:38:37 [Amount Entry Field]: [000000000000]
+8486 11/13/2025 11:38:37 [Last TSN]: [6211]
+8487 11/13/2025 11:38:37 Transaction Res. Received
+8488 11/13/2025 11:38:37 [Replied TSN]: [6212]
+8489 11/13/2025 11:38:37 [Next State]: [299]
+8490 11/13/2025 11:38:37 [Function Identifier]: [2]
+8491 11/13/2025 11:38:47 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0829:B1003:C1999:D1762:E0008:F0000:R0000
+8492 11/13/2025 11:38:47 
+
+13/11/25 11:38        NO REF :6212       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379043363      
+NOMINAL     :    RP. 100,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+8493 11/13/2025 11:38:49 Cash Presented
+8494 11/13/2025 11:38:54 Printed Receipt Printer
+8495 11/13/2025 11:38:55 Solicited Status  Send: Succeeded
+8496 11/13/2025 11:38:56 Cash Taken
+8497 11/13/2025 11:39:01 <== Transaction End
+8498 11/13/2025 11:42:56 ==> Transaction Start
+8499 11/13/2025 11:42:56 Face Camera OK | Hand Camera OK
+8500 11/13/2025 11:42:56 Terminal Id: 1649 Machine Sequence No: 043188
+8501 11/13/2025 11:42:56 Card Inserted
+8502 11/13/2025 11:43:00 Card Number: 421570******6955
+8503 11/13/2025 11:43:03 Transaction Req. Send: Succeeded
+8504 11/13/2025 11:43:03 [OP Code]: [BBBBBBBD]
+8505 11/13/2025 11:43:03 [Amount Entry Field]: [000000000000]
+8506 11/13/2025 11:43:03 [Last TSN]: [6212]
+8507 11/13/2025 11:43:04 Transaction Res. Received
+8508 11/13/2025 11:43:04 [Replied TSN]: [6213]
+8509 11/13/2025 11:43:04 [Next State]: [006]
+8510 11/13/2025 11:43:04 [Function Identifier]: [5]
+8511 11/13/2025 11:43:04 Solicited Status  Send: Succeeded
+8512 11/13/2025 11:43:07 PIN Entered: 421570******6955
+8513 11/13/2025 11:43:16 Transaction Req. Send: Succeeded
+8514 11/13/2025 11:43:16 [OP Code]: [ABBBD   ]
+8515 11/13/2025 11:43:16 [Amount Entry Field]: [000000000000]
+8516 11/13/2025 11:43:16 [Last TSN]: [6213]
+8517 11/13/2025 11:43:17 Transaction Res. Received
+8518 11/13/2025 11:43:17 [Replied TSN]: [6214]
+8519 11/13/2025 11:43:17 [Next State]: [237]
+8520 11/13/2025 11:43:17 [Function Identifier]: [2]
+8521 11/13/2025 11:43:28 Notes Dispensed:
+IDR100000*15
+Total Amount IDR 1500000
+A0814:B1003:C1999:D1762:E0008:F0000:R0000
+8522 11/13/2025 11:43:28 
+
+13/11/25 11:42        NO REF :6214       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6955    
+
+PENARIKAN TUNAI             
+REKENING: 0001601502027917
+JUMLAH  :     RP. 1,500,000.00  
+SALDO   :    RP. 71,045,367.21  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8523 11/13/2025 11:43:30 Cash Presented
+8524 11/13/2025 11:43:36 Printed Receipt Printer
+8525 11/13/2025 11:43:36 Solicited Status  Send: Succeeded
+8526 11/13/2025 11:43:37 Cash Taken
+8527 11/13/2025 11:43:41 Card Number: 421570******6955
+8528 11/13/2025 11:43:45 PIN Entered: 421570******6955
+8529 11/13/2025 11:43:52 Transaction Req. Send: Succeeded
+8530 11/13/2025 11:43:52 [OP Code]: [ABGAD   ]
+8531 11/13/2025 11:43:52 [Amount Entry Field]: [000001500000]
+8532 11/13/2025 11:43:52 [Last TSN]: [6214]
+8533 11/13/2025 11:43:53 Transaction Res. Received
+8534 11/13/2025 11:43:53 [Replied TSN]: [6215]
+8535 11/13/2025 11:43:53 [Next State]: [237]
+8536 11/13/2025 11:43:53 [Function Identifier]: [2]
+8537 11/13/2025 11:44:04 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0814:B1003:C1999:D1752:E0008:F0000:R0000
+8538 11/13/2025 11:44:04 
+
+13/11/25 11:43        NO REF :6215       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6955    
+
+PENARIKAN TUNAI             
+REKENING: 0001601502027917
+JUMLAH  :       RP. 500,000.00  
+SALDO   :    RP. 70,545,367.21  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8539 11/13/2025 11:44:06 Cash Presented
+8540 11/13/2025 11:44:12 Printed Receipt Printer
+8541 11/13/2025 11:44:12 Solicited Status  Send: Succeeded
+8542 11/13/2025 11:44:13 Cash Taken
+8543 11/13/2025 11:44:17 Card Ejected
+8544 11/13/2025 11:44:18 Card Removed
+8545 11/13/2025 11:44:18 <== Transaction End
+8546 11/13/2025 11:44:37 ==> Transaction Start
+8547 11/13/2025 11:44:37 Card Number:622100******0891
+8548 11/13/2025 11:44:37 Face Camera OK | Hand Camera OK
+8549 11/13/2025 11:44:37 Terminal Id: 1649 Machine Sequence No: 043189
+8550 11/13/2025 11:44:52 Transaction Req. Send: Succeeded
+8551 11/13/2025 11:44:52 [OP Code]: [IAI     ]
+8552 11/13/2025 11:44:52 [Amount Entry Field]: [000000000000]
+8553 11/13/2025 11:44:52 [Last TSN]: [6215]
+8554 11/13/2025 11:44:52 Transaction Res. Received
+8555 11/13/2025 11:44:52 [Replied TSN]: [6216]
+8556 11/13/2025 11:44:52 [Next State]: [299]
+8557 11/13/2025 11:44:52 [Function Identifier]: [2]
+8558 11/13/2025 11:45:03 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0814:B1003:C1999:D1742:E0008:F0000:R0000
+8559 11/13/2025 11:45:03 
+
+13/11/25 11:44        NO REF :6216       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379044351      
+NOMINAL     :    RP. 500,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+8560 11/13/2025 11:45:05 Cash Presented
+8561 11/13/2025 11:45:10 Printed Receipt Printer
+8562 11/13/2025 11:45:11 Solicited Status  Send: Succeeded
+8563 11/13/2025 11:45:12 Cash Taken
+8564 11/13/2025 11:45:18 <== Transaction End
+8565 11/13/2025 12:05:38 ==> Transaction Start
+8566 11/13/2025 12:05:38 Face Camera OK | Hand Camera OK
+8567 11/13/2025 12:05:38 Terminal Id: 1649 Machine Sequence No: 043190
+8568 11/13/2025 12:05:38 Card Inserted
+8569 11/13/2025 12:05:43 Card Number: 478701******5689
+8570 11/13/2025 12:05:48 Transaction Req. Send: Succeeded
+8571 11/13/2025 12:05:48 [OP Code]: [BBBBBBBD]
+8572 11/13/2025 12:05:48 [Amount Entry Field]: [000000000000]
+8573 11/13/2025 12:05:48 [Last TSN]: [6216]
+8574 11/13/2025 12:05:48 Transaction Res. Received
+8575 11/13/2025 12:05:48 [Replied TSN]: [6217]
+8576 11/13/2025 12:05:48 [Next State]: [006]
+8577 11/13/2025 12:05:48 [Function Identifier]: [5]
+8578 11/13/2025 12:05:48 Solicited Status  Send: Succeeded
+8579 11/13/2025 12:05:56 PIN Entered: 478701******5689
+8580 11/13/2025 12:06:11 Transaction Req. Send: Succeeded
+8581 11/13/2025 12:06:11 [OP Code]: [ABGBD   ]
+8582 11/13/2025 12:06:11 [Amount Entry Field]: [000000000000]
+8583 11/13/2025 12:06:11 [Last TSN]: [6217]
+8584 11/13/2025 12:06:12 Transaction Res. Received
+8585 11/13/2025 12:06:12 [Replied TSN]: [6218]
+8586 11/13/2025 12:06:12 [Next State]: [237]
+8587 11/13/2025 12:06:12 [Function Identifier]: [2]
+8588 11/13/2025 12:06:22 Notes Dispensed:
+IDR100000*5
+Total Amount IDR 500000
+A0809:B1003:C1999:D1742:E0008:F0000:R0000
+8589 11/13/2025 12:06:22 
+
+13/11/25 12:05        NO REF :6218       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5689    
+
+PENARIKAN TUNAI             
+REKENING: 0013801880001166
+JUMLAH  :       RP. 500,000.00  
+SALDO   :       RP. 140,000.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8590 11/13/2025 12:06:24 Cash Presented
+8591 11/13/2025 12:06:29 Printed Receipt Printer
+8592 11/13/2025 12:06:29 Solicited Status  Send: Succeeded
+8593 11/13/2025 12:06:31 Cash Taken
+8594 11/13/2025 12:06:38 Card Number: 478701******5689
+8595 11/13/2025 12:06:46 PIN Entered: 478701******5689
+8596 11/13/2025 12:07:00 Transaction Req. Send: Succeeded
+8597 11/13/2025 12:07:00 [OP Code]: [ABIBD   ]
+8598 11/13/2025 12:07:00 [Amount Entry Field]: [000000500000]
+8599 11/13/2025 12:07:00 [Last TSN]: [6218]
+8600 11/13/2025 12:07:01 Transaction Res. Received
+8601 11/13/2025 12:07:01 [Replied TSN]: [6219]
+8602 11/13/2025 12:07:01 [Next State]: [237]
+8603 11/13/2025 12:07:01 [Function Identifier]: [2]
+8604 11/13/2025 12:07:10 Notes Dispensed:
+IDR100000*1
+Total Amount IDR 100000
+A0808:B1003:C1999:D1742:E0008:F0000:R0000
+8605 11/13/2025 12:07:10 
+
+13/11/25 12:06        NO REF :6219       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5689    
+
+PENARIKAN TUNAI             
+REKENING: 0013801880001166
+JUMLAH  :       RP. 100,000.00  
+SALDO   :        RP. 40,000.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8606 11/13/2025 12:07:12 Cash Presented
+8607 11/13/2025 12:07:18 Printed Receipt Printer
+8608 11/13/2025 12:07:18 Solicited Status  Send: Succeeded
+8609 11/13/2025 12:07:19 Cash Taken
+8610 11/13/2025 12:07:24 Card Ejected
+8611 11/13/2025 12:07:24 Card Removed
+8612 11/13/2025 12:07:24 <== Transaction End
+8613 11/13/2025 12:25:47 ==> Transaction Start
+8614 11/13/2025 12:25:47 Face Camera OK | Hand Camera OK
+8615 11/13/2025 12:25:47 Terminal Id: 1649 Machine Sequence No: 043191
+8616 11/13/2025 12:25:47 Card Inserted
+8617 11/13/2025 12:25:52 Card Number: 421570******9246
+8618 11/13/2025 12:25:55 Transaction Req. Send: Succeeded
+8619 11/13/2025 12:25:55 [OP Code]: [BBBBBBBD]
+8620 11/13/2025 12:25:55 [Amount Entry Field]: [000000000000]
+8621 11/13/2025 12:25:55 [Last TSN]: [6219]
+8622 11/13/2025 12:25:56 Transaction Res. Received
+8623 11/13/2025 12:25:56 [Replied TSN]: [6220]
+8624 11/13/2025 12:25:56 [Next State]: [006]
+8625 11/13/2025 12:25:56 [Function Identifier]: [5]
+8626 11/13/2025 12:25:56 Solicited Status  Send: Succeeded
+8627 11/13/2025 12:25:59 PIN Entered: 421570******9246
+8628 11/13/2025 12:26:03 Transaction Req. Send: Succeeded
+8629 11/13/2025 12:26:03 [OP Code]: [ABHAD   ]
+8630 11/13/2025 12:26:03 [Amount Entry Field]: [000000000000]
+8631 11/13/2025 12:26:03 [Last TSN]: [6220]
+8632 11/13/2025 12:26:03 Transaction Res. Received
+8633 11/13/2025 12:26:03 [Replied TSN]: [6221]
+8634 11/13/2025 12:26:03 [Next State]: [237]
+8635 11/13/2025 12:26:03 [Function Identifier]: [2]
+8636 11/13/2025 12:26:13 Notes Dispensed:
+IDR50000*6
+Total Amount IDR 300000
+A0808:B1003:C1999:D1736:E0008:F0000:R0000
+8637 11/13/2025 12:26:14 
+
+13/11/25 12:25        NO REF :6221       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX9246    
+
+PENARIKAN TUNAI             
+REKENING: 0013801500187797
+JUMLAH  :       RP. 300,000.00  
+SALDO   :    RP. 16,188,566.50  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8638 11/13/2025 12:26:16 Cash Presented
+8639 11/13/2025 12:26:21 Printed Receipt Printer
+8640 11/13/2025 12:26:21 Solicited Status  Send: Succeeded
+8641 11/13/2025 12:26:22 Cash Taken
+8642 11/13/2025 12:26:28 Card Ejected
+8643 11/13/2025 12:26:28 Card Removed
+8644 11/13/2025 12:26:28 <== Transaction End
+8645 11/13/2025 12:54:31 ==> Transaction Start
+8646 11/13/2025 12:54:31 Face Camera OK | Hand Camera OK
+8647 11/13/2025 12:54:31 Terminal Id: 1649 Machine Sequence No: 043192
+8648 11/13/2025 12:54:31 Card Inserted
+8649 11/13/2025 12:54:36 Card Number: 622100******8402
+8650 11/13/2025 12:54:39 Transaction Req. Send: Succeeded
+8651 11/13/2025 12:54:39 [OP Code]: [BBBBBBBD]
+8652 11/13/2025 12:54:39 [Amount Entry Field]: [000000000000]
+8653 11/13/2025 12:54:39 [Last TSN]: [6221]
+8654 11/13/2025 12:54:39 Transaction Res. Received
+8655 11/13/2025 12:54:39 [Replied TSN]: [6222]
+8656 11/13/2025 12:54:39 [Next State]: [006]
+8657 11/13/2025 12:54:39 [Function Identifier]: [5]
+8658 11/13/2025 12:54:40 Solicited Status  Send: Succeeded
+8659 11/13/2025 12:54:44 PIN Entered: 622100******8402
+8660 11/13/2025 12:54:47 Transaction Req. Send: Succeeded
+8661 11/13/2025 12:54:47 [OP Code]: [AAD     ]
+8662 11/13/2025 12:54:47 [Amount Entry Field]: [000000000000]
+8663 11/13/2025 12:54:47 [Last TSN]: [6222]
+8664 11/13/2025 12:54:48 Transaction Res. Received
+8665 11/13/2025 12:54:48 [Replied TSN]: [6223]
+8666 11/13/2025 12:54:48 [Next State]: [213]
+8667 11/13/2025 12:54:48 [Function Identifier]: [5]
+8668 11/13/2025 12:54:48 
+
+13/11/25 12:54        NO REF :6223       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX8402    
+REKENING KARTU     :0013801560005553   
+ 
+
+8669 11/13/2025 12:54:48 Solicited Status  Send: Succeeded
+8670 11/13/2025 12:54:49 Deposit: Shutter opened for notes insertion
+8671 11/13/2025 12:55:00 Notes inserted in hopper
+8672 11/13/2025 12:55:12 Notes Counted:
+IDR50000:20
+Total Amount IDR 1000000
+A0808:B1003:C1999:D1736:E0008:F0000:R0000
+8673 11/13/2025 12:55:14 User: D Key Pressed
+8674 11/13/2025 12:55:14 Deposit Confirmed
+8675 11/13/2025 12:55:16 Transaction Req. Send: Succeeded
+8676 11/13/2025 12:55:16 [OP Code]: [AADBBA  ]
+8677 11/13/2025 12:55:16 [Amount Entry Field]: [000001000000]
+8678 11/13/2025 12:55:16 [Last TSN]: [6223]
+8679 11/13/2025 12:55:17 Transaction Res. Received
+8680 11/13/2025 12:55:17 [Replied TSN]: [6224]
+8681 11/13/2025 12:55:17 [Next State]: [247]
+8682 11/13/2025 12:55:17 [Function Identifier]: [5]
+8683 11/13/2025 12:55:17 Solicited Status  Send: Succeeded
+8684 11/13/2025 12:55:21 Transaction Req. Send: Succeeded
+8685 11/13/2025 12:55:21 [OP Code]: [AADBBA B]
+8686 11/13/2025 12:55:21 [Amount Entry Field]: [000001000000]
+8687 11/13/2025 12:55:21 [Last TSN]: [6224]
+8688 11/13/2025 12:55:21 Transaction Res. Received
+8689 11/13/2025 12:55:21 [Replied TSN]: [6225]
+8690 11/13/2025 12:55:21 [Next State]: [246]
+8691 11/13/2025 12:55:21 [Function Identifier]: [-]
+8692 11/13/2025 12:55:22 Solicited Status  Send: Succeeded
+8693 11/13/2025 12:55:22 Host Store: Storing
+8694 11/13/2025 12:55:22 
+
+13/11/25 12:55        NO REF :6225       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8402    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0013801560005553  
+NAMA       : IIN ARIMBI               
+JUMLAH     :     RP. 1,000,000.00  
+
+SALDO      :    RP. 7,318,879.33   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+8695 11/13/2025 12:55:29 Printed Receipt Printer
+8696 11/13/2025 12:55:37 Host Store: Stored
+IDR50000:20
+A0808:B1003:C1999:D1756:E0008:F0000:R0000
+8697 11/13/2025 12:55:41 Card Ejected
+8698 11/13/2025 12:55:41 Card Removed
+8699 11/13/2025 12:55:41 <== Transaction End
+8700 11/13/2025 12:55:52 ==> Transaction Start
+8701 11/13/2025 12:55:52 Card Number:622100******0891
+8702 11/13/2025 12:55:52 Face Camera OK | Hand Camera OK
+8703 11/13/2025 12:55:52 Terminal Id: 1649 Machine Sequence No: 043193
+8704 11/13/2025 12:56:06 User: Cancel Key Pressed
+8705 11/13/2025 12:56:08 User: Cancel Key Pressed
+8706 11/13/2025 12:56:13 <== Transaction End
+8707 11/13/2025 13:03:19 ==> Transaction Start
+8708 11/13/2025 13:03:19 Face Camera OK | Hand Camera OK
+8709 11/13/2025 13:03:19 Terminal Id: 1649 Machine Sequence No: 043194
+8710 11/13/2025 13:03:19 Card Inserted
+8711 11/13/2025 13:03:24 Card Number: 485447******1465
+8712 11/13/2025 13:03:31 Transaction Req. Send: Succeeded
+8713 11/13/2025 13:03:31 [OP Code]: [BBBBBBBD]
+8714 11/13/2025 13:03:31 [Amount Entry Field]: [000000000000]
+8715 11/13/2025 13:03:31 [Last TSN]: [6225]
+8716 11/13/2025 13:03:32 Transaction Res. Received
+8717 11/13/2025 13:03:32 [Replied TSN]: [6226]
+8718 11/13/2025 13:03:32 [Next State]: [006]
+8719 11/13/2025 13:03:32 [Function Identifier]: [5]
+8720 11/13/2025 13:03:32 Solicited Status  Send: Succeeded
+8721 11/13/2025 13:03:38 PIN Entered: 485447******1465
+8722 11/13/2025 13:03:49 Transaction Req. Send: Succeeded
+8723 11/13/2025 13:03:49 [OP Code]: [ABIAD   ]
+8724 11/13/2025 13:03:49 [Amount Entry Field]: [000000000000]
+8725 11/13/2025 13:03:49 [Last TSN]: [6226]
+8726 11/13/2025 13:03:50 Transaction Res. Received
+8727 11/13/2025 13:03:50 [Replied TSN]: [6227]
+8728 11/13/2025 13:03:50 [Next State]: [237]
+8729 11/13/2025 13:03:50 [Function Identifier]: [2]
+8730 11/13/2025 13:04:00 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0808:B1003:C1999:D1754:E0008:F0000:R0000
+8731 11/13/2025 13:04:00 
+
+13/11/25 13:03        NO REF :6227       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1465    
+
+PENARIKAN TUNAI             
+REKENING: 0013801700000818
+JUMLAH  :       RP. 100,000.00  
+SALDO   :       RP. 400,000.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8732 11/13/2025 13:04:02 Cash Presented
+8733 11/13/2025 13:04:08 Printed Receipt Printer
+8734 11/13/2025 13:04:08 Solicited Status  Send: Succeeded
+8735 11/13/2025 13:04:09 Cash Taken
+8736 11/13/2025 13:04:14 Card Ejected
+8737 11/13/2025 13:04:14 Card Removed
+8738 11/13/2025 13:04:14 <== Transaction End
+8739 11/13/2025 14:03:28 ==> Transaction Start
+8740 11/13/2025 14:03:28 Face Camera OK | Hand Camera OK
+8741 11/13/2025 14:03:28 Terminal Id: 1649 Machine Sequence No: 043195
+8742 11/13/2025 14:03:28 Card Inserted
+8743 11/13/2025 14:03:33 Card Number: 421570******8688
+8744 11/13/2025 14:03:39 Transaction Req. Send: Succeeded
+8745 11/13/2025 14:03:39 [OP Code]: [BBBBBBBD]
+8746 11/13/2025 14:03:39 [Amount Entry Field]: [000000000000]
+8747 11/13/2025 14:03:39 [Last TSN]: [6227]
+8748 11/13/2025 14:03:39 Transaction Res. Received
+8749 11/13/2025 14:03:39 [Replied TSN]: [6228]
+8750 11/13/2025 14:03:39 [Next State]: [006]
+8751 11/13/2025 14:03:39 [Function Identifier]: [5]
+8752 11/13/2025 14:03:39 Solicited Status  Send: Succeeded
+8753 11/13/2025 14:03:50 PIN Entered: 421570******8688
+8754 11/13/2025 14:03:55 Transaction Req. Send: Succeeded
+8755 11/13/2025 14:03:55 [OP Code]: [AAD     ]
+8756 11/13/2025 14:03:55 [Amount Entry Field]: [000000000000]
+8757 11/13/2025 14:03:55 [Last TSN]: [6228]
+8758 11/13/2025 14:03:56 Transaction Res. Received
+8759 11/13/2025 14:03:56 [Replied TSN]: [6229]
+8760 11/13/2025 14:03:56 [Next State]: [213]
+8761 11/13/2025 14:03:56 [Function Identifier]: [5]
+8762 11/13/2025 14:03:56 
+
+13/11/25 14:03        NO REF :6229       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX8688    
+REKENING KARTU     :0013801500182373   
+ 
+
+8763 11/13/2025 14:03:56 Solicited Status  Send: Succeeded
+8764 11/13/2025 14:03:57 Deposit: Shutter opened for notes insertion
+8765 11/13/2025 14:04:02 Notes inserted in hopper
+8766 11/13/2025 14:04:12 Notes Counted:
+IDR100000:3
+Total Amount IDR 300000
+A0808:B1003:C1999:D1754:E0008:F0000:R0000
+8767 11/13/2025 14:04:14 User: D Key Pressed
+8768 11/13/2025 14:04:14 Deposit Confirmed
+8769 11/13/2025 14:04:18 Transaction Req. Send: Succeeded
+8770 11/13/2025 14:04:18 [OP Code]: [AADBBA  ]
+8771 11/13/2025 14:04:18 [Amount Entry Field]: [000000300000]
+8772 11/13/2025 14:04:18 [Last TSN]: [6229]
+8773 11/13/2025 14:04:19 Transaction Res. Received
+8774 11/13/2025 14:04:19 [Replied TSN]: [6230]
+8775 11/13/2025 14:04:19 [Next State]: [247]
+8776 11/13/2025 14:04:19 [Function Identifier]: [5]
+8777 11/13/2025 14:04:19 Solicited Status  Send: Succeeded
+8778 11/13/2025 14:04:23 Transaction Req. Send: Succeeded
+8779 11/13/2025 14:04:23 [OP Code]: [AADBBA B]
+8780 11/13/2025 14:04:23 [Amount Entry Field]: [000000300000]
+8781 11/13/2025 14:04:23 [Last TSN]: [6230]
+8782 11/13/2025 14:04:23 Transaction Res. Received
+8783 11/13/2025 14:04:23 [Replied TSN]: [6231]
+8784 11/13/2025 14:04:23 [Next State]: [246]
+8785 11/13/2025 14:04:23 [Function Identifier]: [-]
+8786 11/13/2025 14:04:24 Solicited Status  Send: Succeeded
+8787 11/13/2025 14:04:24 Host Store: Storing
+8788 11/13/2025 14:04:24 
+
+13/11/25 14:04        NO REF :6231       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8688    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0013801500182373  
+NAMA       : MULYADI                  
+JUMLAH     :       RP. 300,000.00  
+
+SALDO      :      RP. 386,050.00   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+8789 11/13/2025 14:04:31 Printed Receipt Printer
+8790 11/13/2025 14:04:37 Host Store: Stored
+IDR100000:3
+A0808:B1006:C1999:D1754:E0008:F0000:R0000
+8791 11/13/2025 14:04:42 Card Ejected
+8792 11/13/2025 14:04:44 Card Removed
+8793 11/13/2025 14:04:44 <== Transaction End
+8794 11/13/2025 14:51:46 ==> Transaction Start
+8795 11/13/2025 14:51:46 Face Camera OK | Hand Camera OK
+8796 11/13/2025 14:51:46 Terminal Id: 1649 Machine Sequence No: 043196
+8797 11/13/2025 14:51:46 Card Inserted
+8798 11/13/2025 14:51:50 Card Number: 421570******3447
+8799 11/13/2025 14:51:54 Transaction Req. Send: Succeeded
+8800 11/13/2025 14:51:54 [OP Code]: [BBBBBBBD]
+8801 11/13/2025 14:51:54 [Amount Entry Field]: [000000000000]
+8802 11/13/2025 14:51:54 [Last TSN]: [6231]
+8803 11/13/2025 14:51:54 Transaction Res. Received
+8804 11/13/2025 14:51:54 [Replied TSN]: [6232]
+8805 11/13/2025 14:51:54 [Next State]: [006]
+8806 11/13/2025 14:51:54 [Function Identifier]: [5]
+8807 11/13/2025 14:51:54 Solicited Status  Send: Succeeded
+8808 11/13/2025 14:52:01 PIN Entered: 421570******3447
+8809 11/13/2025 14:52:06 Transaction Req. Send: Succeeded
+8810 11/13/2025 14:52:06 [OP Code]: [ACAB    ]
+8811 11/13/2025 14:52:06 [Amount Entry Field]: [000000000000]
+8812 11/13/2025 14:52:06 [Last TSN]: [6232]
+8813 11/13/2025 14:52:06 Transaction Res. Received
+8814 11/13/2025 14:52:06 [Replied TSN]: [6233]
+8815 11/13/2025 14:52:06 [Next State]: [245]
+8816 11/13/2025 14:52:06 [Function Identifier]: [5]
+8817 11/13/2025 14:52:07 
+
+13/11/25 14:51        NO REF :6233       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3447    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0027301610012612   
+SALDO TERSEDIA :      RP. 612,063.23  
+SALDO          :      RP. 662,063.23  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8818 11/13/2025 14:52:13 Printed Receipt Printer
+8819 11/13/2025 14:52:13 Solicited Status  Send: Succeeded
+8820 11/13/2025 14:52:18 Card Ejected
+8821 11/13/2025 14:52:18 Card Removed
+8822 11/13/2025 14:52:18 <== Transaction End
+8823 11/13/2025 15:53:01 ==> Transaction Start
+8824 11/13/2025 15:53:01 Face Camera OK | Hand Camera OK
+8825 11/13/2025 15:53:01 Terminal Id: 1649 Machine Sequence No: 043197
+8826 11/13/2025 15:53:01 Card Inserted
+8827 11/13/2025 15:53:07 Card Number: 421570******3397
+8828 11/13/2025 15:53:12 Transaction Req. Send: Succeeded
+8829 11/13/2025 15:53:12 [OP Code]: [BBBBBBBD]
+8830 11/13/2025 15:53:12 [Amount Entry Field]: [000000000000]
+8831 11/13/2025 15:53:12 [Last TSN]: [6233]
+8832 11/13/2025 15:53:12 Transaction Res. Received
+8833 11/13/2025 15:53:12 [Replied TSN]: [6234]
+8834 11/13/2025 15:53:12 [Next State]: [006]
+8835 11/13/2025 15:53:12 [Function Identifier]: [5]
+8836 11/13/2025 15:53:12 Solicited Status  Send: Succeeded
+8837 11/13/2025 15:53:17 PIN Entered: 421570******3397
+8838 11/13/2025 15:53:34 Transaction Req. Send: Succeeded
+8839 11/13/2025 15:53:34 [OP Code]: [ABHAD   ]
+8840 11/13/2025 15:53:34 [Amount Entry Field]: [000000000000]
+8841 11/13/2025 15:53:34 [Last TSN]: [6234]
+8842 11/13/2025 15:53:35 Transaction Res. Received
+8843 11/13/2025 15:53:35 [Replied TSN]: [6235]
+8844 11/13/2025 15:53:35 [Next State]: [237]
+8845 11/13/2025 15:53:35 [Function Identifier]: [2]
+8846 11/13/2025 15:53:45 Notes Dispensed:
+IDR50000*6
+Total Amount IDR 300000
+A0808:B1006:C1999:D1748:E0008:F0000:R0000
+8847 11/13/2025 15:53:46 
+
+13/11/25 15:53        NO REF :6235       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX3397    
+
+PENARIKAN TUNAI             
+REKENING: 0005301500053899
+JUMLAH  :       RP. 300,000.00  
+SALDO   :       RP. 549,076.65  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8848 11/13/2025 15:53:48 Cash Presented
+8849 11/13/2025 15:53:53 Printed Receipt Printer
+8850 11/13/2025 15:53:53 Solicited Status  Send: Succeeded
+8851 11/13/2025 15:53:55 Cash Taken
+8852 11/13/2025 15:53:59 Card Ejected
+8853 11/13/2025 15:53:59 Card Removed
+8854 11/13/2025 15:54:00 <== Transaction End
+8855 11/13/2025 16:23:10 ==> Transaction Start
+8856 11/13/2025 16:23:10 Face Camera OK | Hand Camera OK
+8857 11/13/2025 16:23:10 Terminal Id: 1649 Machine Sequence No: 043198
+8858 11/13/2025 16:23:10 Card Inserted
+8859 11/13/2025 16:23:14 Card Number: 622100******8017
+8860 11/13/2025 16:23:17 Transaction Req. Send: Succeeded
+8861 11/13/2025 16:23:17 [OP Code]: [BBBBBBBD]
+8862 11/13/2025 16:23:17 [Amount Entry Field]: [000000000000]
+8863 11/13/2025 16:23:17 [Last TSN]: [6235]
+8864 11/13/2025 16:23:17 Transaction Res. Received
+8865 11/13/2025 16:23:17 [Replied TSN]: [6236]
+8866 11/13/2025 16:23:17 [Next State]: [006]
+8867 11/13/2025 16:23:17 [Function Identifier]: [5]
+8868 11/13/2025 16:23:17 Solicited Status  Send: Succeeded
+8869 11/13/2025 16:23:20 PIN Entered: 622100******8017
+8870 11/13/2025 16:23:27 Transaction Req. Send: Succeeded
+8871 11/13/2025 16:23:27 [OP Code]: [ABCAD   ]
+8872 11/13/2025 16:23:27 [Amount Entry Field]: [000000050000]
+8873 11/13/2025 16:23:27 [Last TSN]: [6236]
+8874 11/13/2025 16:23:27 Transaction Res. Received
+8875 11/13/2025 16:23:27 [Replied TSN]: [6237]
+8876 11/13/2025 16:23:27 [Next State]: [237]
+8877 11/13/2025 16:23:27 [Function Identifier]: [2]
+8878 11/13/2025 16:23:38 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0808:B1006:C1999:D1747:E0008:F0000:R0000
+8879 11/13/2025 16:23:38 
+
+13/11/25 16:23        NO REF :6237       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8017    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0024101610209505
+JUMLAH  :        RP. 50,000.00  
+SALDO   :         RP. 3,150.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8880 11/13/2025 16:23:40 Cash Presented
+8881 11/13/2025 16:23:45 Printed Receipt Printer
+8882 11/13/2025 16:23:45 Solicited Status  Send: Succeeded
+8883 11/13/2025 16:23:47 Cash Taken
+8884 11/13/2025 16:23:49 Card Ejected
+8885 11/13/2025 16:23:50 Card Removed
+8886 11/13/2025 16:23:50 <== Transaction End
+8887 11/13/2025 16:45:20 ==> Transaction Start
+8888 11/13/2025 16:45:20 Face Camera OK | Hand Camera OK
+8889 11/13/2025 16:45:20 Terminal Id: 1649 Machine Sequence No: 043199
+8890 11/13/2025 16:45:20 Card Inserted
+8891 11/13/2025 16:45:25 Card Number: 485447******2537
+8892 11/13/2025 16:45:28 Transaction Req. Send: Succeeded
+8893 11/13/2025 16:45:28 [OP Code]: [BBBBBBBD]
+8894 11/13/2025 16:45:28 [Amount Entry Field]: [000000000000]
+8895 11/13/2025 16:45:28 [Last TSN]: [6237]
+8896 11/13/2025 16:45:28 Transaction Res. Received
+8897 11/13/2025 16:45:28 [Replied TSN]: [6238]
+8898 11/13/2025 16:45:28 [Next State]: [006]
+8899 11/13/2025 16:45:28 [Function Identifier]: [5]
+8900 11/13/2025 16:45:28 Solicited Status  Send: Succeeded
+8901 11/13/2025 16:45:32 PIN Entered: 485447******2537
+8902 11/13/2025 16:45:41 Transaction Req. Send: Succeeded
+8903 11/13/2025 16:45:41 [OP Code]: [ABCAD   ]
+8904 11/13/2025 16:45:41 [Amount Entry Field]: [000000150000]
+8905 11/13/2025 16:45:41 [Last TSN]: [6238]
+8906 11/13/2025 16:45:42 Transaction Res. Received
+8907 11/13/2025 16:45:42 [Replied TSN]: [6239]
+8908 11/13/2025 16:45:42 [Next State]: [237]
+8909 11/13/2025 16:45:42 [Function Identifier]: [2]
+8910 11/13/2025 16:45:52 Notes Dispensed:
+IDR50000*3
+Total Amount IDR 150000
+A0808:B1006:C1999:D1744:E0008:F0000:R0000
+8911 11/13/2025 16:45:52 
+
+13/11/25 16:45        NO REF :6239       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2537    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0001601502312809
+JUMLAH  :       RP. 150,000.00  
+SALDO   :     RP. 9,005,030.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8912 11/13/2025 16:45:54 Cash Presented
+8913 11/13/2025 16:46:00 Printed Receipt Printer
+8914 11/13/2025 16:46:00 Solicited Status  Send: Succeeded
+8915 11/13/2025 16:46:01 Cash Taken
+8916 11/13/2025 16:46:05 Card Ejected
+8917 11/13/2025 16:46:05 Card Removed
+8918 11/13/2025 16:46:05 <== Transaction End
+8919 11/13/2025 16:47:23 ==> Transaction Start
+8920 11/13/2025 16:47:23 Face Camera OK | Hand Camera OK
+8921 11/13/2025 16:47:23 Terminal Id: 1649 Machine Sequence No: 043200
+8922 11/13/2025 16:47:23 Card Inserted
+8923 11/13/2025 16:47:28 Card Number: 421570******1487
+8924 11/13/2025 16:47:30 Transaction Req. Send: Succeeded
+8925 11/13/2025 16:47:30 [OP Code]: [BBBBBBBD]
+8926 11/13/2025 16:47:30 [Amount Entry Field]: [000000000000]
+8927 11/13/2025 16:47:30 [Last TSN]: [6239]
+8928 11/13/2025 16:47:31 Transaction Res. Received
+8929 11/13/2025 16:47:31 [Replied TSN]: [6240]
+8930 11/13/2025 16:47:31 [Next State]: [006]
+8931 11/13/2025 16:47:31 [Function Identifier]: [5]
+8932 11/13/2025 16:47:31 Solicited Status  Send: Succeeded
+8933 11/13/2025 16:47:36 PIN Entered: 421570******1487
+8934 11/13/2025 16:47:49 Transaction Req. Send: Succeeded
+8935 11/13/2025 16:47:49 [OP Code]: [ABCAD   ]
+8936 11/13/2025 16:47:49 [Amount Entry Field]: [000000350000]
+8937 11/13/2025 16:47:49 [Last TSN]: [6240]
+8938 11/13/2025 16:47:50 Transaction Res. Received
+8939 11/13/2025 16:47:50 [Replied TSN]: [6241]
+8940 11/13/2025 16:47:50 [Next State]: [237]
+8941 11/13/2025 16:47:50 [Function Identifier]: [2]
+8942 11/13/2025 16:48:00 Notes Dispensed:
+IDR50000*7
+Total Amount IDR 350000
+A0808:B1006:C1999:D1737:E0008:F0000:R0000
+8943 11/13/2025 16:48:00 
+
+13/11/25 16:47        NO REF :6241       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1487    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0005401500105632
+JUMLAH  :       RP. 350,000.00  
+SALDO   :     RP. 1,094,778.47  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8944 11/13/2025 16:48:03 Cash Presented
+8945 11/13/2025 16:48:08 Printed Receipt Printer
+8946 11/13/2025 16:48:08 Solicited Status  Send: Succeeded
+8947 11/13/2025 16:48:10 Cash Taken
+8948 11/13/2025 16:48:14 Card Ejected
+8949 11/13/2025 16:48:14 Card Removed
+8950 11/13/2025 16:48:14 <== Transaction End
+8951 11/13/2025 17:26:53 ==> Transaction Start
+8952 11/13/2025 17:26:53 Face Camera OK | Hand Camera OK
+8953 11/13/2025 17:26:53 Terminal Id: 1649 Machine Sequence No: 043201
+8954 11/13/2025 17:26:53 Card Inserted
+8955 11/13/2025 17:26:59 Card Number: 421570******7213
+8956 11/13/2025 17:27:03 Transaction Req. Send: Succeeded
+8957 11/13/2025 17:27:03 [OP Code]: [BBBBBBBD]
+8958 11/13/2025 17:27:03 [Amount Entry Field]: [000000000000]
+8959 11/13/2025 17:27:03 [Last TSN]: [6241]
+8960 11/13/2025 17:27:04 Transaction Res. Received
+8961 11/13/2025 17:27:04 [Replied TSN]: [6242]
+8962 11/13/2025 17:27:04 [Next State]: [006]
+8963 11/13/2025 17:27:04 [Function Identifier]: [5]
+8964 11/13/2025 17:27:04 Solicited Status  Send: Succeeded
+8965 11/13/2025 17:27:10 PIN Entered: 421570******7213
+8966 11/13/2025 17:27:26 Transaction Req. Send: Succeeded
+8967 11/13/2025 17:27:26 [OP Code]: [ABHBD   ]
+8968 11/13/2025 17:27:26 [Amount Entry Field]: [000000000000]
+8969 11/13/2025 17:27:26 [Last TSN]: [6242]
+8970 11/13/2025 17:27:27 Transaction Res. Received
+8971 11/13/2025 17:27:27 [Replied TSN]: [6243]
+8972 11/13/2025 17:27:27 [Next State]: [237]
+8973 11/13/2025 17:27:27 [Function Identifier]: [2]
+8974 11/13/2025 17:27:37 Notes Dispensed:
+IDR100000*3
+Total Amount IDR 300000
+A0805:B1006:C1999:D1737:E0008:F0000:R0000
+8975 11/13/2025 17:27:37 
+
+13/11/25 17:27        NO REF :6243       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7213    
+
+PENARIKAN TUNAI             
+REKENING: 0012601500133323
+JUMLAH  :       RP. 300,000.00  
+SALDO   :       RP. 410,636.83  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+8976 11/13/2025 17:27:39 Cash Presented
+8977 11/13/2025 17:27:44 Printed Receipt Printer
+8978 11/13/2025 17:27:45 Solicited Status  Send: Succeeded
+8979 11/13/2025 17:27:46 Cash Taken
+8980 11/13/2025 17:27:51 Card Ejected
+8981 11/13/2025 17:27:53 Card Removed
+8982 11/13/2025 17:27:53 <== Transaction End
+8983 11/13/2025 17:40:10 ==> Transaction Start
+8984 11/13/2025 17:40:10 Face Camera OK | Hand Camera OK
+8985 11/13/2025 17:40:10 Terminal Id: 1649 Machine Sequence No: 043202
+8986 11/13/2025 17:40:10 Card Inserted
+8987 11/13/2025 17:40:15 Card Number: 485447******2177
+8988 11/13/2025 17:40:18 Transaction Req. Send: Succeeded
+8989 11/13/2025 17:40:18 [OP Code]: [BBBBBBBD]
+8990 11/13/2025 17:40:18 [Amount Entry Field]: [000000000000]
+8991 11/13/2025 17:40:18 [Last TSN]: [6243]
+8992 11/13/2025 17:40:19 Transaction Res. Received
+8993 11/13/2025 17:40:19 [Replied TSN]: [6244]
+8994 11/13/2025 17:40:19 [Next State]: [006]
+8995 11/13/2025 17:40:19 [Function Identifier]: [5]
+8996 11/13/2025 17:40:19 Solicited Status  Send: Succeeded
+8997 11/13/2025 17:40:23 PIN Entered: 485447******2177
+8998 11/13/2025 17:40:37 Transaction Req. Send: Succeeded
+8999 11/13/2025 17:40:37 [OP Code]: [ABCAD   ]
+9000 11/13/2025 17:40:37 [Amount Entry Field]: [000000250000]
+9001 11/13/2025 17:40:37 [Last TSN]: [6244]
+9002 11/13/2025 17:40:38 Transaction Res. Received
+9003 11/13/2025 17:40:38 [Replied TSN]: [6245]
+9004 11/13/2025 17:40:38 [Next State]: [237]
+9005 11/13/2025 17:40:38 [Function Identifier]: [2]
+9006 11/13/2025 17:40:48 Notes Dispensed:
+IDR50000*5
+Total Amount IDR 250000
+A0805:B1006:C1999:D1732:E0008:F0000:R0000
+9007 11/13/2025 17:40:48 
+
+13/11/25 17:40        NO REF :6245       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2177    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0017901500066379
+JUMLAH  :       RP. 250,000.00  
+SALDO   :        RP. 13,081.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9008 11/13/2025 17:40:50 Cash Presented
+9009 11/13/2025 17:40:56 Printed Receipt Printer
+9010 11/13/2025 17:40:56 Solicited Status  Send: Succeeded
+9011 11/13/2025 17:40:57 Cash Taken
+9012 11/13/2025 17:41:05 Card Ejected
+9013 11/13/2025 17:41:10 Card Removed
+9014 11/13/2025 17:41:11 <== Transaction End
+9015 11/13/2025 18:10:24 ==> Transaction Start
+9016 11/13/2025 18:10:24 Face Camera OK | Hand Camera OK
+9017 11/13/2025 18:10:24 Terminal Id: 1649 Machine Sequence No: 043203
+9018 11/13/2025 18:10:24 Card Inserted
+9019 11/13/2025 18:10:28 Card Number: 421570******6930
+9020 11/13/2025 18:10:31 Transaction Req. Send: Succeeded
+9021 11/13/2025 18:10:31 [OP Code]: [BBBBBBBD]
+9022 11/13/2025 18:10:31 [Amount Entry Field]: [000000000000]
+9023 11/13/2025 18:10:31 [Last TSN]: [6245]
+9024 11/13/2025 18:10:32 Transaction Res. Received
+9025 11/13/2025 18:10:32 [Replied TSN]: [6246]
+9026 11/13/2025 18:10:32 [Next State]: [006]
+9027 11/13/2025 18:10:32 [Function Identifier]: [5]
+9028 11/13/2025 18:10:32 Solicited Status  Send: Succeeded
+9029 11/13/2025 18:10:37 PIN Entered: 421570******6930
+9030 11/13/2025 18:10:44 Transaction Req. Send: Succeeded
+9031 11/13/2025 18:10:44 [OP Code]: [ABIAD   ]
+9032 11/13/2025 18:10:44 [Amount Entry Field]: [000000000000]
+9033 11/13/2025 18:10:44 [Last TSN]: [6246]
+9034 11/13/2025 18:10:44 Transaction Res. Received
+9035 11/13/2025 18:10:44 [Replied TSN]: [6247]
+9036 11/13/2025 18:10:44 [Next State]: [237]
+9037 11/13/2025 18:10:44 [Function Identifier]: [2]
+9038 11/13/2025 18:11:14 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0805:B1006:C1999:D1728:E0010:F0000:R0000
+9039 11/13/2025 18:11:14 
+
+13/11/25 18:10        NO REF :6247       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX6930    
+
+PENARIKAN TUNAI             
+REKENING: 0065601500028022
+JUMLAH  :       RP. 100,000.00  
+SALDO   :       RP. 227,788.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9040 11/13/2025 18:11:16 Cash Presented
+9041 11/13/2025 18:11:21 Printed Receipt Printer
+9042 11/13/2025 18:11:21 Solicited Status  Send: Succeeded
+9043 11/13/2025 18:11:23 Cash Taken
+9044 11/13/2025 18:11:27 Card Ejected
+9045 11/13/2025 18:11:28 Card Removed
+9046 11/13/2025 18:11:28 <== Transaction End
+9047 11/13/2025 18:14:37 ==> Transaction Start
+9048 11/13/2025 18:14:37 Face Camera OK | Hand Camera OK
+9049 11/13/2025 18:14:37 Terminal Id: 1649 Machine Sequence No: 043204
+9050 11/13/2025 18:14:37 Card Inserted
+9051 11/13/2025 18:14:41 Card Number: 421570******1519
+9052 11/13/2025 18:14:43 Transaction Req. Send: Succeeded
+9053 11/13/2025 18:14:43 [OP Code]: [BBBBBBBD]
+9054 11/13/2025 18:14:43 [Amount Entry Field]: [000000000000]
+9055 11/13/2025 18:14:43 [Last TSN]: [6247]
+9056 11/13/2025 18:14:43 Transaction Res. Received
+9057 11/13/2025 18:14:43 [Replied TSN]: [6248]
+9058 11/13/2025 18:14:43 [Next State]: [006]
+9059 11/13/2025 18:14:43 [Function Identifier]: [5]
+9060 11/13/2025 18:14:44 Solicited Status  Send: Succeeded
+9061 11/13/2025 18:14:47 PIN Entered: 421570******1519
+9062 11/13/2025 18:14:51 Transaction Req. Send: Succeeded
+9063 11/13/2025 18:14:51 [OP Code]: [ACAB    ]
+9064 11/13/2025 18:14:51 [Amount Entry Field]: [000000000000]
+9065 11/13/2025 18:14:51 [Last TSN]: [6248]
+9066 11/13/2025 18:14:52 Transaction Res. Received
+9067 11/13/2025 18:14:52 [Replied TSN]: [6249]
+9068 11/13/2025 18:14:52 [Next State]: [245]
+9069 11/13/2025 18:14:52 [Function Identifier]: [5]
+9070 11/13/2025 18:14:53 
+
+13/11/25 18:14        NO REF :6249       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1519    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0013801580005923   
+SALDO TERSEDIA :      RP. 854,243.00  
+SALDO          :      RP. 864,243.00  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9071 11/13/2025 18:14:58 Printed Receipt Printer
+9072 11/13/2025 18:14:58 Solicited Status  Send: Succeeded
+9073 11/13/2025 18:15:06 Card Number: 421570******1519
+9074 11/13/2025 18:15:10 PIN Entered: 421570******1519
+9075 11/13/2025 18:15:19 Transaction Req. Send: Succeeded
+9076 11/13/2025 18:15:19 [OP Code]: [ABCAD   ]
+9077 11/13/2025 18:15:19 [Amount Entry Field]: [000000050000]
+9078 11/13/2025 18:15:19 [Last TSN]: [6249]
+9079 11/13/2025 18:15:19 Transaction Res. Received
+9080 11/13/2025 18:15:19 [Replied TSN]: [6250]
+9081 11/13/2025 18:15:19 [Next State]: [237]
+9082 11/13/2025 18:15:19 [Function Identifier]: [2]
+9083 11/13/2025 18:15:30 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0805:B1006:C1999:D1727:E0010:F0000:R0000
+9084 11/13/2025 18:15:30 
+
+13/11/25 18:15        NO REF :6250       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1519    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801580005923
+JUMLAH  :        RP. 50,000.00  
+SALDO   :       RP. 804,243.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9085 11/13/2025 18:15:32 Cash Presented
+9086 11/13/2025 18:15:38 Printed Receipt Printer
+9087 11/13/2025 18:15:38 Solicited Status  Send: Succeeded
+9088 11/13/2025 18:15:38 Cash Taken
+9089 11/13/2025 18:15:43 Card Ejected
+9090 11/13/2025 18:15:43 Card Removed
+9091 11/13/2025 18:15:43 <== Transaction End
+9092 11/13/2025 18:17:32 ==> Transaction Start
+9093 11/13/2025 18:17:32 Face Camera OK | Hand Camera OK
+9094 11/13/2025 18:17:32 Terminal Id: 1649 Machine Sequence No: 043205
+9095 11/13/2025 18:17:32 Card Inserted
+9096 11/13/2025 18:17:37 Card Number: 421570******2917
+9097 11/13/2025 18:17:41 Transaction Req. Send: Succeeded
+9098 11/13/2025 18:17:41 [OP Code]: [BBBBBBBD]
+9099 11/13/2025 18:17:41 [Amount Entry Field]: [000000000000]
+9100 11/13/2025 18:17:41 [Last TSN]: [6250]
+9101 11/13/2025 18:17:42 Transaction Res. Received
+9102 11/13/2025 18:17:42 [Replied TSN]: [6251]
+9103 11/13/2025 18:17:42 [Next State]: [006]
+9104 11/13/2025 18:17:42 [Function Identifier]: [5]
+9105 11/13/2025 18:17:42 Solicited Status  Send: Succeeded
+9106 11/13/2025 18:17:51 PIN Entered: 421570******2917
+9107 11/13/2025 18:17:56 Transaction Req. Send: Succeeded
+9108 11/13/2025 18:17:56 [OP Code]: [AAD     ]
+9109 11/13/2025 18:17:56 [Amount Entry Field]: [000000000000]
+9110 11/13/2025 18:17:56 [Last TSN]: [6251]
+9111 11/13/2025 18:17:57 Transaction Res. Received
+9112 11/13/2025 18:17:57 [Replied TSN]: [6252]
+9113 11/13/2025 18:17:57 [Next State]: [213]
+9114 11/13/2025 18:17:57 [Function Identifier]: [5]
+9115 11/13/2025 18:17:57 
+
+13/11/25 18:17        NO REF :6252       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX2917    
+REKENING KARTU     :0011901500124543   
+ 
+
+9116 11/13/2025 18:17:57 Solicited Status  Send: Succeeded
+9117 11/13/2025 18:17:58 Deposit: Shutter opened for notes insertion
+9118 11/13/2025 18:18:02 Notes inserted in hopper
+9119 11/13/2025 18:18:14 Notes Counted:
+IDR50000:4
+IDR100000:14
+Total Amount IDR 1600000
+A0805:B1006:C1999:D1727:E0010:F0000:R0000
+9120 11/13/2025 18:18:17 User: D Key Pressed
+9121 11/13/2025 18:18:17 Deposit Confirmed
+9122 11/13/2025 18:18:20 Transaction Req. Send: Succeeded
+9123 11/13/2025 18:18:20 [OP Code]: [AADBBA  ]
+9124 11/13/2025 18:18:20 [Amount Entry Field]: [000001600000]
+9125 11/13/2025 18:18:20 [Last TSN]: [6252]
+9126 11/13/2025 18:18:20 Transaction Res. Received
+9127 11/13/2025 18:18:20 [Replied TSN]: [6253]
+9128 11/13/2025 18:18:20 [Next State]: [247]
+9129 11/13/2025 18:18:20 [Function Identifier]: [5]
+9130 11/13/2025 18:18:20 Solicited Status  Send: Succeeded
+9131 11/13/2025 18:18:24 Transaction Req. Send: Succeeded
+9132 11/13/2025 18:18:24 [OP Code]: [AADBBA B]
+9133 11/13/2025 18:18:24 [Amount Entry Field]: [000001600000]
+9134 11/13/2025 18:18:24 [Last TSN]: [6253]
+9135 11/13/2025 18:18:25 Transaction Res. Received
+9136 11/13/2025 18:18:25 [Replied TSN]: [6254]
+9137 11/13/2025 18:18:25 [Next State]: [246]
+9138 11/13/2025 18:18:25 [Function Identifier]: [-]
+9139 11/13/2025 18:18:25 Solicited Status  Send: Succeeded
+9140 11/13/2025 18:18:25 Host Store: Storing
+9141 11/13/2025 18:18:25 
+
+13/11/25 18:18        NO REF :6254       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2917    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0011901500124543  
+NAMA       : LENNY OKTAPIANI          
+JUMLAH     :     RP. 1,600,000.00  
+
+SALDO      :       RP. 75,400.00   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+9142 11/13/2025 18:18:32 Printed Receipt Printer
+9143 11/13/2025 18:18:39 Host Store: Stored
+IDR50000:4
+IDR100000:14
+A0805:B1020:C1999:D1731:E0010:F0000:R0000
+9144 11/13/2025 18:18:44 Card Ejected
+9145 11/13/2025 18:18:45 Card Removed
+9146 11/13/2025 18:18:46 <== Transaction End
+9147 11/13/2025 18:19:37 ==> Transaction Start
+9148 11/13/2025 18:19:37 Face Camera OK | Hand Camera OK
+9149 11/13/2025 18:19:37 Terminal Id: 1649 Machine Sequence No: 043206
+9150 11/13/2025 18:19:37 Card Inserted
+9151 11/13/2025 18:19:43 Card Number: 421570******1275
+9152 11/13/2025 18:19:45 Transaction Req. Send: Succeeded
+9153 11/13/2025 18:19:45 [OP Code]: [BBBBBBBD]
+9154 11/13/2025 18:19:45 [Amount Entry Field]: [000000000000]
+9155 11/13/2025 18:19:45 [Last TSN]: [6254]
+9156 11/13/2025 18:19:46 Transaction Res. Received
+9157 11/13/2025 18:19:46 [Replied TSN]: [6255]
+9158 11/13/2025 18:19:46 [Next State]: [006]
+9159 11/13/2025 18:19:46 [Function Identifier]: [5]
+9160 11/13/2025 18:19:46 Solicited Status  Send: Succeeded
+9161 11/13/2025 18:19:49 PIN Entered: 421570******1275
+9162 11/13/2025 18:19:51 Transaction Req. Send: Succeeded
+9163 11/13/2025 18:19:51 [OP Code]: [AAD     ]
+9164 11/13/2025 18:19:51 [Amount Entry Field]: [000000000000]
+9165 11/13/2025 18:19:51 [Last TSN]: [6255]
+9166 11/13/2025 18:19:52 Transaction Res. Received
+9167 11/13/2025 18:19:52 [Replied TSN]: [6256]
+9168 11/13/2025 18:19:52 [Next State]: [213]
+9169 11/13/2025 18:19:52 [Function Identifier]: [5]
+9170 11/13/2025 18:19:52 
+
+13/11/25 18:19        NO REF :6256       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX1275    
+REKENING KARTU     :0013801500190805   
+ 
+
+9171 11/13/2025 18:19:52 Solicited Status  Send: Succeeded
+9172 11/13/2025 18:19:53 Deposit: Shutter opened for notes insertion
+9173 11/13/2025 18:19:56 Notes inserted in hopper
+9174 11/13/2025 18:20:06 Notes Counted:
+IDR100000:3
+Total Amount IDR 300000
+A0805:B1020:C1999:D1731:E0010:F0000:R0000
+9175 11/13/2025 18:20:08 User: D Key Pressed
+9176 11/13/2025 18:20:08 Deposit Confirmed
+9177 11/13/2025 18:20:10 Transaction Req. Send: Succeeded
+9178 11/13/2025 18:20:10 [OP Code]: [AADBBA  ]
+9179 11/13/2025 18:20:10 [Amount Entry Field]: [000000300000]
+9180 11/13/2025 18:20:10 [Last TSN]: [6256]
+9181 11/13/2025 18:20:10 Transaction Res. Received
+9182 11/13/2025 18:20:10 [Replied TSN]: [6257]
+9183 11/13/2025 18:20:10 [Next State]: [247]
+9184 11/13/2025 18:20:10 [Function Identifier]: [5]
+9185 11/13/2025 18:20:11 Solicited Status  Send: Succeeded
+9186 11/13/2025 18:20:16 Transaction Req. Send: Succeeded
+9187 11/13/2025 18:20:16 [OP Code]: [AADBBA B]
+9188 11/13/2025 18:20:16 [Amount Entry Field]: [000000300000]
+9189 11/13/2025 18:20:16 [Last TSN]: [6257]
+9190 11/13/2025 18:20:16 Transaction Res. Received
+9191 11/13/2025 18:20:16 [Replied TSN]: [6258]
+9192 11/13/2025 18:20:16 [Next State]: [246]
+9193 11/13/2025 18:20:16 [Function Identifier]: [-]
+9194 11/13/2025 18:20:17 Solicited Status  Send: Succeeded
+9195 11/13/2025 18:20:17 Host Store: Storing
+9196 11/13/2025 18:20:17 
+
+13/11/25 18:19        NO REF :6258       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1275    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0013801500190805  
+NAMA       : RIO EFFENDI              
+JUMLAH     :       RP. 300,000.00  
+
+SALDO      :      RP. 300,087.00   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+9197 11/13/2025 18:20:24 Printed Receipt Printer
+9198 11/13/2025 18:20:29 Host Store: Stored
+IDR100000:3
+A0805:B1023:C1999:D1731:E0010:F0000:R0000
+9199 11/13/2025 18:20:32 Card Ejected
+9200 11/13/2025 18:20:33 Card Removed
+9201 11/13/2025 18:20:33 <== Transaction End
+9202 11/13/2025 18:20:55 ==> Transaction Start
+9203 11/13/2025 18:20:55 Face Camera OK | Hand Camera OK
+9204 11/13/2025 18:20:55 Terminal Id: 1649 Machine Sequence No: 043207
+9205 11/13/2025 18:20:55 Card Inserted
+9206 11/13/2025 18:21:00 Card Number: 603298******5735
+9207 11/13/2025 18:21:01 Transaction Req. Send: Succeeded
+9208 11/13/2025 18:21:01 [OP Code]: [BBBBBBBD]
+9209 11/13/2025 18:21:01 [Amount Entry Field]: [000000000000]
+9210 11/13/2025 18:21:01 [Last TSN]: [6258]
+9211 11/13/2025 18:21:02 Transaction Res. Received
+9212 11/13/2025 18:21:02 [Replied TSN]: [6259]
+9213 11/13/2025 18:21:02 [Next State]: [G52]
+9214 11/13/2025 18:21:02 [Function Identifier]: [5]
+9215 11/13/2025 18:21:02 Solicited Status  Send: Succeeded
+9216 11/13/2025 18:21:12 PIN Entered: 603298******5735
+9217 11/13/2025 18:21:26 Transaction Req. Send: Succeeded
+9218 11/13/2025 18:21:26 [OP Code]: [C   B AD]
+9219 11/13/2025 18:21:26 [Amount Entry Field]: [000000150000]
+9220 11/13/2025 18:21:26 [Last TSN]: [6259]
+9221 11/13/2025 18:21:27 Transaction Res. Received
+9222 11/13/2025 18:21:27 [Replied TSN]: [6260]
+9223 11/13/2025 18:21:27 [Next State]: [048]
+9224 11/13/2025 18:21:27 [Function Identifier]: [5]
+9225 11/13/2025 18:21:27 
+
+13/11/25 18:21       NO REF :6260       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5735    
+
+                                        
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+9226 11/13/2025 18:21:27 Solicited Status  Send: Succeeded
+9227 11/13/2025 18:21:36 Card Number: 603298******5735
+9228 11/13/2025 18:21:36 Transaction Req. Send: Succeeded
+9229 11/13/2025 18:21:36 [OP Code]: [BBBBBBBD]
+9230 11/13/2025 18:21:36 [Amount Entry Field]: [000000150000]
+9231 11/13/2025 18:21:36 [Last TSN]: [6260]
+9232 11/13/2025 18:21:37 Transaction Res. Received
+9233 11/13/2025 18:21:37 [Replied TSN]: [6261]
+9234 11/13/2025 18:21:37 [Next State]: [G52]
+9235 11/13/2025 18:21:37 [Function Identifier]: [5]
+9236 11/13/2025 18:21:37 Solicited Status  Send: Succeeded
+9237 11/13/2025 18:21:48 PIN Entered: 603298******5735
+9238 11/13/2025 18:21:54 Transaction Req. Send: Succeeded
+9239 11/13/2025 18:21:54 [OP Code]: [C   B AD]
+9240 11/13/2025 18:21:54 [Amount Entry Field]: [000000100000]
+9241 11/13/2025 18:21:54 [Last TSN]: [6261]
+9242 11/13/2025 18:21:55 Transaction Res. Received
+9243 11/13/2025 18:21:55 [Replied TSN]: [6262]
+9244 11/13/2025 18:21:55 [Next State]: [237]
+9245 11/13/2025 18:21:55 [Function Identifier]: [2]
+9246 11/13/2025 18:22:05 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0805:B1023:C1999:D1729:E0010:F0000:R0000
+9247 11/13/2025 18:22:05 
+
+13/11/25 18:21        NO REF :6262      
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO REFF :6262              
+TARIK TUNAI LINK           
+NO KARTU:XXXXXXXXXXXX5735  
+NILAI   :        RP. 100,000.00   
+SALDO   :        RP. 146,998.91   
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+9248 11/13/2025 18:22:07 Cash Presented
+9249 11/13/2025 18:22:13 Printed Receipt Printer
+9250 11/13/2025 18:22:13 Solicited Status  Send: Succeeded
+9251 11/13/2025 18:22:14 Cash Taken
+9252 11/13/2025 18:22:18 Card Ejected
+9253 11/13/2025 18:22:18 Card Removed
+9254 11/13/2025 18:22:18 <== Transaction End
+9255 11/13/2025 18:22:33 ==> Transaction Start
+9256 11/13/2025 18:22:33 Face Camera OK | Hand Camera OK
+9257 11/13/2025 18:22:33 Terminal Id: 1649 Machine Sequence No: 043208
+9258 11/13/2025 18:22:33 Card Inserted
+9259 11/13/2025 18:22:38 Card Number: 485447******2945
+9260 11/13/2025 18:22:40 Transaction Req. Send: Succeeded
+9261 11/13/2025 18:22:40 [OP Code]: [BBBBBBBD]
+9262 11/13/2025 18:22:40 [Amount Entry Field]: [000000000000]
+9263 11/13/2025 18:22:40 [Last TSN]: [6262]
+9264 11/13/2025 18:22:41 Transaction Res. Received
+9265 11/13/2025 18:22:41 [Replied TSN]: [6263]
+9266 11/13/2025 18:22:41 [Next State]: [006]
+9267 11/13/2025 18:22:41 [Function Identifier]: [5]
+9268 11/13/2025 18:22:41 Solicited Status  Send: Succeeded
+9269 11/13/2025 18:22:44 PIN Entered: 485447******2945
+9270 11/13/2025 18:22:54 Transaction Req. Send: Succeeded
+9271 11/13/2025 18:22:54 [OP Code]: [ABCAD   ]
+9272 11/13/2025 18:22:54 [Amount Entry Field]: [000000200000]
+9273 11/13/2025 18:22:54 [Last TSN]: [6263]
+9274 11/13/2025 18:22:54 Transaction Res. Received
+9275 11/13/2025 18:22:54 [Replied TSN]: [6264]
+9276 11/13/2025 18:22:54 [Next State]: [237]
+9277 11/13/2025 18:22:54 [Function Identifier]: [2]
+9278 11/13/2025 18:23:23 Notes Dispensed:
+IDR50000*4
+Total Amount IDR 200000
+A0805:B1023:C1999:D1724:E0011:F0000:R0000
+9279 11/13/2025 18:23:23 
+
+13/11/25 18:22        NO REF :6264       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2945    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0001601501924425
+JUMLAH  :       RP. 200,000.00  
+SALDO   :        RP. 15,937.17  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9280 11/13/2025 18:23:25 Cash Presented
+9281 11/13/2025 18:23:30 Printed Receipt Printer
+9282 11/13/2025 18:23:30 Solicited Status  Send: Succeeded
+9283 11/13/2025 18:23:32 Cash Taken
+9284 11/13/2025 18:23:44 Card Ejected
+9285 11/13/2025 18:23:44 Card Removed
+9286 11/13/2025 18:23:44 <== Transaction End
+9287 11/13/2025 18:30:35 ==> Transaction Start
+9288 11/13/2025 18:30:35 Face Camera OK | Hand Camera OK
+9289 11/13/2025 18:30:35 Terminal Id: 1649 Machine Sequence No: 043209
+9290 11/13/2025 18:30:35 Card Inserted
+9291 11/13/2025 18:30:40 Card Number: 485447******5934
+9292 11/13/2025 18:30:42 Transaction Req. Send: Succeeded
+9293 11/13/2025 18:30:42 [OP Code]: [BBBBBBBD]
+9294 11/13/2025 18:30:42 [Amount Entry Field]: [000000000000]
+9295 11/13/2025 18:30:42 [Last TSN]: [6264]
+9296 11/13/2025 18:30:43 Transaction Res. Received
+9297 11/13/2025 18:30:43 [Replied TSN]: [6265]
+9298 11/13/2025 18:30:43 [Next State]: [006]
+9299 11/13/2025 18:30:43 [Function Identifier]: [5]
+9300 11/13/2025 18:30:43 Solicited Status  Send: Succeeded
+9301 11/13/2025 18:30:46 PIN Entered: 485447******5934
+9302 11/13/2025 18:31:12 Transaction Req. Send: Succeeded
+9303 11/13/2025 18:31:12 [OP Code]: [ABCAD   ]
+9304 11/13/2025 18:31:12 [Amount Entry Field]: [000001500000]
+9305 11/13/2025 18:31:12 [Last TSN]: [6265]
+9306 11/13/2025 18:31:13 Transaction Res. Received
+9307 11/13/2025 18:31:13 [Replied TSN]: [6266]
+9308 11/13/2025 18:31:13 [Next State]: [237]
+9309 11/13/2025 18:31:13 [Function Identifier]: [2]
+9310 11/13/2025 18:31:47 Notes Dispensed:
+IDR50000*30
+Total Amount IDR 1500000
+A0805:B1023:C1999:D1688:E0017:F0000:R0000
+9311 11/13/2025 18:31:47 
+
+13/11/25 18:30        NO REF :6266       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5934    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0028101500088566
+JUMLAH  :     RP. 1,500,000.00  
+SALDO   :     RP. 3,537,530.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9312 11/13/2025 18:31:49 Cash Presented
+9313 11/13/2025 18:31:55 Printed Receipt Printer
+9314 11/13/2025 18:31:55 Solicited Status  Send: Succeeded
+9315 11/13/2025 18:31:56 Cash Taken
+9316 11/13/2025 18:32:01 Card Number: 485447******5934
+9317 11/13/2025 18:32:08 PIN Entered: 485447******5934
+9318 11/13/2025 18:32:21 Transaction Req. Send: Succeeded
+9319 11/13/2025 18:32:21 [OP Code]: [ABCBD   ]
+9320 11/13/2025 18:32:21 [Amount Entry Field]: [000002000000]
+9321 11/13/2025 18:32:21 [Last TSN]: [6266]
+9322 11/13/2025 18:32:22 Transaction Res. Received
+9323 11/13/2025 18:32:22 [Replied TSN]: [6267]
+9324 11/13/2025 18:32:22 [Next State]: [237]
+9325 11/13/2025 18:32:22 [Function Identifier]: [2]
+9326 11/13/2025 18:32:33 Notes Dispensed:
+IDR100000*20
+Total Amount IDR 2000000
+A0785:B1023:C1999:D1688:E0017:F0000:R0000
+9327 11/13/2025 18:32:34 
+
+13/11/25 18:32        NO REF :6267       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5934    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0028101500088566
+JUMLAH  :     RP. 2,000,000.00  
+SALDO   :     RP. 1,537,530.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9328 11/13/2025 18:32:36 Cash Presented
+9329 11/13/2025 18:32:42 Printed Receipt Printer
+9330 11/13/2025 18:32:42 Solicited Status  Send: Succeeded
+9331 11/13/2025 18:32:43 Cash Taken
+9332 11/13/2025 18:32:54 Card Number: 485447******5934
+9333 11/13/2025 18:32:59 PIN Entered: 485447******5934
+9334 11/13/2025 18:33:11 Transaction Req. Send: Succeeded
+9335 11/13/2025 18:33:11 [OP Code]: [ABGAD   ]
+9336 11/13/2025 18:33:11 [Amount Entry Field]: [000002000000]
+9337 11/13/2025 18:33:11 [Last TSN]: [6267]
+9338 11/13/2025 18:33:12 Transaction Res. Received
+9339 11/13/2025 18:33:12 [Replied TSN]: [6268]
+9340 11/13/2025 18:33:12 [Next State]: [237]
+9341 11/13/2025 18:33:12 [Function Identifier]: [2]
+9342 11/13/2025 18:33:41 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0785:B1023:C1999:D1677:E0018:F0000:R0000
+9343 11/13/2025 18:33:42 
+
+13/11/25 18:32        NO REF :6268       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5934    
+
+PENARIKAN TUNAI             
+REKENING: 0028101500088566
+JUMLAH  :       RP. 500,000.00  
+SALDO   :     RP. 1,037,530.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9344 11/13/2025 18:33:43 Cash Presented
+9345 11/13/2025 18:33:49 Printed Receipt Printer
+9346 11/13/2025 18:33:49 Solicited Status  Send: Succeeded
+9347 11/13/2025 18:33:50 Cash Taken
+9348 11/13/2025 18:33:59 Card Ejected
+9349 11/13/2025 18:33:59 Card Removed
+9350 11/13/2025 18:34:00 <== Transaction End
+9351 11/13/2025 18:51:07 ==> Transaction Start
+9352 11/13/2025 18:51:07 Card Number:622100******0891
+9353 11/13/2025 18:51:07 Face Camera OK | Hand Camera OK
+9354 11/13/2025 18:51:07 Terminal Id: 1649 Machine Sequence No: 043210
+9355 11/13/2025 18:51:32 Transaction Req. Send: Succeeded
+9356 11/13/2025 18:51:32 [OP Code]: [IAI     ]
+9357 11/13/2025 18:51:32 [Amount Entry Field]: [000000000000]
+9358 11/13/2025 18:51:32 [Last TSN]: [6268]
+9359 11/13/2025 18:51:33 Transaction Res. Received
+9360 11/13/2025 18:51:33 [Replied TSN]: [6269]
+9361 11/13/2025 18:51:33 [Next State]: [299]
+9362 11/13/2025 18:51:33 [Function Identifier]: [2]
+9363 11/13/2025 18:51:43 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0785:B1023:C1999:D1667:E0018:F0000:R0000
+9364 11/13/2025 18:51:44 
+
+13/11/25 18:51        NO REF :6269       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379301351      
+NOMINAL     :    RP. 500,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+9365 11/13/2025 18:51:46 Cash Presented
+9366 11/13/2025 18:51:51 Printed Receipt Printer
+9367 11/13/2025 18:51:51 Solicited Status  Send: Succeeded
+9368 11/13/2025 18:51:53 Cash Taken
+9369 11/13/2025 18:51:59 <== Transaction End
+9370 11/13/2025 18:52:22 ==> Transaction Start
+9371 11/13/2025 18:52:22 Face Camera OK | Hand Camera OK
+9372 11/13/2025 18:52:22 Terminal Id: 1649 Machine Sequence No: 043211
+9373 11/13/2025 18:52:22 Card Inserted
+9374 11/13/2025 18:52:27 Card Number: 421570******2335
+9375 11/13/2025 18:52:33 Transaction Req. Send: Succeeded
+9376 11/13/2025 18:52:33 [OP Code]: [BBBBBBBD]
+9377 11/13/2025 18:52:33 [Amount Entry Field]: [000000000000]
+9378 11/13/2025 18:52:33 [Last TSN]: [6269]
+9379 11/13/2025 18:52:34 Transaction Res. Received
+9380 11/13/2025 18:52:34 [Replied TSN]: [6270]
+9381 11/13/2025 18:52:34 [Next State]: [006]
+9382 11/13/2025 18:52:34 [Function Identifier]: [5]
+9383 11/13/2025 18:52:34 Solicited Status  Send: Succeeded
+9384 11/13/2025 18:52:41 PIN Entered: 421570******2335
+9385 11/13/2025 18:53:02 Card Ejected
+9386 11/13/2025 18:53:02 Card Removed
+9387 11/13/2025 18:53:02 <== Transaction End
+9388 11/13/2025 18:53:12 ==> Transaction Start
+9389 11/13/2025 18:53:12 Face Camera OK | Hand Camera OK
+9390 11/13/2025 18:53:12 Terminal Id: 1649 Machine Sequence No: 043212
+9391 11/13/2025 18:53:12 Card Inserted
+9392 11/13/2025 18:53:16 Card Number: 421570******2335
+9393 11/13/2025 18:53:20 Transaction Req. Send: Succeeded
+9394 11/13/2025 18:53:20 [OP Code]: [BBBBBBBD]
+9395 11/13/2025 18:53:20 [Amount Entry Field]: [000000000000]
+9396 11/13/2025 18:53:20 [Last TSN]: [6270]
+9397 11/13/2025 18:53:21 Transaction Res. Received
+9398 11/13/2025 18:53:21 [Replied TSN]: [6271]
+9399 11/13/2025 18:53:21 [Next State]: [006]
+9400 11/13/2025 18:53:21 [Function Identifier]: [5]
+9401 11/13/2025 18:53:21 Solicited Status  Send: Succeeded
+9402 11/13/2025 18:53:25 PIN Entered: 421570******2335
+9403 11/13/2025 18:53:35 Transaction Req. Send: Succeeded
+9404 11/13/2025 18:53:35 [OP Code]: [ABCAD   ]
+9405 11/13/2025 18:53:35 [Amount Entry Field]: [000000050000]
+9406 11/13/2025 18:53:35 [Last TSN]: [6271]
+9407 11/13/2025 18:53:36 Transaction Res. Received
+9408 11/13/2025 18:53:36 [Replied TSN]: [6272]
+9409 11/13/2025 18:53:36 [Next State]: [237]
+9410 11/13/2025 18:53:36 [Function Identifier]: [2]
+9411 11/13/2025 18:53:45 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0785:B1023:C1999:D1666:E0018:F0000:R0000
+9412 11/13/2025 18:53:45 
+
+13/11/25 18:53        NO REF :6272       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2335    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0037901500096786
+JUMLAH  :        RP. 50,000.00  
+SALDO   :        RP. 56,662.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9413 11/13/2025 18:53:47 Cash Presented
+9414 11/13/2025 18:53:53 Printed Receipt Printer
+9415 11/13/2025 18:53:53 Solicited Status  Send: Succeeded
+9416 11/13/2025 18:53:54 Cash Taken
+9417 11/13/2025 18:53:59 Card Ejected
+9418 11/13/2025 18:53:59 Card Removed
+9419 11/13/2025 18:53:59 <== Transaction End
+9420 11/13/2025 18:57:00 ==> Transaction Start
+9421 11/13/2025 18:57:00 Card Number:622100******0891
+9422 11/13/2025 18:57:00 Face Camera OK | Hand Camera OK
+9423 11/13/2025 18:57:00 Terminal Id: 1649 Machine Sequence No: 043213
+9424 11/13/2025 18:57:42 Keypad Timeout
+9425 11/13/2025 18:57:53 Transaction Req. Send: Succeeded
+9426 11/13/2025 18:57:53 [OP Code]: [IAI     ]
+9427 11/13/2025 18:57:53 [Amount Entry Field]: [000000000000]
+9428 11/13/2025 18:57:53 [Last TSN]: [6272]
+9429 11/13/2025 18:57:54 Transaction Res. Received
+9430 11/13/2025 18:57:54 [Replied TSN]: [6273]
+9431 11/13/2025 18:57:54 [Next State]: [299]
+9432 11/13/2025 18:57:54 [Function Identifier]: [2]
+9433 11/13/2025 18:58:03 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0785:B1023:C1999:D1664:E0018:F0000:R0000
+9434 11/13/2025 18:58:03 
+
+13/11/25 18:57        NO REF :6273       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379305053      
+NOMINAL     :    RP. 100,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+9435 11/13/2025 18:58:05 Cash Presented
+9436 11/13/2025 18:58:11 Printed Receipt Printer
+9437 11/13/2025 18:58:11 Solicited Status  Send: Succeeded
+9438 11/13/2025 18:58:12 Cash Taken
+9439 11/13/2025 18:58:17 <== Transaction End
+9440 11/13/2025 18:58:41 ==> Transaction Start
+9441 11/13/2025 18:58:41 Face Camera OK | Hand Camera OK
+9442 11/13/2025 18:58:41 Terminal Id: 1649 Machine Sequence No: 043214
+9443 11/13/2025 18:58:41 Card Inserted
+9444 11/13/2025 18:58:46 Card Number: 622100******2994
+9445 11/13/2025 18:58:50 Transaction Req. Send: Succeeded
+9446 11/13/2025 18:58:50 [OP Code]: [BBBBBBBD]
+9447 11/13/2025 18:58:50 [Amount Entry Field]: [000000000000]
+9448 11/13/2025 18:58:50 [Last TSN]: [6273]
+9449 11/13/2025 18:58:50 Transaction Res. Received
+9450 11/13/2025 18:58:50 [Replied TSN]: [6274]
+9451 11/13/2025 18:58:50 [Next State]: [006]
+9452 11/13/2025 18:58:50 [Function Identifier]: [5]
+9453 11/13/2025 18:58:50 Solicited Status  Send: Succeeded
+9454 11/13/2025 18:58:56 PIN Entered: 622100******2994
+9455 11/13/2025 18:59:06 Transaction Req. Send: Succeeded
+9456 11/13/2025 18:59:06 [OP Code]: [ABCBD   ]
+9457 11/13/2025 18:59:06 [Amount Entry Field]: [000000100000]
+9458 11/13/2025 18:59:06 [Last TSN]: [6274]
+9459 11/13/2025 18:59:07 Transaction Res. Received
+9460 11/13/2025 18:59:07 [Replied TSN]: [6275]
+9461 11/13/2025 18:59:07 [Next State]: [237]
+9462 11/13/2025 18:59:07 [Function Identifier]: [2]
+9463 11/13/2025 18:59:16 Notes Dispensed:
+IDR100000*1
+Total Amount IDR 100000
+A0784:B1023:C1999:D1664:E0018:F0000:R0000
+9464 11/13/2025 18:59:16 
+
+13/11/25 18:58        NO REF :6275       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX2994    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0031201560003183
+JUMLAH  :       RP. 100,000.00  
+SALDO   :         RP. 2,425.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9465 11/13/2025 18:59:18 Cash Presented
+9466 11/13/2025 18:59:24 Printed Receipt Printer
+9467 11/13/2025 18:59:24 Solicited Status  Send: Succeeded
+9468 11/13/2025 18:59:24 Cash Taken
+9469 11/13/2025 18:59:28 Card Ejected
+9470 11/13/2025 18:59:28 Card Removed
+9471 11/13/2025 18:59:29 <== Transaction End
+9472 11/13/2025 19:04:47 ==> Transaction Start
+9473 11/13/2025 19:04:47 Face Camera OK | Hand Camera OK
+9474 11/13/2025 19:04:47 Terminal Id: 1649 Machine Sequence No: 043215
+9475 11/13/2025 19:04:47 Card Inserted
+9476 11/13/2025 19:04:52 Card Number: 421570******5499
+9477 11/13/2025 19:04:56 Transaction Req. Send: Succeeded
+9478 11/13/2025 19:04:56 [OP Code]: [BBBBBBBD]
+9479 11/13/2025 19:04:56 [Amount Entry Field]: [000000000000]
+9480 11/13/2025 19:04:56 [Last TSN]: [6275]
+9481 11/13/2025 19:04:56 Transaction Res. Received
+9482 11/13/2025 19:04:56 [Replied TSN]: [6276]
+9483 11/13/2025 19:04:56 [Next State]: [006]
+9484 11/13/2025 19:04:56 [Function Identifier]: [5]
+9485 11/13/2025 19:04:56 Solicited Status  Send: Succeeded
+9486 11/13/2025 19:05:01 PIN Entered: 421570******5499
+9487 11/13/2025 19:05:04 Transaction Req. Send: Succeeded
+9488 11/13/2025 19:05:04 [OP Code]: [AAD     ]
+9489 11/13/2025 19:05:04 [Amount Entry Field]: [000000000000]
+9490 11/13/2025 19:05:04 [Last TSN]: [6276]
+9491 11/13/2025 19:05:04 Transaction Res. Received
+9492 11/13/2025 19:05:04 [Replied TSN]: [6277]
+9493 11/13/2025 19:05:04 [Next State]: [213]
+9494 11/13/2025 19:05:04 [Function Identifier]: [5]
+9495 11/13/2025 19:05:04 
+
+13/11/25 19:04        NO REF :6277       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+INFO DATA PENYETOR              
+
+NO KARTU           :XXXXXXXXXXXX5499    
+REKENING KARTU     :0001601502996043   
+ 
+
+9496 11/13/2025 19:05:04 Solicited Status  Send: Succeeded
+9497 11/13/2025 19:05:05 Deposit: Shutter opened for notes insertion
+9498 11/13/2025 19:05:10 Notes inserted in hopper
+9499 11/13/2025 19:05:21 Notes Counted:
+IDR100000:16
+Total Amount IDR 1600000
+A0784:B1023:C1999:D1664:E0018:F0000:R0000
+9500 11/13/2025 19:05:23 User: D Key Pressed
+9501 11/13/2025 19:05:23 Deposit Confirmed
+9502 11/13/2025 19:05:26 Transaction Req. Send: Succeeded
+9503 11/13/2025 19:05:26 [OP Code]: [AADBBA  ]
+9504 11/13/2025 19:05:26 [Amount Entry Field]: [000001600000]
+9505 11/13/2025 19:05:26 [Last TSN]: [6277]
+9506 11/13/2025 19:05:26 Transaction Res. Received
+9507 11/13/2025 19:05:26 [Replied TSN]: [6278]
+9508 11/13/2025 19:05:26 [Next State]: [247]
+9509 11/13/2025 19:05:26 [Function Identifier]: [5]
+9510 11/13/2025 19:05:26 Solicited Status  Send: Succeeded
+9511 11/13/2025 19:05:30 Transaction Req. Send: Succeeded
+9512 11/13/2025 19:05:30 [OP Code]: [AADBBA B]
+9513 11/13/2025 19:05:30 [Amount Entry Field]: [000001600000]
+9514 11/13/2025 19:05:30 [Last TSN]: [6278]
+9515 11/13/2025 19:05:30 Transaction Res. Received
+9516 11/13/2025 19:05:30 [Replied TSN]: [6279]
+9517 11/13/2025 19:05:30 [Next State]: [246]
+9518 11/13/2025 19:05:30 [Function Identifier]: [-]
+9519 11/13/2025 19:05:31 Solicited Status  Send: Succeeded
+9520 11/13/2025 19:05:31 Host Store: Storing
+9521 11/13/2025 19:05:31 
+
+13/11/25 19:05        NO REF :6279       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX5499    
+
+SETOR TUNAI PRIBADI REK.TABUNGAN         
+NO.REK     : 0001601502996043  
+NAMA       : NENG FADLIAS NINGSIH     
+JUMLAH     :     RP. 1,600,000.00  
+
+SALDO      :    RP. 1,804,864.00   
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+
+
+
+9522 11/13/2025 19:05:38 Printed Receipt Printer
+9523 11/13/2025 19:05:45 Host Store: Stored
+IDR100000:16
+A0784:B1039:C1999:D1664:E0018:F0000:R0000
+9524 11/13/2025 19:05:48 Card Ejected
+9525 11/13/2025 19:05:49 Card Removed
+9526 11/13/2025 19:05:49 <== Transaction End
+9527 11/13/2025 19:07:00 ==> Transaction Start
+9528 11/13/2025 19:07:00 Face Camera OK | Hand Camera OK
+9529 11/13/2025 19:07:00 Terminal Id: 1649 Machine Sequence No: 043216
+9530 11/13/2025 19:07:00 Card Inserted
+9531 11/13/2025 19:07:05 Card Number: 421570******0198
+9532 11/13/2025 19:07:07 Transaction Req. Send: Succeeded
+9533 11/13/2025 19:07:07 [OP Code]: [BBBBBBBD]
+9534 11/13/2025 19:07:07 [Amount Entry Field]: [000000000000]
+9535 11/13/2025 19:07:07 [Last TSN]: [6279]
+9536 11/13/2025 19:07:07 Transaction Res. Received
+9537 11/13/2025 19:07:07 [Replied TSN]: [6280]
+9538 11/13/2025 19:07:07 [Next State]: [006]
+9539 11/13/2025 19:07:07 [Function Identifier]: [5]
+9540 11/13/2025 19:07:07 Solicited Status  Send: Succeeded
+9541 11/13/2025 19:07:13 PIN Entered: 421570******0198
+9542 11/13/2025 19:07:26 Transaction Req. Send: Succeeded
+9543 11/13/2025 19:07:26 [OP Code]: [ABCAD   ]
+9544 11/13/2025 19:07:26 [Amount Entry Field]: [000000500000]
+9545 11/13/2025 19:07:26 [Last TSN]: [6280]
+9546 11/13/2025 19:07:26 Transaction Res. Received
+9547 11/13/2025 19:07:26 [Replied TSN]: [6281]
+9548 11/13/2025 19:07:26 [Next State]: [237]
+9549 11/13/2025 19:07:26 [Function Identifier]: [2]
+9550 11/13/2025 19:07:37 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0784:B1039:C1999:D1654:E0018:F0000:R0000
+9551 11/13/2025 19:07:38 
+
+13/11/25 19:07        NO REF :6281       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX0198    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500166733
+JUMLAH  :       RP. 500,000.00  
+SALDO   :       RP. 656,895.40  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9552 11/13/2025 19:07:40 Cash Presented
+9553 11/13/2025 19:07:45 Printed Receipt Printer
+9554 11/13/2025 19:07:45 Solicited Status  Send: Succeeded
+9555 11/13/2025 19:07:46 Cash Taken
+9556 11/13/2025 19:08:05 Card Number: 421570******0198
+9557 11/13/2025 19:08:12 PIN Entered: 421570******0198
+9558 11/13/2025 19:08:13 User: Cancel Key Pressed
+9559 11/13/2025 19:08:13 User: Cancel Key Pressed
+9560 11/13/2025 19:08:16 Card Ejected
+9561 11/13/2025 19:08:16 Card Removed
+9562 11/13/2025 19:08:16 <== Transaction End
+9563 11/13/2025 19:09:32 ==> Transaction Start
+9564 11/13/2025 19:09:32 Face Camera OK | Hand Camera OK
+9565 11/13/2025 19:09:32 Terminal Id: 1649 Machine Sequence No: 043217
+9566 11/13/2025 19:09:32 Card Inserted
+9567 11/13/2025 19:09:37 Card Number: 421570******7777
+9568 11/13/2025 19:09:40 Transaction Req. Send: Succeeded
+9569 11/13/2025 19:09:40 [OP Code]: [BBBBBBBD]
+9570 11/13/2025 19:09:40 [Amount Entry Field]: [000000000000]
+9571 11/13/2025 19:09:40 [Last TSN]: [6281]
+9572 11/13/2025 19:09:40 Transaction Res. Received
+9573 11/13/2025 19:09:40 [Replied TSN]: [6282]
+9574 11/13/2025 19:09:40 [Next State]: [006]
+9575 11/13/2025 19:09:40 [Function Identifier]: [5]
+9576 11/13/2025 19:09:40 Solicited Status  Send: Succeeded
+9577 11/13/2025 19:09:45 PIN Entered: 421570******7777
+9578 11/13/2025 19:09:51 Transaction Req. Send: Succeeded
+9579 11/13/2025 19:09:51 [OP Code]: [ABIAD   ]
+9580 11/13/2025 19:09:51 [Amount Entry Field]: [000000000000]
+9581 11/13/2025 19:09:51 [Last TSN]: [6282]
+9582 11/13/2025 19:09:51 Transaction Res. Received
+9583 11/13/2025 19:09:51 [Replied TSN]: [6283]
+9584 11/13/2025 19:09:51 [Next State]: [237]
+9585 11/13/2025 19:09:51 [Function Identifier]: [2]
+9586 11/13/2025 19:10:01 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0784:B1039:C1999:D1652:E0018:F0000:R0000
+9587 11/13/2025 19:10:01 
+
+13/11/25 19:09        NO REF :6283       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX7777    
+
+PENARIKAN TUNAI             
+REKENING: 0013801580006042
+JUMLAH  :       RP. 100,000.00  
+SALDO   :     RP. 7,009,886.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9588 11/13/2025 19:10:03 Cash Presented
+9589 11/13/2025 19:10:09 Printed Receipt Printer
+9590 11/13/2025 19:10:09 Solicited Status  Send: Succeeded
+9591 11/13/2025 19:10:10 Cash Taken
+9592 11/13/2025 19:10:16 Card Ejected
+9593 11/13/2025 19:10:18 Card Removed
+9594 11/13/2025 19:10:18 <== Transaction End
+9595 11/13/2025 19:10:38 ==> Transaction Start
+9596 11/13/2025 19:10:38 Face Camera OK | Hand Camera OK
+9597 11/13/2025 19:10:38 Terminal Id: 1649 Machine Sequence No: 043218
+9598 11/13/2025 19:10:38 Card Inserted
+9599 11/13/2025 19:10:42 Card Number: 469345******1958
+9600 11/13/2025 19:10:45 Transaction Req. Send: Succeeded
+9601 11/13/2025 19:10:45 [OP Code]: [BBBBBBBD]
+9602 11/13/2025 19:10:45 [Amount Entry Field]: [000000000000]
+9603 11/13/2025 19:10:45 [Last TSN]: [6283]
+9604 11/13/2025 19:10:45 Transaction Res. Received
+9605 11/13/2025 19:10:45 [Replied TSN]: [6284]
+9606 11/13/2025 19:10:45 [Next State]: [006]
+9607 11/13/2025 19:10:45 [Function Identifier]: [5]
+9608 11/13/2025 19:10:45 Solicited Status  Send: Succeeded
+9609 11/13/2025 19:10:51 PIN Entered: 469345******1958
+9610 11/13/2025 19:11:57 Transaction Req. Send: Succeeded
+9611 11/13/2025 19:11:57 [OP Code]: [ACIB  B ]
+9612 11/13/2025 19:11:57 [Amount Entry Field]: [000001000000]
+9613 11/13/2025 19:11:57 [Last TSN]: [6284]
+9614 11/13/2025 19:11:58 Transaction Res. Received
+9615 11/13/2025 19:11:58 [Replied TSN]: [6285]
+9616 11/13/2025 19:11:58 [Next State]: [C6C]
+9617 11/13/2025 19:11:58 [Function Identifier]: [5]
+9618 11/13/2025 19:11:58 Solicited Status  Send: Succeeded
+9619 11/13/2025 19:12:01 Card Number: 469345******1958
+9620 11/13/2025 19:12:04 Transaction Req. Send: Succeeded
+9621 11/13/2025 19:12:04 [OP Code]: [ACIB  BC]
+9622 11/13/2025 19:12:04 [Amount Entry Field]: [000001000000]
+9623 11/13/2025 19:12:04 [Last TSN]: [6285]
+9624 11/13/2025 19:12:05 Transaction Res. Received
+9625 11/13/2025 19:12:05 [Replied TSN]: [6286]
+9626 11/13/2025 19:12:05 [Next State]: [245]
+9627 11/13/2025 19:12:05 [Function Identifier]: [5]
+9628 11/13/2025 19:12:06 
+
+13/11/25 19:11        NO REF :6286       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1958    
+
+TRANSFER - ALTO             
+
+DARI    :BTN                  
+NAMA    :HARI WALUYO          
+NO REK  :0000027301500038540  
+REFF    :                     
+TUJUAN  :BANK BCA            
+NAMA    :HARI WALUYO SE                
+NO REK  :0661782608           
+JUMLAH  :RP.  1,000,000.00    
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+         TERIMA KASIH      
+ANDA TELAH MENGGUNAKAN     
+         ATM BANK BTN   
+
+9629 11/13/2025 19:12:12 Printed Receipt Printer
+9630 11/13/2025 19:12:12 Solicited Status  Send: Succeeded
+9631 11/13/2025 19:12:17 Card Ejected
+9632 11/13/2025 19:12:17 Card Removed
+9633 11/13/2025 19:12:17 <== Transaction End
+9634 11/13/2025 19:12:33 ==> Transaction Start
+9635 11/13/2025 19:12:33 Card Number:622100******0891
+9636 11/13/2025 19:12:33 Face Camera OK | Hand Camera OK
+9637 11/13/2025 19:12:33 Terminal Id: 1649 Machine Sequence No: 043219
+9638 11/13/2025 19:12:53 Transaction Req. Send: Succeeded
+9639 11/13/2025 19:12:53 [OP Code]: [IBI     ]
+9640 11/13/2025 19:12:53 [Amount Entry Field]: [000000000000]
+9641 11/13/2025 19:12:53 [Last TSN]: [6286]
+9642 11/13/2025 19:12:54 Transaction Res. Received
+9643 11/13/2025 19:12:54 [Replied TSN]: [6287]
+9644 11/13/2025 19:12:54 [Next State]: [299]
+9645 11/13/2025 19:12:54 [Function Identifier]: [2]
+9646 11/13/2025 19:13:03 Notes Dispensed:
+IDR100000*5
+Total Amount IDR 500000
+A0779:B1039:C1999:D1652:E0018:F0000:R0000
+9647 11/13/2025 19:13:03 
+
+13/11/25 19:12        NO REF :6287       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379311534      
+NOMINAL     :    RP. 500,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+9648 11/13/2025 19:13:05 Cash Presented
+9649 11/13/2025 19:13:11 Printed Receipt Printer
+9650 11/13/2025 19:13:11 Solicited Status  Send: Succeeded
+9651 11/13/2025 19:13:12 Cash Taken
+9652 11/13/2025 19:13:18 <== Transaction End
+9653 11/13/2025 19:26:47 ==> Transaction Start
+9654 11/13/2025 19:26:47 Face Camera OK | Hand Camera OK
+9655 11/13/2025 19:26:47 Terminal Id: 1649 Machine Sequence No: 043220
+9656 11/13/2025 19:26:47 Card Inserted
+9657 11/13/2025 19:26:51 Card Number: 421570******8114
+9658 11/13/2025 19:26:55 Transaction Req. Send: Succeeded
+9659 11/13/2025 19:26:55 [OP Code]: [BBBBBBBD]
+9660 11/13/2025 19:26:55 [Amount Entry Field]: [000000000000]
+9661 11/13/2025 19:26:55 [Last TSN]: [6287]
+9662 11/13/2025 19:26:56 Transaction Res. Received
+9663 11/13/2025 19:26:56 [Replied TSN]: [6288]
+9664 11/13/2025 19:26:56 [Next State]: [006]
+9665 11/13/2025 19:26:56 [Function Identifier]: [5]
+9666 11/13/2025 19:26:56 Solicited Status  Send: Succeeded
+9667 11/13/2025 19:27:00 PIN Entered: 421570******8114
+9668 11/13/2025 19:27:13 Transaction Req. Send: Succeeded
+9669 11/13/2025 19:27:13 [OP Code]: [ABGBD   ]
+9670 11/13/2025 19:27:13 [Amount Entry Field]: [000000000000]
+9671 11/13/2025 19:27:13 [Last TSN]: [6288]
+9672 11/13/2025 19:27:13 Transaction Res. Received
+9673 11/13/2025 19:27:13 [Replied TSN]: [6289]
+9674 11/13/2025 19:27:13 [Next State]: [237]
+9675 11/13/2025 19:27:13 [Function Identifier]: [2]
+9676 11/13/2025 19:27:23 Notes Dispensed:
+IDR100000*5
+Total Amount IDR 500000
+A0774:B1039:C1999:D1652:E0018:F0000:R0000
+9677 11/13/2025 19:27:23 
+
+13/11/25 19:26        NO REF :6289       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8114    
+
+PENARIKAN TUNAI             
+REKENING: 0013801500197899
+JUMLAH  :       RP. 500,000.00  
+SALDO   :       RP. 508,633.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9678 11/13/2025 19:27:25 Cash Presented
+9679 11/13/2025 19:27:31 Printed Receipt Printer
+9680 11/13/2025 19:27:31 Solicited Status  Send: Succeeded
+9681 11/13/2025 19:27:33 Cash Taken
+9682 11/13/2025 19:27:38 Card Ejected
+9683 11/13/2025 19:27:38 Card Removed
+9684 11/13/2025 19:27:39 <== Transaction End
+9685 11/13/2025 19:33:40 ==> Transaction Start
+9686 11/13/2025 19:33:40 Face Camera OK | Hand Camera OK
+9687 11/13/2025 19:33:40 Terminal Id: 1649 Machine Sequence No: 043221
+9688 11/13/2025 19:33:40 Card Inserted
+9689 11/13/2025 19:33:44 Card Number: 628002******1005
+9690 11/13/2025 19:33:49 Transaction Req. Send: Succeeded
+9691 11/13/2025 19:33:49 [OP Code]: [BBBBBBBD]
+9692 11/13/2025 19:33:49 [Amount Entry Field]: [000000000000]
+9693 11/13/2025 19:33:49 [Last TSN]: [6289]
+9694 11/13/2025 19:33:49 Transaction Res. Received
+9695 11/13/2025 19:33:49 [Replied TSN]: [6290]
+9696 11/13/2025 19:33:49 [Next State]: [EB1]
+9697 11/13/2025 19:33:49 [Function Identifier]: [5]
+9698 11/13/2025 19:33:50 Solicited Status  Send: Succeeded
+9699 11/13/2025 19:33:59 PIN Entered: 628002******1005
+9700 11/13/2025 19:34:07 Transaction Req. Send: Succeeded
+9701 11/13/2025 19:34:07 [OP Code]: [A  A BD ]
+9702 11/13/2025 19:34:07 [Amount Entry Field]: [000000100000]
+9703 11/13/2025 19:34:07 [Last TSN]: [6290]
+9704 11/13/2025 19:34:13 Transaction Res. Received
+9705 11/13/2025 19:34:13 [Replied TSN]: [6291]
+9706 11/13/2025 19:34:13 [Next State]: [EM0]
+9707 11/13/2025 19:34:13 [Function Identifier]: [2]
+9708 11/13/2025 19:34:22 Notes Dispensed:
+IDR50000*2
+Total Amount IDR 100000
+A0774:B1039:C1999:D1650:E0018:F0000:R0000
+9709 11/13/2025 19:34:23 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 19:33:49 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6291              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:628002******1005       
+NILAI   :      RP. 100,000.00  
+SALDO   :      RP. 651,469.67  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+9710 11/13/2025 19:34:24 Cash Presented
+9711 11/13/2025 19:34:32 Printed Receipt Printer
+9712 11/13/2025 19:34:32 Solicited Status  Send: Succeeded
+9713 11/13/2025 19:34:32 Cash Taken
+9714 11/13/2025 19:34:35 Card Ejected
+9715 11/13/2025 19:34:36 Card Removed
+9716 11/13/2025 19:34:36 <== Transaction End
+9717 11/13/2025 19:35:35 ==> Transaction Start
+9718 11/13/2025 19:35:35 Card Number:622100******0891
+9719 11/13/2025 19:35:35 Face Camera OK | Hand Camera OK
+9720 11/13/2025 19:35:35 Terminal Id: 1649 Machine Sequence No: 043222
+9721 11/13/2025 19:35:52 Transaction Req. Send: Succeeded
+9722 11/13/2025 19:35:52 [OP Code]: [IBI     ]
+9723 11/13/2025 19:35:52 [Amount Entry Field]: [000000000000]
+9724 11/13/2025 19:35:52 [Last TSN]: [6291]
+9725 11/13/2025 19:35:54 Transaction Res. Received
+9726 11/13/2025 19:35:54 [Replied TSN]: [6292]
+9727 11/13/2025 19:35:54 [Next State]: [299]
+9728 11/13/2025 19:35:54 [Function Identifier]: [2]
+9729 11/13/2025 19:36:02 Notes Dispensed:
+IDR100000*2
+Total Amount IDR 200000
+A0772:B1039:C1999:D1650:E0018:F0000:R0000
+9730 11/13/2025 19:36:03 
+
+13/11/25 19:35        NO REF :6292       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+CARDLESS WITHDRAWAL NEW MOBILE 
+
+REF CHANNEL :  TRX000379324084      
+NOMINAL     :    RP. 200,000.00   
+BIAYA ADMIN :          RP. 0.00   
+
+     TERIMAKASIH TELAH MENGGUNAKAN    
+       ATM BANK TABUNGAN NEGARA       
+
+ 
+
+9731 11/13/2025 19:36:05 Cash Presented
+9732 11/13/2025 19:36:10 Printed Receipt Printer
+9733 11/13/2025 19:36:10 Solicited Status  Send: Succeeded
+9734 11/13/2025 19:36:12 Cash Taken
+9735 11/13/2025 19:36:17 <== Transaction End
+9736 11/13/2025 19:38:13 ==> Transaction Start
+9737 11/13/2025 19:38:13 Face Camera OK | Hand Camera OK
+9738 11/13/2025 19:38:13 Terminal Id: 1649 Machine Sequence No: 043223
+9739 11/13/2025 19:38:13 Card Inserted
+9740 11/13/2025 19:38:18 Card Number: 421570******0370
+9741 11/13/2025 19:38:21 Transaction Req. Send: Succeeded
+9742 11/13/2025 19:38:21 [OP Code]: [BBBBBBBD]
+9743 11/13/2025 19:38:21 [Amount Entry Field]: [000000000000]
+9744 11/13/2025 19:38:21 [Last TSN]: [6292]
+9745 11/13/2025 19:38:21 Transaction Res. Received
+9746 11/13/2025 19:38:21 [Replied TSN]: [6293]
+9747 11/13/2025 19:38:21 [Next State]: [006]
+9748 11/13/2025 19:38:21 [Function Identifier]: [5]
+9749 11/13/2025 19:38:21 Solicited Status  Send: Succeeded
+9750 11/13/2025 19:38:25 PIN Entered: 421570******0370
+9751 11/13/2025 19:38:41 Transaction Req. Send: Succeeded
+9752 11/13/2025 19:38:41 [OP Code]: [ABCAD   ]
+9753 11/13/2025 19:38:41 [Amount Entry Field]: [000000300000]
+9754 11/13/2025 19:38:41 [Last TSN]: [6293]
+9755 11/13/2025 19:38:41 Transaction Res. Received
+9756 11/13/2025 19:38:41 [Replied TSN]: [6294]
+9757 11/13/2025 19:38:41 [Next State]: [237]
+9758 11/13/2025 19:38:41 [Function Identifier]: [2]
+9759 11/13/2025 19:39:10 Notes Dispensed:
+IDR50000*6
+Total Amount IDR 300000
+A0772:B1039:C1999:D1642:E0020:F0000:R0000
+9760 11/13/2025 19:39:10 
+
+13/11/25 19:38        NO REF :6294       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX0370    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500192611
+JUMLAH  :       RP. 300,000.00  
+SALDO   :       RP. 840,377.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9761 11/13/2025 19:39:12 Cash Presented
+9762 11/13/2025 19:39:18 Printed Receipt Printer
+9763 11/13/2025 19:39:18 Solicited Status  Send: Succeeded
+9764 11/13/2025 19:39:19 Cash Taken
+9765 11/13/2025 19:39:27 Card Ejected
+9766 11/13/2025 19:39:27 Card Removed
+9767 11/13/2025 19:39:27 <== Transaction End
+9768 11/13/2025 19:45:19 ==> Transaction Start
+9769 11/13/2025 19:45:19 Face Camera OK | Hand Camera OK
+9770 11/13/2025 19:45:19 Terminal Id: 1649 Machine Sequence No: 043224
+9771 11/13/2025 19:45:19 Card Inserted
+9772 11/13/2025 19:45:24 Card Number: 485447******9402
+9773 11/13/2025 19:45:27 Transaction Req. Send: Succeeded
+9774 11/13/2025 19:45:27 [OP Code]: [BBBBBBBD]
+9775 11/13/2025 19:45:27 [Amount Entry Field]: [000000000000]
+9776 11/13/2025 19:45:27 [Last TSN]: [6294]
+9777 11/13/2025 19:45:27 Transaction Res. Received
+9778 11/13/2025 19:45:27 [Replied TSN]: [6295]
+9779 11/13/2025 19:45:27 [Next State]: [006]
+9780 11/13/2025 19:45:27 [Function Identifier]: [5]
+9781 11/13/2025 19:45:27 Solicited Status  Send: Succeeded
+9782 11/13/2025 19:45:35 PIN Entered: 485447******9402
+9783 11/13/2025 19:45:47 Transaction Req. Send: Succeeded
+9784 11/13/2025 19:45:47 [OP Code]: [ABCAD   ]
+9785 11/13/2025 19:45:47 [Amount Entry Field]: [000000500000]
+9786 11/13/2025 19:45:47 [Last TSN]: [6295]
+9787 11/13/2025 19:45:47 Transaction Res. Received
+9788 11/13/2025 19:45:47 [Replied TSN]: [6296]
+9789 11/13/2025 19:45:47 [Next State]: [237]
+9790 11/13/2025 19:45:47 [Function Identifier]: [2]
+9791 11/13/2025 19:45:59 Notes Dispensed:
+IDR50000*10
+Total Amount IDR 500000
+A0772:B1039:C1999:D1632:E0020:F0000:R0000
+9792 11/13/2025 19:45:59 
+
+13/11/25 19:45        NO REF :6296       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX9402    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0005401500032041
+JUMLAH  :       RP. 500,000.00  
+SALDO   :       RP. 561,650.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9793 11/13/2025 19:46:01 Cash Presented
+9794 11/13/2025 19:46:06 Printed Receipt Printer
+9795 11/13/2025 19:46:07 Solicited Status  Send: Succeeded
+9796 11/13/2025 19:46:08 Cash Taken
+9797 11/13/2025 19:46:11 Card Ejected
+9798 11/13/2025 19:46:11 Card Removed
+9799 11/13/2025 19:46:11 <== Transaction End
+9800 11/13/2025 19:55:01 ==> Transaction Start
+9801 11/13/2025 19:55:01 Face Camera OK | Hand Camera OK
+9802 11/13/2025 19:55:01 Terminal Id: 1649 Machine Sequence No: 043225
+9803 11/13/2025 19:55:01 Card Inserted
+9804 11/13/2025 19:55:06 Card Number: 421570******9269
+9805 11/13/2025 19:55:09 Transaction Req. Send: Succeeded
+9806 11/13/2025 19:55:09 [OP Code]: [BBBBBBBD]
+9807 11/13/2025 19:55:09 [Amount Entry Field]: [000000000000]
+9808 11/13/2025 19:55:09 [Last TSN]: [6296]
+9809 11/13/2025 19:55:10 Transaction Res. Received
+9810 11/13/2025 19:55:10 [Replied TSN]: [6297]
+9811 11/13/2025 19:55:10 [Next State]: [006]
+9812 11/13/2025 19:55:10 [Function Identifier]: [5]
+9813 11/13/2025 19:55:10 Solicited Status  Send: Succeeded
+9814 11/13/2025 19:55:13 PIN Entered: 421570******9269
+9815 11/13/2025 19:55:25 Transaction Req. Send: Succeeded
+9816 11/13/2025 19:55:25 [OP Code]: [ABCAD   ]
+9817 11/13/2025 19:55:25 [Amount Entry Field]: [000001350000]
+9818 11/13/2025 19:55:25 [Last TSN]: [6297]
+9819 11/13/2025 19:55:25 Transaction Res. Received
+9820 11/13/2025 19:55:25 [Replied TSN]: [6298]
+9821 11/13/2025 19:55:25 [Next State]: [237]
+9822 11/13/2025 19:55:25 [Function Identifier]: [2]
+9823 11/13/2025 19:55:38 Notes Dispensed:
+IDR50000*27
+Total Amount IDR 1350000
+A0772:B1039:C1999:D1605:E0020:F0000:R0000
+9824 11/13/2025 19:55:38 
+
+13/11/25 19:55        NO REF :6298       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX9269    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801580009511
+JUMLAH  :     RP. 1,350,000.00  
+SALDO   :        RP. 16,931.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9825 11/13/2025 19:55:41 Cash Presented
+9826 11/13/2025 19:55:47 Printed Receipt Printer
+9827 11/13/2025 19:55:47 Solicited Status  Send: Succeeded
+9828 11/13/2025 19:55:48 Cash Taken
+9829 11/13/2025 19:55:51 Card Ejected
+9830 11/13/2025 19:55:52 Card Removed
+9831 11/13/2025 19:55:52 <== Transaction End
+9832 11/13/2025 20:41:03 ==> Transaction Start
+9833 11/13/2025 20:41:03 Face Camera OK | Hand Camera OK
+9834 11/13/2025 20:41:03 Terminal Id: 1649 Machine Sequence No: 043226
+9835 11/13/2025 20:41:03 Card Inserted
+9836 11/13/2025 20:41:08 Card Number: 622100******8374
+9837 11/13/2025 20:41:13 Transaction Req. Send: Succeeded
+9838 11/13/2025 20:41:13 [OP Code]: [BBBBBBBD]
+9839 11/13/2025 20:41:13 [Amount Entry Field]: [000000000000]
+9840 11/13/2025 20:41:13 [Last TSN]: [6298]
+9841 11/13/2025 20:41:14 Transaction Res. Received
+9842 11/13/2025 20:41:14 [Replied TSN]: [6299]
+9843 11/13/2025 20:41:14 [Next State]: [006]
+9844 11/13/2025 20:41:14 [Function Identifier]: [5]
+9845 11/13/2025 20:41:14 Solicited Status  Send: Succeeded
+9846 11/13/2025 20:41:19 PIN Entered: 622100******8374
+9847 11/13/2025 20:41:28 Transaction Req. Send: Succeeded
+9848 11/13/2025 20:41:28 [OP Code]: [ACAB    ]
+9849 11/13/2025 20:41:28 [Amount Entry Field]: [000000000000]
+9850 11/13/2025 20:41:28 [Last TSN]: [6299]
+9851 11/13/2025 20:41:28 Transaction Res. Received
+9852 11/13/2025 20:41:28 [Replied TSN]: [6300]
+9853 11/13/2025 20:41:28 [Next State]: [245]
+9854 11/13/2025 20:41:28 [Function Identifier]: [5]
+9855 11/13/2025 20:41:29 
+
+13/11/25 20:41        NO REF :6300       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8374    
+
+INFORMASI SALDO REK.TABUNGAN         
+REKENING       :0013801560009052   
+SALDO TERSEDIA :       RP. 67,622.75  
+SALDO          :       RP. 87,622.75  
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9856 11/13/2025 20:41:35 Printed Receipt Printer
+9857 11/13/2025 20:41:35 Solicited Status  Send: Succeeded
+9858 11/13/2025 20:41:46 Card Number: 622100******8374
+9859 11/13/2025 20:41:56 PIN Entered: 622100******8374
+9860 11/13/2025 20:42:10 Transaction Req. Send: Succeeded
+9861 11/13/2025 20:42:10 [OP Code]: [ABCAD   ]
+9862 11/13/2025 20:42:10 [Amount Entry Field]: [000000050000]
+9863 11/13/2025 20:42:10 [Last TSN]: [6300]
+9864 11/13/2025 20:42:10 Transaction Res. Received
+9865 11/13/2025 20:42:10 [Replied TSN]: [6301]
+9866 11/13/2025 20:42:10 [Next State]: [237]
+9867 11/13/2025 20:42:10 [Function Identifier]: [2]
+9868 11/13/2025 20:42:20 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0772:B1039:C1999:D1604:E0020:F0000:R0000
+9869 11/13/2025 20:42:21 
+
+13/11/25 20:41        NO REF :6301       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX8374    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801560009052
+JUMLAH  :        RP. 50,000.00  
+SALDO   :        RP. 17,622.75  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9870 11/13/2025 20:42:23 Cash Presented
+9871 11/13/2025 20:42:28 Printed Receipt Printer
+9872 11/13/2025 20:42:28 Solicited Status  Send: Succeeded
+9873 11/13/2025 20:42:30 Cash Taken
+9874 11/13/2025 20:42:34 Card Ejected
+9875 11/13/2025 20:42:34 Card Removed
+9876 11/13/2025 20:42:35 <== Transaction End
+9877 11/13/2025 20:54:38 ==> Transaction Start
+9878 11/13/2025 20:54:38 Face Camera OK | Hand Camera OK
+9879 11/13/2025 20:54:38 Terminal Id: 1649 Machine Sequence No: 043227
+9880 11/13/2025 20:54:38 Card Inserted
+9881 11/13/2025 20:54:43 Card Number: 601900******8852
+9882 11/13/2025 20:54:45 Transaction Req. Send: Succeeded
+9883 11/13/2025 20:54:45 [OP Code]: [BBBBBBBD]
+9884 11/13/2025 20:54:45 [Amount Entry Field]: [000000000000]
+9885 11/13/2025 20:54:45 [Last TSN]: [6301]
+9886 11/13/2025 20:54:45 Transaction Res. Received
+9887 11/13/2025 20:54:45 [Replied TSN]: [6302]
+9888 11/13/2025 20:54:45 [Next State]: [EB1]
+9889 11/13/2025 20:54:45 [Function Identifier]: [5]
+9890 11/13/2025 20:54:46 Solicited Status  Send: Succeeded
+9891 11/13/2025 20:54:52 PIN Entered: 601900******8852
+9892 11/13/2025 20:55:15 Transaction Req. Send: Succeeded
+9893 11/13/2025 20:55:15 [OP Code]: [A  A BD ]
+9894 11/13/2025 20:55:15 [Amount Entry Field]: [000000250000]
+9895 11/13/2025 20:55:15 [Last TSN]: [6302]
+9896 11/13/2025 20:55:16 Transaction Res. Received
+9897 11/13/2025 20:55:16 [Replied TSN]: [6303]
+9898 11/13/2025 20:55:16 [Next State]: [EM0]
+9899 11/13/2025 20:55:16 [Function Identifier]: [2]
+9900 11/13/2025 20:55:27 Notes Dispensed:
+IDR50000*5
+Total Amount IDR 250000
+A0772:B1039:C1999:D1599:E0020:F0000:R0000
+9901 11/13/2025 20:55:28 
+    BANK TABUNGAN NEGARA   
+
+TANGGAL  JAM      ATM      
+13/11/25 20:54:57 60991649  
+JLKHAGUS SALIM BLOK A1 150        
+
+
+NO  REF :6303              
+TARIK TUNAI TABUNGAN       
+
+NO KARTU:601900******8852       
+NILAI   :      RP. 250,000.00  
+SALDO   :       RP. 47,630.00  
+
+     DEMI KEAMANAN ANDA    
+  SIMPAN RESI INI SEBAGAI  
+  BUKTI SAH TRANSAKSI ANDA 
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+        ATM BANK BTN       
+ 
+
+9902 11/13/2025 20:55:30 Cash Presented
+9903 11/13/2025 20:55:36 Printed Receipt Printer
+9904 11/13/2025 20:55:37 Solicited Status  Send: Succeeded
+9905 11/13/2025 20:55:37 Cash Taken
+9906 11/13/2025 20:55:41 Card Ejected
+9907 11/13/2025 20:55:41 Card Removed
+9908 11/13/2025 20:55:41 <== Transaction End
+9909 11/13/2025 21:15:00 ==> Transaction Start
+9910 11/13/2025 21:15:00 Face Camera OK | Hand Camera OK
+9911 11/13/2025 21:15:00 Terminal Id: 1649 Machine Sequence No: 043228
+9912 11/13/2025 21:15:00 Card Inserted
+9913 11/13/2025 21:15:05 Card Number: 469345******1390
+9914 11/13/2025 21:15:07 Transaction Req. Send: Succeeded
+9915 11/13/2025 21:15:07 [OP Code]: [BBBBBBBD]
+9916 11/13/2025 21:15:07 [Amount Entry Field]: [000000000000]
+9917 11/13/2025 21:15:07 [Last TSN]: [6303]
+9918 11/13/2025 21:15:08 Transaction Res. Received
+9919 11/13/2025 21:15:08 [Replied TSN]: [6304]
+9920 11/13/2025 21:15:08 [Next State]: [006]
+9921 11/13/2025 21:15:08 [Function Identifier]: [5]
+9922 11/13/2025 21:15:08 Solicited Status  Send: Succeeded
+9923 11/13/2025 21:15:10 PIN Entered: 469345******1390
+9924 11/13/2025 21:15:16 Transaction Req. Send: Succeeded
+9925 11/13/2025 21:15:16 [OP Code]: [ABCAD   ]
+9926 11/13/2025 21:15:16 [Amount Entry Field]: [000000050000]
+9927 11/13/2025 21:15:16 [Last TSN]: [6304]
+9928 11/13/2025 21:15:17 Transaction Res. Received
+9929 11/13/2025 21:15:17 [Replied TSN]: [6305]
+9930 11/13/2025 21:15:17 [Next State]: [237]
+9931 11/13/2025 21:15:17 [Function Identifier]: [2]
+9932 11/13/2025 21:15:27 Notes Dispensed:
+IDR50000*1
+Total Amount IDR 50000
+A0772:B1039:C1999:D1598:E0020:F0000:R0000
+9933 11/13/2025 21:15:27 
+
+13/11/25 21:14        NO REF :6305       
+TERMINAL :HTC0001649  ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1390    
+
+PENARIKAN TUNAI - TABUNGAN  
+REKENING: 0013801500204612
+JUMLAH  :        RP. 50,000.00  
+SALDO   :    RP. 18,888,901.00  
+
+
+        TERIMA KASIH       
+   ANDA TELAH MENGGUNAKAN  
+ATM SETOR TARIK TUNAI BANK BTN    
+ 
+
+9934 11/13/2025 21:15:29 Cash Presented
+9935 11/13/2025 21:15:35 Printed Receipt Printer
+9936 11/13/2025 21:15:35 Solicited Status  Send: Succeeded
+9937 11/13/2025 21:15:35 Cash Taken
+9938 11/13/2025 21:15:41 Card Ejected
+9939 11/13/2025 21:15:41 Card Removed
+9940 11/13/2025 21:15:41 <== Transaction End
+9941 11/13/2025 21:38:31 ==> Transaction Start
+9942 11/13/2025 21:38:31 Face Camera OK | Hand Camera OK
+9943 11/13/2025 21:38:31 Terminal Id: 1649 Machine Sequence No: 043229
+9944 11/13/2025 21:38:31 Card Inserted
+9945 11/13/2025 21:38:37 Card Ejected
+9946 11/13/2025 21:38:37 Card Removed
+9947 11/13/2025 21:38:37 <== Transaction End
+9948 11/13/2025 21:38:43 ==> Transaction Start
+9949 11/13/2025 21:38:43 Face Camera OK | Hand Camera OK
+9950 11/13/2025 21:38:43 Terminal Id: 1649 Machine Sequence No: 043230
+9951 11/13/2025 21:38:43 Card Inserted
+9952 11/13/2025 21:38:49 Card Ejected
+9953 11/13/2025 21:38:49 Card Removed
+9954 11/13/2025 21:38:49 <== Transaction End
+9955 11/13/2025 22:54:30 ==> Transaction Start
+9956 11/13/2025 22:54:30 Face Camera OK | Hand Camera OK
+9957 11/13/2025 22:54:30 Terminal Id: 1649 Machine Sequence No: 043231
+9958 11/13/2025 22:54:30 Card Inserted
+9959 11/13/2025 22:54:35 Card Number: 485447******1135
+9960 11/13/2025 22:54:37 Transaction Req. Send: Succeeded
+9961 11/13/2025 22:54:37 [OP Code]: [BBBBBBBD]
+9962 11/13/2025 22:54:37 [Amount Entry Field]: [000000000000]
+9963 11/13/2025 22:54:37 [Last TSN]: [6305]
+9964 11/13/2025 22:54:38 Transaction Res. Received
+9965 11/13/2025 22:54:38 [Replied TSN]: [6306]
+9966 11/13/2025 22:54:38 [Next State]: [006]
+9967 11/13/2025 22:54:38 [Function Identifier]: [5]
+9968 11/13/2025 22:54:38 Solicited Status  Send: Succeeded
+9969 11/13/2025 22:54:44 PIN Entered: 485447******1135
+9970 11/13/2025 22:54:56 User: Cancel Key Pressed
+9971 11/13/2025 22:55:04 Card Number: 485447******1135
+9972 11/13/2025 22:55:10 PIN Entered: 485447******1135
+9973 11/13/2025 22:55:19 Transaction Req. Send: Succeeded
+9974 11/13/2025 22:55:19 [OP Code]: [ABHAD   ]
+9975 11/13/2025 22:55:19 [Amount Entry Field]: [000000000000]
+9976 11/13/2025 22:55:19 [Last TSN]: [6306]
+9977 11/13/2025 22:56:22 Transaction Res. Received
+9978 11/13/2025 22:56:22 [Replied TSN]: [6307]
+9979 11/13/2025 22:56:22 [Next State]: [294]
+9980 11/13/2025 22:56:22 [Function Identifier]: [5]
+9981 11/13/2025 22:56:23 
+
+13/11/25 22:55       NO REF :6307       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1135    
+
+ERROR2 SCREEN                           
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+9982 11/13/2025 22:56:23 Solicited Status  Send: Succeeded
+9983 11/13/2025 22:56:25 Card Ejected
+9984 11/13/2025 22:56:26 Card Removed
+9985 11/13/2025 22:56:27 <== Transaction End
+9986 11/13/2025 22:56:41 ==> Transaction Start
+9987 11/13/2025 22:56:41 Face Camera OK | Hand Camera OK
+9988 11/13/2025 22:56:41 Terminal Id: 1649 Machine Sequence No: 043232
+9989 11/13/2025 22:56:41 Card Inserted
+9990 11/13/2025 22:56:46 Card Number: 485447******1135
+9991 11/13/2025 22:56:49 Transaction Req. Send: Succeeded
+9992 11/13/2025 22:56:49 [OP Code]: [BBBBBBBD]
+9993 11/13/2025 22:56:49 [Amount Entry Field]: [000000000000]
+9994 11/13/2025 22:56:49 [Last TSN]: [6307]
+9995 11/13/2025 22:56:50 Transaction Res. Received
+9996 11/13/2025 22:56:50 [Replied TSN]: [6308]
+9997 11/13/2025 22:56:50 [Next State]: [006]
+9998 11/13/2025 22:56:50 [Function Identifier]: [5]
+9999 11/13/2025 22:56:50 Solicited Status  Send: Succeeded
+0001 11/13/2025 22:56:55 PIN Entered: 485447******1135
+0002 11/13/2025 22:57:02 Transaction Req. Send: Succeeded
+0003 11/13/2025 22:57:02 [OP Code]: [ABHAD   ]
+0004 11/13/2025 22:57:02 [Amount Entry Field]: [000000000000]
+0005 11/13/2025 22:57:02 [Last TSN]: [6308]
+0006 11/13/2025 22:57:02 Transaction Res. Received
+0007 11/13/2025 22:57:02 [Replied TSN]: [6309]
+0008 11/13/2025 22:57:02 [Next State]: [294]
+0009 11/13/2025 22:57:02 [Function Identifier]: [5]
+0010 11/13/2025 22:57:03 
+
+13/11/25 22:56       NO REF :6309       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1135    
+
+ERROR2 SCREEN                           
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+0011 11/13/2025 22:57:03 Solicited Status  Send: Succeeded
+0012 11/13/2025 22:57:05 Card Ejected
+0013 11/13/2025 22:57:09 Card Removed
+0014 11/13/2025 22:57:10 <== Transaction End
+0015 11/13/2025 22:57:19 ==> Transaction Start
+0016 11/13/2025 22:57:19 Face Camera OK | Hand Camera OK
+0017 11/13/2025 22:57:19 Terminal Id: 1649 Machine Sequence No: 043233
+0018 11/13/2025 22:57:19 Card Inserted
+0019 11/13/2025 22:57:24 Card Number: 485447******1135
+0020 11/13/2025 22:57:27 Transaction Req. Send: Succeeded
+0021 11/13/2025 22:57:27 [OP Code]: [BBBBBBBD]
+0022 11/13/2025 22:57:27 [Amount Entry Field]: [000000000000]
+0023 11/13/2025 22:57:27 [Last TSN]: [6309]
+0024 11/13/2025 22:57:27 Transaction Res. Received
+0025 11/13/2025 22:57:27 [Replied TSN]: [6310]
+0026 11/13/2025 22:57:27 [Next State]: [006]
+0027 11/13/2025 22:57:27 [Function Identifier]: [5]
+0028 11/13/2025 22:57:27 Solicited Status  Send: Succeeded
+0029 11/13/2025 22:57:32 PIN Entered: 485447******1135
+0030 11/13/2025 22:57:40 Transaction Req. Send: Succeeded
+0031 11/13/2025 22:57:40 [OP Code]: [ACAB    ]
+0032 11/13/2025 22:57:40 [Amount Entry Field]: [000000000000]
+0033 11/13/2025 22:57:40 [Last TSN]: [6310]
+0034 11/13/2025 22:57:43 Transaction Res. Received
+0035 11/13/2025 22:57:43 [Replied TSN]: [6311]
+0036 11/13/2025 22:57:43 [Next State]: [294]
+0037 11/13/2025 22:57:43 [Function Identifier]: [5]
+0038 11/13/2025 22:57:44 
+
+13/11/25 22:57       NO REF :6311       
+TERMINAL :HTC0001649 ATM ID :60991649  
+LOKASI   :KCP BEKASI JAYA 
+
+NO KARTU :XXXXXXXXXXXX1135    
+
+ERROR2 SCREEN                           
+
+PESAN :                                 
+      MAAF SEMENTARA TRANSAKSI          
+       TIDAK BISA DI PROSES             
+ 
+
+0039 11/13/2025 22:57:44 Solicited Status  Send: Succeeded
+0040 11/13/2025 22:57:46 Card Ejected
+0041 11/13/2025 22:57:47 Card Removed
+0042 11/13/2025 22:57:47 <== Transaction End

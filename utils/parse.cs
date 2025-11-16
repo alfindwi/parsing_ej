@@ -33,7 +33,7 @@ namespace Parsing_Jrn_Ej.Helpers
                 System.Globalization.DateTimeStyles.None,
                 out DateTime parsedDate))
             {
-                return parsedDate; // jangan ubah timezone
+                return parsedDate; 
             }
 
             Console.WriteLine($"⚠️ Format tanggal tidak dikenal: {dateString}");

@@ -56,11 +56,23 @@ namespace parsing_Jrn_Ej.Models
         [Column("no_rekening")]
         public string? NoRekening { get; set; }
 
+        [Column("tvr")]
+        public string? Tvr { get; set; }
+
+        [Column("tsi")]
+        public string? Tsi { get; set; }
+
+        [Column("function_identifier")]
+        public string? FunctionIdentifier { get; set; }
+
+        [Column("trans_seq_number")]
+        public string? TransSeqNumber { get; set; }  // HTC ambil dari last tsn sebelum transaction end, HYS Trans SEQ Number
+
         [Column("pesan_error")]
         public string? PesanError { get; set; }
 
-        [Column("dibuat_pada", TypeName = "datetime")]
-        public DateTime DibuatPada { get; set; } = DateTime.UtcNow;
+        [Column("CreatedAt", TypeName = "datetime")]
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 
 }

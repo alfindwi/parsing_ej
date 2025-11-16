@@ -9,7 +9,7 @@ namespace parsing_Jrn_Ej.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<AtmTransaksi> AtmTransaksi { get; set; }
-
+        
         
     }
 }

@@ -1,0 +1,816 @@
+10/11/2025 00:00:49 Received: Inservice
+10/11/2025 00:10:07 Received: Inservice
+10/11/2025 00:19:20 Received: Inservice
+10/11/2025 00:28:39 Received: Inservice
+10/11/2025 00:37:57 Received: Inservice
+10/11/2025 00:47:16 Received: Inservice
+10/11/2025 00:56:38 Received: Inservice
+10/11/2025 01:05:54 Received: Inservice
+10/11/2025 01:15:11 Received: Inservice
+10/11/2025 01:24:28 Received: Inservice
+10/11/2025 01:33:43 Received: Inservice
+10/11/2025 01:43:04 Received: Inservice
+10/11/2025 01:52:22 Received: Inservice
+10/11/2025 02:01:38 Received: Inservice
+10/11/2025 02:10:55 Received: Inservice
+10/11/2025 02:20:11 Received: Inservice
+10/11/2025 02:29:25 Received: Inservice
+10/11/2025 02:38:49 Received: Inservice
+10/11/2025 02:48:51 Received: Out of Service
+10/11/2025 02:48:53 Mode: InService -> OutOfService
+10/11/2025 02:48:58 Received: Inservice
+10/11/2025 02:48:58 Mode: OutOfService -> InService
+10/11/2025 02:48:59 GO IN-SERVICE
+10/11/2025 02:58:11 Received: Inservice
+10/11/2025 03:07:31 Received: Inservice
+10/11/2025 03:16:52 Received: Inservice
+10/11/2025 03:26:09 Received: Inservice
+10/11/2025 03:40:36 Received: Inservice
+10/11/2025 03:49:56 Received: Inservice
+10/11/2025 03:59:10 Received: Inservice
+10/11/2025 04:08:31 Received: Inservice
+10/11/2025 04:17:46 Received: Inservice
+10/11/2025 04:27:08 Received: Inservice
+10/11/2025 04:36:27 Received: Inservice
+10/11/2025 04:45:48 Received: Inservice
+10/11/2025 04:55:10 Received: Inservice
+10/11/2025 05:04:28 Received: Inservice
+10/11/2025 05:13:49 Received: Inservice
+10/11/2025 05:23:08 Received: Inservice
+10/11/2025 05:32:25 Received: Inservice
+10/11/2025 05:41:43 Received: Inservice
+10/11/2025 05:51:00 Received: Inservice
+10/11/2025 06:00:15 Received: Inservice
+10/11/2025 06:01:43 ==> Transaction Start
+10/11/2025 06:01:45 Terminal Id: 000000
+10/11/2025 06:01:45 Card Inserted
+10/11/2025 06:01:46 Card Number: 622100XXXXXX8468
+10/11/2025 06:01:47 EMV CANDIDATES: 1
+10/11/2025 06:01:50 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 06:01:55 PIN Entered: 622100XXXXXX8468
+10/11/2025 06:02:42 Information Entered : 141202678325
+10/11/2025 06:02:42 Transaction Req. Send: Succeeded
+10/11/2025 06:02:42 [OP Code]: [ACIBA   ]
+10/11/2025 06:02:42 [Amount Entry Field]: [000000000000]
+10/11/2025 06:02:43 [Next State]: [833]
+10/11/2025 06:02:43 [Function Identifier]: [5]
+10/11/2025 06:02:43 Transaction Res. Received
+10/11/2025 06:02:43 Solicited Status Send: Succeeded
+10/11/2025 06:02:43 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBA   ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5895]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 05:32:03 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF.:5895         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :86063212707    
+IDPEL    :                       
+NAMA     :141202678325             
+TARIF/DAYA:ATM BCA          VA
+NO REF    :
+B1  /000002200   ARAN PLN PREPAI
+RP BAYAR  :RP.                 
+METERAI   :RP.00000000000000000
+PPN       :RP.                 
+PPJ       :RP.                 
+ANGSURAN  :RP.                 
+RP STROOM/TOKEN:
+           RP.86063212707    AT
+JML KWH   :   B1  /0000022      
+STROOM/TOKEN:
+                              
+ADMIN BANK:RP.00000000000000000
+
+                                        
+                                        
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 06:03:08 Transaction Req. Send: Succeeded
+10/11/2025 06:03:08 [OP Code]: [ACIBBAC ]
+10/11/2025 06:03:08 [Amount Entry Field]: [000000000000]
+10/11/2025 06:03:09 [Next State]: [394]
+10/11/2025 06:03:09 [Function Identifier]: [5]
+10/11/2025 06:03:09 Transaction Res. Received
+10/11/2025 06:03:10 Solicited Status Send: Succeeded
+10/11/2025 06:03:10 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBAC ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5896]
+Error Code   []
+
+10/11/2025 06:03:21 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 06:03:21 EMV 1ST GENAC: ARQC
+10/11/2025 06:03:22 Transaction Req. Send: Succeeded
+10/11/2025 06:03:22 [OP Code]: [ACIBBACC]
+10/11/2025 06:03:22 [Amount Entry Field]: [000000000000]
+10/11/2025 06:03:22 [Next State]: [395]
+10/11/2025 06:03:23 [Function Identifier]: [;]
+10/11/2025 06:03:23 Transaction Res. Received
+10/11/2025 06:03:24 EMV EXTERNAL AUTHENTICATE: SUCCESS
+10/11/2025 06:03:24 EMV 2ND GENAC: TC
+10/11/2025 06:03:24 EMV TVR: 8000040000, TSI: 7800
+10/11/2025 06:03:24 Printed Receipt Printer
+10/11/2025 06:03:29 Solicited Status Send: Succeeded
+10/11/2025 06:03:29 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBACC]
+Function ID       	 [;]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5897]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 05:32:42 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF :5896         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :86063212707    
+IDPEL    :141202678325           
+NAMA     :ATM BCA                  
+TARIF/DAYA:B1  /000002200   VA
+NO REF    :
+2BBT1775231892101784            
+RP BAYAR  :RP         503.500 
+METERAI   :RP            0,00 
+PPn       :RP            0,00 
+PPJ       :RP       45.455,00 
+ANGSURAN  :RP            0,00 
+RP STROOM/TOKEN:
+           RP      454.545,00 
+JML KWH   :        413,3        
+STROOM/TOKEN:
+4039 7372 7835 9676 7137      
+ADMIN BANK:RP           3.500 
+
+BANK BTN\u000AInformasi Hubungi Call    
+Center 123 Atau hubungi PLN Terdekat\   
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 06:03:32 Card Ejected
+10/11/2025 06:03:32 Card Removed
+10/11/2025 06:03:32 <== Transaction End
+10/11/2025 06:12:36 Received: Inservice
+10/11/2025 06:21:47 Received: Inservice
+10/11/2025 06:30:59 Received: Inservice
+10/11/2025 06:40:19 Received: Inservice
+10/11/2025 06:49:31 Received: Inservice
+10/11/2025 06:58:55 Received: Inservice
+10/11/2025 07:08:12 Received: Inservice
+10/11/2025 07:17:26 Received: Inservice
+10/11/2025 07:26:44 Received: Inservice
+10/11/2025 07:36:04 Received: Inservice
+10/11/2025 07:45:27 Received: Inservice
+10/11/2025 07:54:45 Received: Inservice
+10/11/2025 08:04:00 Received: Inservice
+10/11/2025 08:13:19 Received: Inservice
+10/11/2025 08:22:37 Received: Inservice
+10/11/2025 08:31:56 Received: Inservice
+10/11/2025 08:41:14 Received: Inservice
+10/11/2025 08:50:33 Received: Inservice
+10/11/2025 08:59:48 Received: Inservice
+10/11/2025 09:09:07 Received: Inservice
+10/11/2025 09:18:20 Received: Inservice
+10/11/2025 09:27:38 Received: Inservice
+10/11/2025 09:36:58 Received: Inservice
+10/11/2025 09:46:19 Received: Inservice
+10/11/2025 09:55:37 Received: Inservice
+10/11/2025 10:04:53 Received: Inservice
+10/11/2025 10:14:08 Received: Inservice
+10/11/2025 10:23:23 Received: Inservice
+10/11/2025 10:32:44 Received: Inservice
+10/11/2025 10:42:04 Received: Inservice
+10/11/2025 10:51:25 Received: Inservice
+10/11/2025 11:00:42 Received: Inservice
+10/11/2025 11:10:01 Received: Inservice
+10/11/2025 11:14:04 ==> Transaction Start
+10/11/2025 11:14:06 Terminal Id: 000000
+10/11/2025 11:14:06 Card Inserted
+10/11/2025 11:14:06 Card Number: 622100XXXXXX8468
+10/11/2025 11:14:08 EMV CANDIDATES: 1
+10/11/2025 11:14:11 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 11:14:17 PIN Entered: 622100XXXXXX8468
+10/11/2025 11:14:47 Information Entered : 221201443656
+10/11/2025 11:14:47 Transaction Req. Send: Succeeded
+10/11/2025 11:14:47 [OP Code]: [ACIBA   ]
+10/11/2025 11:14:47 [Amount Entry Field]: [000000000000]
+10/11/2025 11:14:48 [Next State]: [833]
+10/11/2025 11:14:48 [Function Identifier]: [5]
+10/11/2025 11:14:48 Transaction Res. Received
+10/11/2025 11:14:49 Solicited Status Send: Succeeded
+10/11/2025 11:14:49 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBA   ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5898]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 10:44:08 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF.:5898         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :32179581106    
+IDPEL    :                       
+NAMA     :221201443656             
+TARIF/DAYA:ATM FUTSAL BOR   VA
+NO REF    :
+R2  /000003500   ARAN PLN PREPAI
+RP BAYAR  :RP.                 
+METERAI   :RP.00000000000000000
+PPN       :RP.                 
+PPJ       :RP.                 
+ANGSURAN  :RP.                 
+RP STROOM/TOKEN:
+           RP.32179581106    AT
+JML KWH   :   R2  /0000035      
+STROOM/TOKEN:
+                              
+ADMIN BANK:RP.00000000000000000
+
+                                        
+                                        
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 11:15:05 Transaction Req. Send: Succeeded
+10/11/2025 11:15:05 [OP Code]: [ACIBBAC ]
+10/11/2025 11:15:05 [Amount Entry Field]: [000000000000]
+10/11/2025 11:15:05 [Next State]: [394]
+10/11/2025 11:15:05 [Function Identifier]: [5]
+10/11/2025 11:15:05 Transaction Res. Received
+10/11/2025 11:15:06 Solicited Status Send: Succeeded
+10/11/2025 11:15:06 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBAC ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5899]
+Error Code   []
+
+10/11/2025 11:15:10 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 11:15:11 EMV 1ST GENAC: ARQC
+10/11/2025 11:15:11 Transaction Req. Send: Succeeded
+10/11/2025 11:15:11 [OP Code]: [ACIBBACC]
+10/11/2025 11:15:11 [Amount Entry Field]: [000000000000]
+10/11/2025 11:15:12 [Next State]: [395]
+10/11/2025 11:15:12 [Function Identifier]: [;]
+10/11/2025 11:15:12 Transaction Res. Received
+10/11/2025 11:15:13 EMV EXTERNAL AUTHENTICATE: SUCCESS
+10/11/2025 11:15:13 EMV 2ND GENAC: TC
+10/11/2025 11:15:13 EMV TVR: 8000040000, TSI: 7800
+10/11/2025 11:15:14 Printed Receipt Printer
+10/11/2025 11:15:18 Solicited Status Send: Succeeded
+10/11/2025 11:15:18 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBACC]
+Function ID       	 [;]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5900]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 10:44:32 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF :5899         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :32179581106    
+IDPEL    :221201443656           
+NAMA     :ATM FUTSAL BORNEO 2      
+TARIF/DAYA:R2  /000003500   VA
+NO REF    :
+2BBT1762486492101742            
+RP BAYAR  :RP         503.500 
+METERAI   :RP            0,00 
+PPn       :RP            0,00 
+PPJ       :RP       45.455,00 
+ANGSURAN  :RP            0,00 
+RP STROOM/TOKEN:
+           RP      454.545,00 
+JML KWH   :        267,5        
+STROOM/TOKEN:
+1523 5353 7402 3642 5147      
+ADMIN BANK:RP           3.500 
+
+BANK BTN\u000AInformasi Hubungi Call    
+Center 123 Atau hubungi PLN Terdekat\   
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 11:15:21 Card Ejected
+10/11/2025 11:15:22 Card Removed
+10/11/2025 11:15:22 <== Transaction End
+10/11/2025 11:24:30 Received: Inservice
+10/11/2025 11:33:50 Received: Inservice
+10/11/2025 11:43:05 Received: Inservice
+10/11/2025 11:52:23 Received: Inservice
+10/11/2025 12:01:44 Received: Inservice
+10/11/2025 12:11:06 Received: Inservice
+10/11/2025 12:20:26 Received: Inservice
+10/11/2025 12:29:41 Received: Inservice
+10/11/2025 12:38:58 Received: Inservice
+10/11/2025 12:48:16 Received: Inservice
+10/11/2025 12:57:33 Received: Inservice
+10/11/2025 13:06:54 Received: Inservice
+10/11/2025 13:16:11 Received: Inservice
+10/11/2025 13:25:28 Received: Inservice
+10/11/2025 13:34:46 Received: Inservice
+10/11/2025 13:43:25 ==> Transaction Start
+10/11/2025 13:43:27 Terminal Id: 000000
+10/11/2025 13:43:27 Card Inserted
+10/11/2025 13:43:27 Card Number: 622100XXXXXX8468
+10/11/2025 13:43:29 EMV CANDIDATES: 1
+10/11/2025 13:43:32 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 13:43:36 PIN Entered: 622100XXXXXX8468
+10/11/2025 13:43:51 Information Entered : 514531560311
+10/11/2025 13:43:51 Transaction Req. Send: Succeeded
+10/11/2025 13:43:51 [OP Code]: [ACIBA   ]
+10/11/2025 13:43:51 [Amount Entry Field]: [000000000000]
+10/11/2025 13:43:52 [Next State]: [833]
+10/11/2025 13:43:52 [Function Identifier]: [5]
+10/11/2025 13:43:52 Transaction Res. Received
+10/11/2025 13:43:52 Solicited Status Send: Succeeded
+10/11/2025 13:43:52 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBA   ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5901]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 13:13:12 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF.:5901         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :56709331351    
+IDPEL    :                       
+NAMA     :514531560311             
+TARIF/DAYA:ATM BTN SYARIA   VA
+NO REF    :
+B1  /000002200   ARAN PLN PREPAI
+RP BAYAR  :RP.                 
+METERAI   :RP.00000000000000000
+PPN       :RP.                 
+PPJ       :RP.                 
+ANGSURAN  :RP.                 
+RP STROOM/TOKEN:
+           RP.56709331351    AT
+JML KWH   :   B1  /0000022      
+STROOM/TOKEN:
+                              
+ADMIN BANK:RP.00000000000000000
+
+                                        
+                                        
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 13:44:13 Transaction Req. Send: Succeeded
+10/11/2025 13:44:13 [OP Code]: [ACIBBAC ]
+10/11/2025 13:44:13 [Amount Entry Field]: [000000000000]
+10/11/2025 13:44:14 [Next State]: [394]
+10/11/2025 13:44:14 [Function Identifier]: [5]
+10/11/2025 13:44:14 Transaction Res. Received
+10/11/2025 13:44:14 Solicited Status Send: Succeeded
+10/11/2025 13:44:14 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBAC ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5902]
+Error Code   []
+
+10/11/2025 13:44:22 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 13:44:23 EMV 1ST GENAC: ARQC
+10/11/2025 13:44:23 Transaction Req. Send: Succeeded
+10/11/2025 13:44:23 [OP Code]: [ACIBBACC]
+10/11/2025 13:44:23 [Amount Entry Field]: [000000000000]
+10/11/2025 13:44:24 [Next State]: [395]
+10/11/2025 13:44:24 [Function Identifier]: [;]
+10/11/2025 13:44:24 Transaction Res. Received
+10/11/2025 13:44:25 EMV EXTERNAL AUTHENTICATE: SUCCESS
+10/11/2025 13:44:25 EMV 2ND GENAC: TC
+10/11/2025 13:44:25 EMV TVR: 8000040000, TSI: 7800
+10/11/2025 13:44:25 Printed Receipt Printer
+10/11/2025 13:44:30 Solicited Status Send: Succeeded
+10/11/2025 13:44:30 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBACC]
+Function ID       	 [;]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5903]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 13:13:43 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF :5902         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :56709331351    
+IDPEL    :514531560311           
+NAMA     :ATM BTN SYARIAH KPRI     
+TARIF/DAYA:B1  /000002200   VA
+NO REF    :
+2BBT1751923622101039            
+RP BAYAR  :RP         503.500 
+METERAI   :RP            0,00 
+PPn       :RP            0,00 
+PPJ       :RP       45.455,00 
+ANGSURAN  :RP            0,00 
+RP STROOM/TOKEN:
+           RP      454.545,00 
+JML KWH   :        413,3        
+STROOM/TOKEN:
+0710 9060 4410 0282 9596      
+ADMIN BANK:RP           3.500 
+
+BANK BTN\u000AInformasi Hubungi Call    
+Center 123 Atau hubungi PLN Terdekat\   
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 13:44:32 Card Ejected
+10/11/2025 13:44:33 Card Removed
+10/11/2025 13:44:33 <== Transaction End
+10/11/2025 13:53:19 Received: Inservice
+10/11/2025 14:02:38 Received: Inservice
+10/11/2025 14:11:55 Received: Inservice
+10/11/2025 14:21:11 Received: Inservice
+10/11/2025 14:30:28 Received: Inservice
+10/11/2025 14:39:44 Received: Inservice
+10/11/2025 14:49:04 Received: Inservice
+10/11/2025 14:49:59 ==> Transaction Start
+10/11/2025 14:50:01 Terminal Id: 000000
+10/11/2025 14:50:01 Card Inserted
+10/11/2025 14:50:02 Card Number: 622100XXXXXX8468
+10/11/2025 14:50:03 EMV CANDIDATES: 1
+10/11/2025 14:50:06 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 14:50:14 PIN Entered: 622100XXXXXX8468
+10/11/2025 14:50:26 Information Entered : 516721051246
+10/11/2025 14:50:26 Transaction Req. Send: Succeeded
+10/11/2025 14:50:26 [OP Code]: [ACIBA   ]
+10/11/2025 14:50:26 [Amount Entry Field]: [000000000000]
+10/11/2025 14:50:27 [Next State]: [833]
+10/11/2025 14:50:27 [Function Identifier]: [5]
+10/11/2025 14:50:27 Transaction Res. Received
+10/11/2025 14:50:27 Solicited Status Send: Succeeded
+10/11/2025 14:50:28 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBA   ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5904]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 14:19:47 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF.:5904         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :86267385937    
+IDPEL    :                       
+NAMA     :516721051246             
+TARIF/DAYA:KLINIK KHADIJA   VA
+NO REF    :
+B1  /000002200   ARAN PLN PREPAI
+RP BAYAR  :RP.                 
+METERAI   :RP.00000000000000000
+PPN       :RP.                 
+PPJ       :RP.                 
+ANGSURAN  :RP.                 
+RP STROOM/TOKEN:
+           RP.86267385937    KL
+JML KWH   :   B1  /0000022      
+STROOM/TOKEN:
+                              
+ADMIN BANK:RP.00000000000000000
+
+                                        
+                                        
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 14:50:38 Transaction Req. Send: Succeeded
+10/11/2025 14:50:38 [OP Code]: [ACIBBBC ]
+10/11/2025 14:50:38 [Amount Entry Field]: [000000000000]
+10/11/2025 14:50:38 [Next State]: [394]
+10/11/2025 14:50:38 [Function Identifier]: [5]
+10/11/2025 14:50:38 Transaction Res. Received
+10/11/2025 14:50:39 Solicited Status Send: Succeeded
+10/11/2025 14:50:39 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBBC ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5905]
+Error Code   []
+
+10/11/2025 14:50:43 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 14:50:44 EMV 1ST GENAC: ARQC
+10/11/2025 14:50:44 Transaction Req. Send: Succeeded
+10/11/2025 14:50:44 [OP Code]: [ACIBBBCC]
+10/11/2025 14:50:44 [Amount Entry Field]: [000000000000]
+10/11/2025 14:50:45 [Next State]: [395]
+10/11/2025 14:50:45 [Function Identifier]: [;]
+10/11/2025 14:50:45 Transaction Res. Received
+10/11/2025 14:50:46 EMV EXTERNAL AUTHENTICATE: SUCCESS
+10/11/2025 14:50:46 EMV 2ND GENAC: TC
+10/11/2025 14:50:46 EMV TVR: 8000040000, TSI: 7800
+10/11/2025 14:50:47 Printed Receipt Printer
+10/11/2025 14:50:51 Solicited Status Send: Succeeded
+10/11/2025 14:50:51 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBBCC]
+Function ID       	 [;]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5906]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 14:20:05 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF :5905         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :86267385937    
+IDPEL    :516721051246           
+NAMA     :KLINIK KHADIJAH          
+TARIF/DAYA:B1  /000002200   VA
+NO REF    :
+2BBT1791877852101620            
+RP BAYAR  :RP       1.003.500 
+METERAI   :RP            0,00 
+PPn       :RP            0,00 
+PPJ       :RP       90.910,00 
+ANGSURAN  :RP            0,00 
+RP STROOM/TOKEN:
+           RP      909.090,00 
+JML KWH   :        826,5        
+STROOM/TOKEN:
+5172 5943 3966 4980 6975      
+ADMIN BANK:RP           3.500 
+
+BANK BTN\u000AInformasi Hubungi Call    
+Center 123 Atau hubungi PLN Terdekat\   
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 14:50:54 Card Ejected
+10/11/2025 14:50:55 Card Removed
+10/11/2025 14:50:55 <== Transaction End
+10/11/2025 14:59:20 Received: Inservice
+10/11/2025 15:08:39 Received: Inservice
+10/11/2025 15:17:56 Received: Inservice
+10/11/2025 15:27:15 Received: Inservice
+10/11/2025 15:36:34 Received: Inservice
+10/11/2025 15:45:46 Received: Inservice
+10/11/2025 15:55:05 Received: Inservice
+10/11/2025 16:04:24 Received: Inservice
+10/11/2025 16:13:39 Received: Inservice
+10/11/2025 16:22:53 Received: Inservice
+10/11/2025 16:32:14 Received: Inservice
+10/11/2025 16:32:24 Received: Inservice
+10/11/2025 16:41:36 Received: Inservice
+10/11/2025 16:50:54 Received: Inservice
+10/11/2025 17:00:15 Received: Inservice
+10/11/2025 17:09:32 Received: Inservice
+10/11/2025 17:18:52 Received: Inservice
+10/11/2025 17:28:09 Received: Inservice
+10/11/2025 17:37:23 Received: Inservice
+10/11/2025 17:46:43 Received: Inservice
+10/11/2025 17:55:57 Received: Inservice
+10/11/2025 18:05:16 Received: Inservice
+10/11/2025 18:09:57 ==> Transaction Start
+10/11/2025 18:09:59 Terminal Id: 000000
+10/11/2025 18:09:59 Card Inserted
+10/11/2025 18:09:59 Card Number: 622100XXXXXX8468
+10/11/2025 18:10:01 EMV CANDIDATES: 1
+10/11/2025 18:10:03 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 18:10:08 PIN Entered: 622100XXXXXX8468
+10/11/2025 18:10:30 Information Entered : 171202934186
+10/11/2025 18:10:30 Transaction Req. Send: Succeeded
+10/11/2025 18:10:30 [OP Code]: [ACIBA   ]
+10/11/2025 18:10:30 [Amount Entry Field]: [000000000000]
+10/11/2025 18:10:31 [Next State]: [833]
+10/11/2025 18:10:31 [Function Identifier]: [5]
+10/11/2025 18:10:31 Transaction Res. Received
+10/11/2025 18:10:31 Solicited Status Send: Succeeded
+10/11/2025 18:10:31 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBA   ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5907]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 17:39:50 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF.:5907         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :45078000846    
+IDPEL    :                       
+NAMA     :171202934186             
+TARIF/DAYA:ATM BTN          VA
+NO REF    :
+B1  /000001300   ARAN PLN PREPAI
+RP BAYAR  :RP.                 
+METERAI   :RP.00000000000000000
+PPN       :RP.                 
+PPJ       :RP.                 
+ANGSURAN  :RP.                 
+RP STROOM/TOKEN:
+           RP.45078000846    AT
+JML KWH   :   B1  /0000013      
+STROOM/TOKEN:
+                              
+ADMIN BANK:RP.00000000000000000
+
+                                        
+                                        
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 18:10:39 Transaction Req. Send: Succeeded
+10/11/2025 18:10:39 [OP Code]: [ACIBBAC ]
+10/11/2025 18:10:39 [Amount Entry Field]: [000000000000]
+10/11/2025 18:10:40 [Next State]: [394]
+10/11/2025 18:10:40 [Function Identifier]: [5]
+10/11/2025 18:10:40 Transaction Res. Received
+10/11/2025 18:10:40 Solicited Status Send: Succeeded
+10/11/2025 18:10:40 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBAC ]
+Function ID       	 [5]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5908]
+Error Code   []
+
+10/11/2025 18:10:45 EMV FINAL APP SELECTION SUCCESS: A0000006021010(NSICCS)
+10/11/2025 18:10:46 EMV 1ST GENAC: ARQC
+10/11/2025 18:10:46 Transaction Req. Send: Succeeded
+10/11/2025 18:10:46 [OP Code]: [ACIBBACC]
+10/11/2025 18:10:46 [Amount Entry Field]: [000000000000]
+10/11/2025 18:10:47 [Next State]: [395]
+10/11/2025 18:10:47 [Function Identifier]: [;]
+10/11/2025 18:10:47 Transaction Res. Received
+10/11/2025 18:10:48 EMV EXTERNAL AUTHENTICATE: SUCCESS
+10/11/2025 18:10:48 EMV 2ND GENAC: TC
+10/11/2025 18:10:48 EMV TVR: 8000040000, TSI: 7800
+10/11/2025 18:10:49 Printed Receipt Printer
+10/11/2025 18:10:53 Solicited Status Send: Succeeded
+10/11/2025 18:10:53 TRANSACTION DATA (COMPLETED)
+[Transaction record]
+OPCode       		 [ACIBBACC]
+Function ID       	 [;]
+Card Number 		 [622100XXXXXX8468]
+Amount       		 [000000000000]
+Trans SEQ Number [5909]
+Error Code   []
+[Jpr contents]
++++++++++++++++++++++++++++++++++++++++++++++
+   BANK TABUNGAN NEGARA      
+
+TANGGAL  JAM      ATM       
+10/11/25 17:40:07 HYS0000414
+LOKASI :MENARA 1 BTN     
+NO REF :5908         
+STRUK PEMBELIAN LISTRIK PRABAYAR
+
+NO METER :45078000846    
+IDPEL    :171202934186           
+NAMA     :ATM BTN                  
+TARIF/DAYA:B1  /000001300   VA
+NO REF    :
+2BBT1711910962101709            
+RP BAYAR  :RP         503.500 
+METERAI   :RP            0,00 
+PPn       :RP            0,00 
+PPJ       :RP       45.455,00 
+ANGSURAN  :RP            0,00 
+RP STROOM/TOKEN:
+           RP      454.545,00 
+JML KWH   :        470,6        
+STROOM/TOKEN:
+0661 2655 1824 7565 3490      
+ADMIN BANK:RP           3.500 
+
+BANK BTN\u000AInformasi Hubungi Call    
+Center 123 Atau hubungi PLN Terdekat\   
+
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++
+10/11/2025 18:10:55 Card Ejected
+10/11/2025 18:10:56 Card Removed
+10/11/2025 18:10:56 <== Transaction End
+10/11/2025 18:19:47 Received: Inservice
+10/11/2025 18:29:06 Received: Inservice
+10/11/2025 18:38:22 Received: Inservice
+10/11/2025 18:47:39 Received: Inservice
+10/11/2025 18:56:57 Received: Inservice
+10/11/2025 19:06:11 Received: Inservice
+10/11/2025 19:15:35 Received: Inservice
+10/11/2025 19:24:51 Received: Inservice
+10/11/2025 19:34:12 Received: Inservice
+10/11/2025 19:43:29 Received: Inservice
+10/11/2025 19:52:52 Received: Inservice
+10/11/2025 20:02:06 Received: Inservice
+10/11/2025 20:11:23 Received: Inservice
+10/11/2025 20:20:45 Received: Inservice
+10/11/2025 20:30:02 Received: Inservice
+10/11/2025 20:39:18 Received: Inservice
+10/11/2025 20:48:37 Received: Inservice
+10/11/2025 20:57:55 Received: Inservice
+10/11/2025 21:07:14 Received: Inservice
+10/11/2025 21:16:32 Received: Inservice
+10/11/2025 21:25:51 Received: Inservice
+10/11/2025 21:35:08 Received: Inservice
+10/11/2025 21:44:28 Received: Inservice
+10/11/2025 21:53:46 Received: Inservice
+10/11/2025 21:56:32 Received: Inservice
+10/11/2025 22:05:09 Received: Inservice
+10/11/2025 22:14:26 Received: Inservice
+10/11/2025 22:23:45 Received: Inservice
+10/11/2025 22:33:03 Received: Inservice
+10/11/2025 22:42:21 Received: Inservice
+10/11/2025 22:51:40 Received: Inservice
+10/11/2025 23:00:55 Received: Inservice
+10/11/2025 23:10:18 Received: Inservice
+10/11/2025 23:19:34 Received: Inservice
+10/11/2025 23:28:53 Received: Inservice
+10/11/2025 23:42:51 Received: Out of Service
+10/11/2025 23:42:52 Mode: InService -> OutOfService
+10/11/2025 23:42:57 Received: Inservice
+10/11/2025 23:42:57 Mode: OutOfService -> InService
+10/11/2025 23:42:58 GO IN-SERVICE
+10/11/2025 23:52:11 Received: Inservice

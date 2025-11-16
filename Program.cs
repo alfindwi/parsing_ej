@@ -9,12 +9,24 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<JrnParserService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFE", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5173") 
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials(); 
+    });
+});
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
-
 app.UseHttpsRedirection();
+app.UseCors("AllowFE");
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

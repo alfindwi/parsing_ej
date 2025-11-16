@@ -22,5 +22,12 @@ namespace parsing_jrn_Ej.Controllers
             await _parser.ProcessPendingFilesAsync();
             return Ok(new { message = "All pending JRN files processed successfully." });
         }
+
+        [HttpGet("ej")]
+        public async Task<IActionResult> GetPendingFiles()
+        {
+            var pendingFiles = await _parser.getAllTransaksi();
+            return Ok(pendingFiles);
+        }
     }
 }
