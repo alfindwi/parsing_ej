@@ -29,5 +29,12 @@ namespace parsing_jrn_Ej.Controllers
             var pendingFiles = await _parser.getAllTransaksi();
             return Ok(pendingFiles);
         }
+
+        [HttpGet("error")]
+        public async Task<IActionResult> GetPesanErrorFiles()
+        {
+            var pendingFiles = await _parser.getPesanError();
+            return Ok(pendingFiles);
+        }
     }
 }

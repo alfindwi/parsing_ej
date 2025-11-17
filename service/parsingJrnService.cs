@@ -114,7 +114,41 @@ namespace parsing_jrn_Ej.Services
             return await _context.AtmTransaksi.ToListAsync();
         }
 
-        
+        public async Task<List<object>> getPesanError()
+        {
+            var data = await _context.AtmTransaksi
+                .Where(x => !string.IsNullOrEmpty(x.PesanError))
+                .ToListAsync();
+
+            var allMerk = data
+                .Select(x => (x.NamaAtm?.Substring(0, 3).ToUpper() ?? "UNK"))
+                .Distinct()
+                .ToList();
+
+            var result = data
+                .GroupBy(x => x.PesanError)
+                .Select(g =>
+                {
+                    var namaAtmObj = new Dictionary<string, int>();
+
+                    foreach (var merk in allMerk)
+                    {
+                        namaAtmObj[merk] = g.Count(x =>
+                            (x.NamaAtm?.Substring(0, 3).ToUpper() ?? "UNK") == merk
+                        );
+                    }
+
+                    return new
+                    {
+                        detail = g.Key,
+                        namaAtm = namaAtmObj
+                    };
+                })
+                .ToList<object>();
+
+            return result;
+        }
+
 
 
 
