@@ -111,43 +111,68 @@ namespace parsing_jrn_Ej.Services
 
         public async Task<List<AtmTransaksi>> getAllTransaksi()
         {
-            return await _context.AtmTransaksi.ToListAsync();
+            return await _context.AtmTransaksi
+                .Select(x => new AtmTransaksi
+                {
+                    Id = x.Id,
+                    Waktu = x.Waktu,
+                    NamaAtm = x.NamaAtm,
+                    PesanError = x.PesanError
+                    
+                })
+                .AsNoTracking()
+                .ToListAsync();
         }
+
 
         public async Task<List<object>> getPesanError()
         {
-            var data = await _context.AtmTransaksi
-                .Where(x => !string.IsNullOrEmpty(x.PesanError))
+            var rawData = await _context.PesanErrorRaw
+                .FromSqlRaw(@"
+            SELECT 
+                pesan_error AS PesanError,
+                UPPER(SUBSTRING(nama_atm, 1, 3)) AS Merk,
+                COUNT(*) AS Total
+            FROM atm_transaksi
+            WHERE pesan_error IS NOT NULL 
+              AND pesan_error != ''
+            GROUP BY pesan_error, UPPER(SUBSTRING(nama_atm, 1, 3))
+            ORDER BY pesan_error
+        ")
                 .ToListAsync();
 
-            var allMerk = data
-                .Select(x => (x.NamaAtm?.Substring(0, 3).ToUpper() ?? "UNK"))
+            var cleaned = rawData
+                .Where(x => x.PesanError != null && x.Merk != null)
+                .Select(x => new
+                {
+                    PesanError = x.PesanError!,
+                    Merk = x.Merk!,
+                    Total = x.Total
+                })
+                .ToList();
+
+            var allMerk = cleaned
+                .Select(x => x.Merk)
                 .Distinct()
                 .ToList();
 
-            var result = data
+            var result = cleaned
                 .GroupBy(x => x.PesanError)
-                .Select(g =>
+                .Select(g => new
                 {
-                    var namaAtmObj = new Dictionary<string, int>();
-
-                    foreach (var merk in allMerk)
-                    {
-                        namaAtmObj[merk] = g.Count(x =>
-                            (x.NamaAtm?.Substring(0, 3).ToUpper() ?? "UNK") == merk
-                        );
-                    }
-
-                    return new
-                    {
-                        detail = g.Key,
-                        namaAtm = namaAtmObj
-                    };
+                    detail = g.Key,
+                    namaAtm = allMerk.ToDictionary(
+                        merk => merk,
+                        merk => g.Where(x => x.Merk == merk).Sum(x => x.Total)
+                    )
                 })
                 .ToList<object>();
 
             return result;
         }
+
+
+
 
 
 
@@ -306,17 +331,28 @@ namespace parsing_jrn_Ej.Services
 
         private string? ExtractPesanError(string text)
         {
-            var match = Regex.Match(text, @"PESAN\s*:\s*(.+?)(?:\n\s*\n|\Z)", RegexOptions.Singleline | RegexOptions.IgnoreCase);
-            if (match.Success)
+            var lines = text.Split('\n')
+                            .Select(l => l.TrimEnd('\r'))
+                            .ToList();
+
+            int index = lines.FindIndex(l => Regex.IsMatch(l, @"^PESAN\s*:", RegexOptions.IgnoreCase));
+            if (index == -1) return null;
+
+            var pesanLines = new List<string>();
+
+            for (int i = index + 1; i < lines.Count && i <= index + 3; i++)
             {
-                var pesan = match.Groups[1].Value
-                    .Replace("\r", "")
-                    .Replace("\n", " ")
-                    .Trim();
-                return pesan;
+                pesanLines.Add(lines[i].Trim());
             }
-            return null;
+
+            if (pesanLines.All(l => string.IsNullOrWhiteSpace(l)))
+                return null;
+
+            var pesan = string.Join(" ", pesanLines.Where(l => !string.IsNullOrWhiteSpace(l))).Trim();
+
+            return string.IsNullOrWhiteSpace(pesan) ? null : pesan;
         }
+
 
 
 
