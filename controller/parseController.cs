@@ -8,32 +8,34 @@ namespace parsing_jrn_Ej.Controllers
     [Route("api/[controller]")]
     public class ParseController : ControllerBase
     {
-        private readonly JrnParserService _parser;
+        private readonly JrnParserService _service;
 
-        public ParseController(JrnParserService parser)
+        public ParseController(JrnParserService service)
         {
-            _parser = parser;
+            _service = service;
         }
 
 
         [HttpPost("process")]
         public async Task<IActionResult> ProcessPending()
         {
-            await _parser.ProcessPendingFilesAsync();
+            await _service.ProcessPendingFilesAsync();
             return Ok(new { message = "All pending JRN files processed successfully." });
         }
 
         [HttpGet("ej")]
-        public async Task<IActionResult> GetPendingFiles()
+        public async Task<IActionResult> GetAllTransaksi([FromQuery] int page = 1)
         {
-            var pendingFiles = await _parser.getAllTransaksi();
-            return Ok(pendingFiles);
+            var result = await _service.getAllTransaksi(page);
+            return Ok(result);
         }
+
+
 
         [HttpGet("error")]
         public async Task<IActionResult> GetPesanErrorFiles()
         {
-            var pendingFiles = await _parser.getPesanError();
+            var pendingFiles = await _service.getPesanError();
             return Ok(pendingFiles);
         }
     }

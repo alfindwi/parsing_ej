@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("parsing_jrn_ej")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10b6d39c67cc9d314726cf9e3b223d4948969be2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7dca2d643291fc1bc656497682f81f0f48d6881")]
 [assembly: System.Reflection.AssemblyProductAttribute("parsing_jrn_ej")]
 [assembly: System.Reflection.AssemblyTitleAttribute("parsing_jrn_ej")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

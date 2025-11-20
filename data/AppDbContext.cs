@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using parsing_Jrn_Ej.Models;
-using parsing_Jrn_Ej.DTO;
+using parsing_Jrn_Ej.dto;
+using parsing_jrn_ej.dto.transaksi;
 
 namespace parsing_Jrn_Ej.Data
 {
@@ -10,11 +11,13 @@ namespace parsing_Jrn_Ej.Data
 
         public DbSet<AtmTransaksi> AtmTransaksi { get; set; }
 
-        public DbSet<PesanErrorRaw> PesanErrorRaw { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<PesanErrorRaw>().HasNoKey();
+            modelBuilder.Entity<AtmTransaksiDto>().HasNoKey();
+            modelBuilder.Entity<PesanErrorDto>().HasNoKey();
+            modelBuilder.Entity<AtmTransaksiWithCountDto>().HasNoKey();
+
         }
 
     }

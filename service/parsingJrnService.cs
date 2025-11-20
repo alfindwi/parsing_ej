@@ -1,16 +1,23 @@
 using System.Text.RegularExpressions;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using parsing_jrn_ej.dto.transaksi;
 using parsing_Jrn_Ej.Data;
+using parsing_Jrn_Ej.dto;
 using parsing_Jrn_Ej.Models;
+using parsing_Jrn_Ej.response;
+using parsing_Jrn_Ej.Helpers;
 
 namespace parsing_jrn_Ej.Services
 {
     public class JrnParserService
     {
         private readonly AppDbContext _context;
+        private readonly ParsingHelper _parser = new ParsingHelper();
         public JrnParserService(AppDbContext context)
         {
             _context = context;
+
         }
         private readonly string _basePath = "btn_jrn";
 
@@ -65,33 +72,30 @@ namespace parsing_jrn_Ej.Services
                 foreach (Match block in blocks)
                 {
                     var text = block.Value;
-                    var namaFile = DetectNamaATM(fileName);
-                    var pesanError = ExtractPesanError(text);
-                    var terminalId = ExtractTerminalId(text) ?? ExtractAtmCode(text);
-                    var jenisFile = DetectJenisFile(Path.Combine(_basePath, fileName));
+                    var terminalId = _parser.ExtractTerminalId(text) ?? _parser.ExtractAtmCode(text);
 
                     var transaksi = new AtmTransaksi
                     {
-                        JenisFile = jenisFile,
-                        NamaAtm = namaFile,
-                        NoTransaksi = ExtractInt(text, @"(\d+)\s+\d{2}/\d{2}/\d{4}"),
-                        Waktu = ExtractDateTime(text),
-                        NoKartu = ExtractValue(text, @"(?:Card Number|NO KARTU)\s*[:\]]\s*([0-9X*]+)"),
-                        JenisTransaksi = ExtractJenisTransaksi(text),
+                        JenisFile = _parser.DetectJenisFile(Path.Combine(_basePath, fileName)),
+                        NamaAtm = _parser.DetectNamaATM(fileName),
+                        NoTransaksi = _parser.ExtractInt(text, @"(\d+)\s+\d{2}/\d{2}/\d{4}"),
+                        Waktu = _parser.ExtractDateTime(text),
+                        NoKartu = _parser.ExtractValue(text, @"(?:Card Number|NO KARTU)\s*[:\]]\s*([0-9X*]+)"),
+                        JenisTransaksi = _parser.ExtractJenisTransaksi(text),
                         TerminalId = terminalId,
-                        AtmId = ExtractValue(text, @"ATM ID\s*:([0-9]+)"),
-                        Lokasi = ExtractValue(text, @"LOKASI\s*:?(.+)"),
-                        OpCode = ExtractValue(text, @"(?:OP Code|TRANSACTION REQUEST).*\[(.*?)\]"),
-                        Jumlah = ExtractDecimal(text, @"JUMLAH\s*[:=]\s*RP[.\s]*(\d+[.,]?\d*)"),
-                        Saldo = ExtractDecimal(text, @"SALDO\s*[:=]\s*RP[.\s]*(\d+[.,]?\d*)"),
-                        NoRef = ExtractValue(text, @"NO\s*REF{1,2}\.?\s*[:=]\s*([0-9]+)"),
-                        NoRekening = ExtractValue(text, @"REKENING[:=]\s*([0-9]+)"),
-                        PesanError = pesanError,
+                        AtmId = _parser.ExtractValue(text, @"ATM ID\s*:([0-9]+)"),
+                        Lokasi = _parser.ExtractValue(text, @"LOKASI\s*:?(.+)"),
+                        OpCode = _parser.ExtractValue(text, @"(?:OP Code|TRANSACTION REQUEST).*\[(.*?)\]"),
+                        Jumlah = _parser.ExtractDecimal(text, @"JUMLAH\s*[:=]\s*RP[.\s]*(\d+[.,]?\d*)"),
+                        Saldo = _parser.ExtractDecimal(text, @"SALDO\s*[:=]\s*RP[.\s]*(\d+[.,]?\d*)"),
+                        NoRef = _parser.ExtractValue(text, @"NO\s*REF{1,2}\.?\s*[:=]\s*([0-9]+)"),
+                        NoRekening = _parser.ExtractValue(text, @"REKENING[:=]\s*([0-9]+)"),
+                        PesanError = _parser.ExtractPesanError(text),
                         Struk = text,
-                        FunctionIdentifier = ExtractValue(text, @"FUNCTION IDENTIFIER\s*[:=]\s*(.*)"),
-                        TransSeqNumber = ExtractValue(text, @"TRANSACTION SEQUENCE NUMBER\s*[:=]\s*(.*)"),
-                        Tsi = ExtractValue(text, @"TSI\s*[:=]\s*(.*)"),
-                        Tvr = ExtractValue(text, @"TVR\s*[:=]\s*([A-Fa-f0-9]{6,})")
+                        FunctionIdentifier = _parser.ExtractValue(text, @"FUNCTION IDENTIFIER\s*[:=]\s*(.*)"),
+                        TransSeqNumber = _parser.ExtractValue(text, @"TRANSACTION SEQUENCE NUMBER\s*[:=]\s*(.*)"),
+                        Tsi = _parser.ExtractValue(text, @"TSI\s*[:=]\s*(.*)"),
+                        Tvr = _parser.ExtractValue(text, @"TVR\s*[:=]\s*([A-Fa-f0-9]{6,})")
 
 
                     };
@@ -109,25 +113,93 @@ namespace parsing_jrn_Ej.Services
             }
         }
 
-        public async Task<List<AtmTransaksi>> getAllTransaksi()
+        public async Task<PaginatedResponse<AtmTransaksiDto>> getAllTransaksi(int page = 1)
         {
-            return await _context.AtmTransaksi
-                .Select(x => new AtmTransaksi
-                {
-                    Id = x.Id,
-                    Waktu = x.Waktu,
-                    NamaAtm = x.NamaAtm,
-                    PesanError = x.PesanError
-                    
-                })
+            int pageSize = 100;
+            int offset = (page - 1) * pageSize;
+
+            string rawSql = @"
+        SELECT 
+            id,
+            jenis_file AS JenisFile,
+            no_transaksi AS NoTransaksi,
+            waktu AS Waktu,
+            no_kartu AS NoKartu,
+            jenis_transaksi AS JenisTransaksi,
+            terminal_id AS TerminalId,
+            nama_atm AS NamaAtm,
+            atm_id AS AtmId,
+            lokasi AS Lokasi,
+            op_code AS OpCode,
+            jumlah AS Jumlah,
+            saldo AS Saldo,
+            struk AS Struk,
+            no_ref AS NoRef,
+            no_rekening AS NoRekening,
+            tvr AS Tvr,
+            tsi AS Tsi,
+            function_identifier AS FunctionIdentifier,
+            trans_seq_number AS TransSeqNumber,
+            pesan_error AS PesanError,
+            CreatedAt,
+            COUNT(*) OVER() AS TotalCount
+        FROM atm_transaksi
+        ORDER BY id
+        OFFSET @offset ROWS
+        FETCH NEXT @pageSize ROWS ONLY;
+    ";
+
+            var result = await _context.Set<AtmTransaksiWithCountDto>()
+                .FromSqlRaw(rawSql,
+                    new SqlParameter("@offset", offset),
+                    new SqlParameter("@pageSize", pageSize)
+                )
                 .AsNoTracking()
                 .ToListAsync();
+
+            int totalData = result.FirstOrDefault()?.TotalCount ?? 0;
+            int totalPages = (int)Math.Ceiling(totalData / (double)pageSize);
+
+            var list = result.Select(x => new AtmTransaksiDto
+            {
+                Id = x.Id,
+                JenisFile = x.JenisFile,
+                NoTransaksi = x.NoTransaksi,
+                Waktu = x.Waktu,
+                NoKartu = x.NoKartu,
+                JenisTransaksi = x.JenisTransaksi,
+                TerminalId = x.TerminalId,
+                NamaAtm = x.NamaAtm,
+                AtmId = x.AtmId,
+                Lokasi = x.Lokasi,
+                OpCode = x.OpCode,
+                Jumlah = x.Jumlah,
+                Saldo = x.Saldo,
+                Struk = x.Struk,
+                NoRef = x.NoRef,
+                NoRekening = x.NoRekening,
+                Tvr = x.Tvr,
+                Tsi = x.Tsi,
+                FunctionIdentifier = x.FunctionIdentifier,
+                TransSeqNumber = x.TransSeqNumber,
+                PesanError = x.PesanError,
+                CreatedAt = x.CreatedAt
+            }).ToList();
+
+            return new PaginatedResponse<AtmTransaksiDto>
+            {
+                Page = page,
+                PageSize = pageSize,
+                TotalData = totalData,
+                TotalPages = totalPages,
+                Data = list
+            };
         }
 
 
         public async Task<List<object>> getPesanError()
         {
-            var rawData = await _context.PesanErrorRaw
+            var rawData = await _context.Set<PesanErrorDto>()
                 .FromSqlRaw(@"
             SELECT 
                 pesan_error AS PesanError,
@@ -172,197 +244,5 @@ namespace parsing_jrn_Ej.Services
         }
 
 
-
-
-
-
-
-        private string DetectNamaATM(string fileName)
-        {
-            if (fileName.Contains("HTC", StringComparison.OrdinalIgnoreCase)) return "HTC";
-            if (fileName.Contains("WIN", StringComparison.OrdinalIgnoreCase)) return "WIN";
-            if (fileName.Contains("HYS", StringComparison.OrdinalIgnoreCase)) return "HYS";
-            return "UNKNOWN";
-        }
-
-        private string DetectJenisFile(string filePath)
-        {
-            string extension = Path.GetExtension(filePath).ToLower();
-
-            if (extension == ".txt")
-                return "txt";
-            if (extension == ".jrn")
-                return "jrn";
-
-            try
-            {
-                string firstLine = File.ReadLines(filePath).FirstOrDefault()?.ToLower() ?? "";
-                if (firstLine.Contains("transaction start"))
-                    return "Kemungkinan File Jurnal (.jrn berdasarkan isi)";
-            }
-            catch { }
-
-            return $"Tipe file tidak dikenal ({extension})";
-        }
-
-
-
-        private string? ExtractTerminalId(string text)
-        {
-            string[] patterns = new[]
-            {
-                @"TERMINAL\s*[:\-]?\s*([A-Z]{2,}[0-9]{3,10})",
-                @"Terminal\s*Id\s*[:\-]?\s*([A-Z]{2,}[0-9]{3,10})",
-
-                @"ATM[^\r\n]*[\r\n]+\s*([A-Z]{2,}[0-9]{3,10})",
-
-                @"(HTC|WIN|HYS|TER|ATM)[\-_ ]?([0-9]{3,10})"
-            };
-
-            foreach (var p in patterns)
-            {
-                var m = Regex.Match(text, p, RegexOptions.IgnoreCase | RegexOptions.Multiline);
-                if (m.Success)
-                {
-                    if (m.Groups.Count > 2)
-                        return (m.Groups[1].Value + m.Groups[2].Value).ToUpperInvariant();
-                    return m.Groups[1].Value.ToUpperInvariant();
-                }
-            }
-
-            return null;
-        }
-
-
-        private string? ExtractAtmCode(string text)
-        {
-            string[] patterns = new[]
-            {
-                @"ATM\s*[:\-]?\s*([A-Z]{2,}[0-9]{3,10})",
-
-                @"ATM[^\r\n]*[\r\n]+\s*([A-Z]{2,}[0-9]{3,10})",
-
-                @"(WIN|HTC|HYS)[\-_ ]?([0-9]{3,10})"
-            };
-
-            foreach (var p in patterns)
-            {
-                var m = Regex.Match(text, p, RegexOptions.IgnoreCase | RegexOptions.Multiline);
-                if (m.Success)
-                {
-                    if (m.Groups.Count > 2)
-                        return (m.Groups[1].Value + m.Groups[2].Value).ToUpperInvariant();
-                    return m.Groups[1].Value.ToUpperInvariant();
-                }
-            }
-
-            return null;
-        }
-
-
-
-
-
-        private string? ExtractValue(string text, string pattern)
-        {
-            var match = Regex.Match(text, pattern, RegexOptions.IgnoreCase | RegexOptions.Multiline);
-            if (!match.Success) return null;
-
-            if (match.Groups.Count > 2 && !string.IsNullOrWhiteSpace(match.Groups[2].Value))
-                return match.Groups[2].Value.Trim();
-
-            return match.Groups[1].Value.Trim();
-        }
-
-
-        private int? ExtractInt(string text, string pattern)
-        {
-            var match = Regex.Match(text, pattern);
-            return match.Success ? int.Parse(match.Groups[1].Value) : null;
-        }
-
-        private decimal? ExtractDecimal(string text, string pattern)
-        {
-            var match = Regex.Match(text, pattern);
-            if (!match.Success) return null;
-
-            var digitsOnly = Regex.Replace(match.Groups[1].Value, @"[^\d]", "");
-
-            if (string.IsNullOrEmpty(digitsOnly)) return null;
-
-            if (decimal.TryParse(digitsOnly, out var result))
-                return result;
-
-            return null;
-        }
-
-
-
-        private DateTime? ExtractDateTime(string text)
-        {
-            // Support tahun 2 digit / 4 digit
-            var match = Regex.Match(text, @"(\d{2}/\d{2}/\d{2,4})\s+(\d{2}:\d{2}:\d{2})");
-            if (!match.Success) return null;
-
-            string dateString = $"{match.Groups[1].Value} {match.Groups[2].Value}";
-
-            string[] possibleFormats =
-            {
-        "MM/dd/yyyy HH:mm:ss",
-        "dd/MM/yyyy HH:mm:ss",
-        "MM/dd/yy HH:mm:ss",
-        "dd/MM/yy HH:mm:ss"
-    };
-
-            if (DateTime.TryParseExact(dateString, possibleFormats,
-                System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None,
-                out DateTime parsedDate))
-            {
-                return parsedDate; // ⬅️ langsung return, tidak ada AddHours
-            }
-
-            Console.WriteLine($"⚠️ Format tanggal tidak dikenal: {dateString}");
-            return null;
-        }
-
-
-
-
-        private string? ExtractPesanError(string text)
-        {
-            var lines = text.Split('\n')
-                            .Select(l => l.TrimEnd('\r'))
-                            .ToList();
-
-            int index = lines.FindIndex(l => Regex.IsMatch(l, @"^PESAN\s*:", RegexOptions.IgnoreCase));
-            if (index == -1) return null;
-
-            var pesanLines = new List<string>();
-
-            for (int i = index + 1; i < lines.Count && i <= index + 3; i++)
-            {
-                pesanLines.Add(lines[i].Trim());
-            }
-
-            if (pesanLines.All(l => string.IsNullOrWhiteSpace(l)))
-                return null;
-
-            var pesan = string.Join(" ", pesanLines.Where(l => !string.IsNullOrWhiteSpace(l))).Trim();
-
-            return string.IsNullOrWhiteSpace(pesan) ? null : pesan;
-        }
-
-
-
-
-        private string? ExtractJenisTransaksi(string text)
-        {
-            if (text.Contains("PENARIKAN", StringComparison.OrdinalIgnoreCase)) return "Tarik Tunai";
-            if (text.Contains("SETOR", StringComparison.OrdinalIgnoreCase)) return "Setor Tunai";
-            if (text.Contains("LISTRIK", StringComparison.OrdinalIgnoreCase)) return "Pembelian Listrik";
-            if (text.Contains("CEK SALDO", StringComparison.OrdinalIgnoreCase)) return "Cek Saldo";
-            return "Lainnya";
-        }
     }
 }

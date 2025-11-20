@@ -1,6 +1,6 @@
-namespace parsing_Jrn_Ej.DTO
+namespace parsing_Jrn_Ej.dto
 {
-    public class PesanErrorRaw
+    public class PesanErrorDto
     {
         public string? PesanError { get; set; }
         public string? Merk { get; set; }
